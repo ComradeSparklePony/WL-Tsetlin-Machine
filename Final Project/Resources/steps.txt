@@ -1,0 +1,11 @@
+(items with an asterisk before them are completed)
+*1. Read through resources
+2. Implement a simple Tsetlin Automaton (naive, simple implementation, don't focus on optimizing)
+3. Learn something simple with a Tsetlin Automaton. Do not worry about creating learning framework, just figure out how to apply individually.
+3. Implement a Basic Tsetlin Machine (Basic Tsetlin Machine architecture p8)
+4. Learn something with a basic Tsetlin machine. Do not worry about creating the framework.
+5. Create a framework for Basic Tsetlin machines.
+6. Expand basic tsetlin machine implementation to expanded Tsetlin machine architecture (p10) and update framework.
+7. Change Tsetlin Automaton to be more optimized.
+8. Implement more advanced Tsetlin-machine based architectures (Multi-class, deep, convolutional, continuous, regressional)
+

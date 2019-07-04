@@ -1,0 +1,8 @@
+Implementing a Tsetlin Machine
+
+A Tsetlin Machine is a kind of machine learning based combining Tsetlin Automata. Tsetlin Automata are a simple machine learning system based on reward and punishment, where each automata learns which of two options is better.
+
+2018 research makes it possible to combine Tsetlin Automata in such a way that each individual is oriented towards a common goal. This greatly reduces noise when compared to previous attempts at a Tsetlin machine.
+
+My project is to implement a modular framework for creating and training Tsetlin machines. Although the initial goal is to simply implement the framework for the simplest Tsetlin machine, there are variations on Tsetlin machines (convolution, continuous, regressional) that, if time permits, I also plan to add to the framework.
+
