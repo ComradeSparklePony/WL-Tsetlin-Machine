@@ -1,0 +1,5 @@
+https://github.com/cair/TsetlinMachine
+https://github.com/cair/convolutional-tsetlin-machine
+https://github.com/cair/regression-tsetlin-machine
+
+https://www.groundai.com/project/a-scheme-for-continuous-input-to-the-tsetlin-machine-with-applications-to-forecasting-disease-outbreaks/1
