@@ -1,0 +1,150 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      6043,        142]
+NotebookOptionsPosition[      5412,        122]
+NotebookOutlinePosition[      5748,        137]
+CellTagsIndexPosition[      5705,        134]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Planning final project", "Section",
+ CellChangeTimes->{{3.7716852050915623`*^9, 
+  3.771685213722355*^9}},ExpressionUUID->"0e274077-0f71-491c-b84c-\
+d83c7346aec9"],
+
+Cell["\<\
+The final thing should be a computational notebook about the implementation \
+of Tsetlin machines that can also be run as a module. I think that is \
+possible. I also need to write a community post but that should be fairly \
+easy once I have the notebook. Once I have it in package form it should be \
+easy to convert it into a paclet.\
+\>", "Text",
+ CellChangeTimes->{{3.771685214582996*^9, 3.771685290278006*^9}, {
+  3.7716854911531267`*^9, 
+  3.771685508214488*^9}},ExpressionUUID->"061b0153-15fc-4f4f-9858-\
+57fae76e36e7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Function Names", "Section",
+ CellChangeTimes->{{3.771685569401869*^9, 
+  3.771685576714038*^9}},ExpressionUUID->"7fd00e1f-d6ec-4952-903a-\
+9861d6c84369"],
+
+Cell["\<\
+I need to figure out a uniform naming convention, then use it to rename all \
+the functions. Below I will put [current name -> new name] for all of the \
+existing functions and heads.
+
+- I should replace \[OpenCurlyDoubleQuote]clause\[CloseCurlyDoubleQuote] with \
+\[OpenCurlyDoubleQuote]team\[CloseCurlyDoubleQuote]? No, because the team \
+assembles the clause. The clause is made up of the team, but it still is the \
+clause.
+- I should replace output with result to avoid ambiguity with tsetlinoutput
+- I need to figure out a good way to rename the \
+\[OpenCurlyDoubleQuote]Advanced\[CloseCurlyDoubleQuote] functions. \
+TsetlinUtility?
+
+Here\[CloseCurlyQuote]s an idea for the naming convention:
+Head+
+\t- verb for actions that modify a head (punish, reward)
+\t- \[OpenCurlyDoubleQuote]calculate\[CloseCurlyDoubleQuote] + noun for \
+intrinsic things that are calculated (TsetlinAutomatonCalculateAction, \
+TsetlinOutputCalculateResult)
+\t- \[OpenCurlyDoubleQuote]get\[CloseCurlyDoubleQuote] + noun for things that \
+get data from  the head itself \[OpenCurlyDoubleQuote]TsetlinClauseGetNegated\
+\[CloseCurlyDoubleQuote]
+\t
+\tnames with asterisks should be reconsidered
+
+Approach\t\t\t\t\t\t\t->\tApproach
+TsetlinAction\t\t\t\t\t\t->\tTsetlinAutomatonCalculateAction
+TsetlinPunish\t\t\t\t\t\t->\tTsetlinAutomatonPunish
+TsetlinReward\t\t\t\t\t\t->\tTsetlinAutomatonReward
+TsetlinUpdate\t\t\t\t\t\t->\tTsetlinAutomatonUpdate
+TsetlinWeightedReward\t\t\t\t->\tTsetlinAutomatonWeightedPunish
+TsetlinWeightedPunish\t\t\t\t->\tTsetlinAutomatonWeightedReward
+TsetlinClause\t\t\t\t\t\t->\tTsetlinClause
+TsetlinClauseNonNegated\t\t\t->\tTsetlinClauseGetPositive
+TsetlinClauseNegated\t\t\t\t->\tTsetlinClauseGetNegative
+TsetlinOutput\t\t\t\t\t\t->\tTsetlinOutput
+TsetlinOutputClauses\t\t\t\t->\tTsetlinOutputGetClauses
+TsetlinOutputFunction\t\t\t\t->\tTsetlinOutputGetFunction
+TsetlinMachine\t\t\t\t\t->\tTsetlinMachine
+TsetlinMachineOutputs\t\t\t\t->\tTsetlinMachineGetOutputs
+TsetlinMachineStateIdentifier\t\t\t->\tTsetlinMachineGetStateIdentifier
+TsetlinClauseSelectedInputs\t\t\t->\tTsetlinClauseCalculateIncludedInputs
+TsetlinClauseOutput\t\t\t\t->\tTsetlinClauseCalculateResult
+TsetlinOutputResult\t\t\t\t->\tTsetlinOutputCalculateResult
+TsetlinMachineCalculateOutputs\t\t->\tTsetlinMachineCalculateResult
+TsetlinInitializeAutomatonList\t\t->\tTsetlinAutomatonListInitialize
+TsetlinInitializeClause\t\t\t\t->\tTsetlinClauseInitialize
+TsetlinInitializeOutput\t\t\t\t->\tTsetlinOutputInitialize
+TsetlinInitializeMachine\t\t\t\t->\tTsetlinMachineInitialize
+TsetlinAutomatonType1Feedback\t\t->\tTsetlinAutomatonType1Feedback\t\t\t*
+TsetlinAutomatonType2Feedback\t\t->\tTsetlinAutomatonType2Feedback\t\t\t*
+TsetlinClauseType1Feedback\t\t\t->\tTsetlinClauseType1Feedback\t\t\t\t*
+TsetlinClauseType2Feedback\t\t\t->\tTsetlinClauseType2Feedback\t\t\t\t*
+TsetlinOutputFeedback\t\t\t\t->\tTsetlinOutputFeedback
+TsetlinMachineFeedback\t\t\t->\tTsetlinMachineFeedback
+TsetlinAdvancedBaseFunction\t\t->\tTsetlinUtility\t\t\t\t\t\t\t*
+TsetlinAdvancedOutputFunction\t\t->\tTsetlinUtilityOutputFunction\t\t\t\t*
+TsetlinAdvancedFeedbackDecider\t\t->\tTsetlinUtilityFeedbackDecider
+TsetlinMachineTest\t\t\t\t\t->\tTsetlinMachineTest
+TsetlinMachineTrain\t\t\t\t->\tTsetlinMachineTrain
+\
+\>", "Text",
+ CellChangeTimes->{{3.7716855783298187`*^9, 3.771685627094172*^9}, {
+  3.7716859691769133`*^9, 3.771686317622088*^9}, {3.77168636869333*^9, 
+  3.7716864471351233`*^9}, {3.7716864801245832`*^9, 3.771686691871255*^9}, {
+  3.771686787053274*^9, 3.771686834595538*^9}, {3.7716895876209927`*^9, 
+  3.7716897869234257`*^9}, {3.77168983302932*^9, 3.7716899418562603`*^9}, {
+  3.771690017466803*^9, 3.771690085625287*^9}, {3.77169013506989*^9, 
+  3.771690399601034*^9}, {3.7716906223432283`*^9, 3.771690628283739*^9}, {
+  3.7716906583608*^9, 
+  3.771690664823435*^9}},ExpressionUUID->"da334a3f-30c5-477c-8465-\
+654653e64bcc"]
+}, Open  ]]
+},
+WindowSize->{1680, 1004},
+WindowMargins->{{0, Automatic}, {Automatic, 22}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 169, 3, 68, "Section",ExpressionUUID->"0e274077-0f71-491c-b84c-d83c7346aec9"],
+Cell[755, 27, 537, 10, 60, "Text",ExpressionUUID->"061b0153-15fc-4f4f-9858-57fae76e36e7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1329, 42, 159, 3, 68, "Section",ExpressionUUID->"7fd00e1f-d6ec-4952-903a-9861d6c84369"],
+Cell[1491, 47, 3905, 72, 1212, "Text",ExpressionUUID->"da334a3f-30c5-477c-8465-654653e64bcc"]
+}, Open  ]]
+}
+]
+*)
+
