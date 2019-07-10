@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      6043,        142]
-NotebookOptionsPosition[      5412,        122]
-NotebookOutlinePosition[      5748,        137]
-CellTagsIndexPosition[      5705,        134]
+NotebookDataLength[      6193,        144]
+NotebookOptionsPosition[      5562,        124]
+NotebookOutlinePosition[      5898,        139]
+CellTagsIndexPosition[      5855,        136]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -95,14 +95,14 @@ TsetlinInitializeAutomatonList\t\t->\tTsetlinAutomatonListInitialize
 TsetlinInitializeClause\t\t\t\t->\tTsetlinClauseInitialize
 TsetlinInitializeOutput\t\t\t\t->\tTsetlinOutputInitialize
 TsetlinInitializeMachine\t\t\t\t->\tTsetlinMachineInitialize
-TsetlinAutomatonType1Feedback\t\t->\tTsetlinAutomatonType1Feedback\t\t\t*
-TsetlinAutomatonType2Feedback\t\t->\tTsetlinAutomatonType2Feedback\t\t\t*
-TsetlinClauseType1Feedback\t\t\t->\tTsetlinClauseType1Feedback\t\t\t\t*
-TsetlinClauseType2Feedback\t\t\t->\tTsetlinClauseType2Feedback\t\t\t\t*
+TsetlinAutomatonType1Feedback\t\t->\tTsetlinAutomatonType1Feedback
+TsetlinAutomatonType2Feedback\t\t->\tTsetlinAutomatonType2Feedback
+TsetlinClauseType1Feedback\t\t\t->\tTsetlinClauseType1Feedback
+TsetlinClauseType2Feedback\t\t\t->\tTsetlinClauseType2Feedback
 TsetlinOutputFeedback\t\t\t\t->\tTsetlinOutputFeedback
 TsetlinMachineFeedback\t\t\t->\tTsetlinMachineFeedback
-TsetlinAdvancedBaseFunction\t\t->\tTsetlinUtility\t\t\t\t\t\t\t*
-TsetlinAdvancedOutputFunction\t\t->\tTsetlinUtilityOutputFunction\t\t\t\t*
+TsetlinAdvancedBaseFunction\t\t->\tTsetlinUtilityAlternatingSum
+TsetlinAdvancedOutputFunction\t\t->\tTsetlinUtilityOutputFunction
 TsetlinAdvancedFeedbackDecider\t\t->\tTsetlinUtilityFeedbackDecider
 TsetlinMachineTest\t\t\t\t\t->\tTsetlinMachineTest
 TsetlinMachineTrain\t\t\t\t->\tTsetlinMachineTrain
@@ -115,8 +115,10 @@ TsetlinMachineTrain\t\t\t\t->\tTsetlinMachineTrain
   3.7716897869234257`*^9}, {3.77168983302932*^9, 3.7716899418562603`*^9}, {
   3.771690017466803*^9, 3.771690085625287*^9}, {3.77169013506989*^9, 
   3.771690399601034*^9}, {3.7716906223432283`*^9, 3.771690628283739*^9}, {
-  3.7716906583608*^9, 
-  3.771690664823435*^9}},ExpressionUUID->"da334a3f-30c5-477c-8465-\
+  3.7716906583608*^9, 3.771690664823435*^9}, {3.771691972267136*^9, 
+  3.771692038919613*^9}, {3.771692615128439*^9, 3.771692633902244*^9}, {
+  3.771693099378789*^9, 3.771693101223671*^9}, {3.771693793587257*^9, 
+  3.7716938026302023`*^9}},ExpressionUUID->"da334a3f-30c5-477c-8465-\
 654653e64bcc"]
 }, Open  ]]
 },
@@ -142,7 +144,7 @@ Cell[755, 27, 537, 10, 60, "Text",ExpressionUUID->"061b0153-15fc-4f4f-9858-57fae
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1329, 42, 159, 3, 68, "Section",ExpressionUUID->"7fd00e1f-d6ec-4952-903a-9861d6c84369"],
-Cell[1491, 47, 3905, 72, 1212, "Text",ExpressionUUID->"da334a3f-30c5-477c-8465-654653e64bcc"]
+Cell[1491, 47, 4055, 74, 1212, "Text",ExpressionUUID->"da334a3f-30c5-477c-8465-654653e64bcc"]
 }, Open  ]]
 }
 ]
