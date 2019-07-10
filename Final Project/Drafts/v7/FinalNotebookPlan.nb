@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      6193,        144]
-NotebookOptionsPosition[      5562,        124]
-NotebookOutlinePosition[      5898,        139]
-CellTagsIndexPosition[      5855,        136]
+NotebookDataLength[      6933,        163]
+NotebookOptionsPosition[      6082,        139]
+NotebookOutlinePosition[      6417,        154]
+CellTagsIndexPosition[      6374,        151]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -87,7 +87,7 @@ TsetlinOutputFunction\t\t\t\t->\tTsetlinOutputGetFunction
 TsetlinMachine\t\t\t\t\t->\tTsetlinMachine
 TsetlinMachineOutputs\t\t\t\t->\tTsetlinMachineGetOutputs
 TsetlinMachineStateIdentifier\t\t\t->\tTsetlinMachineGetStateIdentifier
-TsetlinClauseSelectedInputs\t\t\t->\tTsetlinClauseCalculateIncludedInputs
+TsetlinClauseSelectedInputs\t\t\t->\tTsetlinClauseCalculateIncluded (Inputs
 TsetlinClauseOutput\t\t\t\t->\tTsetlinClauseCalculateResult
 TsetlinOutputResult\t\t\t\t->\tTsetlinOutputCalculateResult
 TsetlinMachineCalculateOutputs\t\t->\tTsetlinMachineCalculateResult
@@ -118,12 +118,27 @@ TsetlinMachineTrain\t\t\t\t->\tTsetlinMachineTrain
   3.7716906583608*^9, 3.771690664823435*^9}, {3.771691972267136*^9, 
   3.771692038919613*^9}, {3.771692615128439*^9, 3.771692633902244*^9}, {
   3.771693099378789*^9, 3.771693101223671*^9}, {3.771693793587257*^9, 
-  3.7716938026302023`*^9}},ExpressionUUID->"da334a3f-30c5-477c-8465-\
+  3.7716938026302023`*^9}, {3.771755603296829*^9, 3.771755603480452*^9}, {
+  3.7717617430668087`*^9, 
+  3.771761747078133*^9}},ExpressionUUID->"da334a3f-30c5-477c-8465-\
 654653e64bcc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["List of things to put in computational essay.", "Section",
+ CellChangeTimes->{{3.771745826452056*^9, 
+  3.771745841958507*^9}},ExpressionUUID->"28a0fbd1-2d5b-4d21-bc63-\
+1017ba04f4f4"],
+
+Cell["- Diagrams of Tsetlin Automatons and machines.", "Text",
+ CellChangeTimes->{{3.771745846197309*^9, 
+  3.771745858128778*^9}},ExpressionUUID->"5c5c808e-363a-4365-aef2-\
+058383e639bf"]
 }, Open  ]]
 },
-WindowSize->{1680, 1004},
-WindowMargins->{{0, Automatic}, {Automatic, 22}},
+WindowSize->{819, 979},
+WindowMargins->{{Automatic, 13}, {Automatic, 34}},
 FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 11, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -140,11 +155,15 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[583, 22, 169, 3, 68, "Section",ExpressionUUID->"0e274077-0f71-491c-b84c-d83c7346aec9"],
-Cell[755, 27, 537, 10, 60, "Text",ExpressionUUID->"061b0153-15fc-4f4f-9858-57fae76e36e7"]
+Cell[755, 27, 537, 10, 108, "Text",ExpressionUUID->"061b0153-15fc-4f4f-9858-57fae76e36e7"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1329, 42, 159, 3, 68, "Section",ExpressionUUID->"7fd00e1f-d6ec-4952-903a-9861d6c84369"],
-Cell[1491, 47, 4055, 74, 1212, "Text",ExpressionUUID->"da334a3f-30c5-477c-8465-654653e64bcc"]
+Cell[1491, 47, 4157, 76, 1284, "Text",ExpressionUUID->"da334a3f-30c5-477c-8465-654653e64bcc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5685, 128, 190, 3, 68, "Section",ExpressionUUID->"28a0fbd1-2d5b-4d21-bc63-1017ba04f4f4"],
+Cell[5878, 133, 188, 3, 36, "Text",ExpressionUUID->"5c5c808e-363a-4365-aef2-058383e639bf"]
 }, Open  ]]
 }
 ]
