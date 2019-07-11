@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    625252,      12394]
-NotebookOptionsPosition[    596520,      11967]
-NotebookOutlinePosition[    597406,      11995]
-CellTagsIndexPosition[    597363,      11992]
+NotebookDataLength[    636605,      12672]
+NotebookOptionsPosition[    605821,      12223]
+NotebookOutlinePosition[    606707,      12251]
+CellTagsIndexPosition[    606664,      12248]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -170,7 +170,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.771700825608028*^9, 3.771700826645507*^9}, {
   3.7717008783307734`*^9, 3.77170090445875*^9}, {3.771701023498765*^9, 
   3.771701026131686*^9}, {3.7718306970803423`*^9, 3.7718307703450737`*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"96de5be5-6ee4-47a8-9eef-6d3fadc2724f"],
+ CellLabel->"In[76]:=",ExpressionUUID->"96de5be5-6ee4-47a8-9eef-6d3fadc2724f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -420,16 +420,17 @@ TVVwWKy880/7FHWIexrkIfLX1RzOMDZZVjHIOaDkh3vSDuj5AwCF11Vc
     If[$CellContext`ta > $CellContext`si, 2, 1]], Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction0.so", 
-    "compiledFunction0", {{Integer, 0, "Constant"}, {Integer, 0, "Constant"}},
+cellularautomaton-1131/compiledFunction7.so", 
+    "compiledFunction7", {{Integer, 0, "Constant"}, {Integer, 0, "Constant"}},
      Integer]],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.771830729895816*^9, 3.771830772087632*^9}, 
-   3.7718333753669987`*^9, 3.77183353158034*^9, 3.7718389388093777`*^9},
- CellLabel->"Out[1]=",ExpressionUUID->"c6953b35-ab97-4ef9-8b2e-0bf7aacbab1a"]
-}, Closed]],
+   3.7718333753669987`*^9, 3.77183353158034*^9, 3.7718389388093777`*^9, 
+   3.771848151308201*^9},
+ CellLabel->"Out[76]=",ExpressionUUID->"cc046b04-a123-42aa-baa8-b76bbf084a15"]
+}, Open  ]],
 
 Cell["A Tsetlin Automaton in state 3 choosing action 1:", "CodeText",
  CellChangeTimes->{{3.7717009143750772`*^9, 3.771700921652643*^9}, {
@@ -519,7 +520,7 @@ Cell[BoxData[
   3.771831055214822*^9}, {3.7718311006407347`*^9, 3.771831104146193*^9}, {
   3.7718311477290773`*^9, 3.77183114950832*^9}, {3.77183128162315*^9, 
   3.771831292616572*^9}, {3.771831695858227*^9, 3.771831727798008*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"372cdb49-a9ee-440c-b5d6-2a9369da232a"],
+ CellLabel->"In[77]:=",ExpressionUUID->"372cdb49-a9ee-440c-b5d6-2a9369da232a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -781,8 +782,8 @@ $CellContext`y, $CellContext`x - $CellContext`t, $CellContext`x < \
 $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction1.so", 
-    "compiledFunction1", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction8.so", 
+    "compiledFunction8", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
      Real, 0, "Constant"}}, Real]],
   Editable->False,
   SelectWithContents->True,
@@ -790,9 +791,10 @@ cellularautomaton-1131/compiledFunction1.so",
  CellChangeTimes->{{3.7718308788637943`*^9, 3.771830903020372*^9}, 
    3.77183094782552*^9, 3.771831055852455*^9, 3.771831105431608*^9, 
    3.7718311537752523`*^9, 3.771831293587598*^9, 3.771831728852338*^9, 
-   3.771833375734933*^9, 3.771833531989991*^9, 3.771838939126186*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"8fbda4f8-6927-441a-80b3-8f7106f9e554"]
-}, Closed]],
+   3.771833375734933*^9, 3.771833531989991*^9, 3.771838939126186*^9, 
+   3.7718481515008497`*^9},
+ CellLabel->"Out[77]=",ExpressionUUID->"d8b7f35a-cbb5-4b61-8b65-32cd08e48ff0"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -910,7 +912,7 @@ Cell[BoxData[
   3.7717110086371527`*^9}, {3.771831164719411*^9, 3.771831231869328*^9}, {
   3.771831434537491*^9, 3.771831510499069*^9}, {3.771831574182589*^9, 
   3.771831602061297*^9}, {3.771831763197216*^9, 3.771831776081749*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"9a8f99b4-d43d-40d4-9769-7f388a77b091"],
+ CellLabel->"In[78]:=",ExpressionUUID->"9a8f99b4-d43d-40d4-9769-7f388a77b091"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1400,8 +1402,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -1672,8 +1674,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -1705,29 +1707,29 @@ BuildFolder/cellularautomaton-1131/compiledFunction1.so",
    0}, {{25, 1, 0, 0}, {2, 0, 6}, {6, 0, 2}, {46, 
      Function[{$CellContext`ta, $CellContext`si}, 
       Which[
-      Compile`FunctionVariable$4089 == Compile`FunctionVariable$4090, 
-       Compile`FunctionVariable$4089, Compile`FunctionVariable$4089 > 
-       Compile`FunctionVariable$4090, Compile`FunctionVariable$4089 - 
-       Compile`FunctionVariable$4091, Compile`FunctionVariable$4089 < 
-       Compile`FunctionVariable$4090, Compile`FunctionVariable$4089 + 
-       Compile`FunctionVariable$4091]], {
-     Compile`FunctionVariable$4090, 2, 0, 3, Module}, {
-     Compile`FunctionVariable$4089, 2, 0, 2, Module}, {
-     Compile`FunctionVariable$4091, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 3, 0, 
-     0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 4}, {3, 6}, {6, 0, 4}, {15, 5, 1, 
-    6}, {46, 
+      Compile`FunctionVariable$2356625 == Compile`FunctionVariable$2356626, 
+       Compile`FunctionVariable$2356625, Compile`FunctionVariable$2356625 > 
+       Compile`FunctionVariable$2356626, Compile`FunctionVariable$2356625 - 
+       Compile`FunctionVariable$2356627, Compile`FunctionVariable$2356625 < 
+       Compile`FunctionVariable$2356626, Compile`FunctionVariable$2356625 + 
+       Compile`FunctionVariable$2356627]], {
+     Compile`FunctionVariable$2356626, 2, 0, 3, Module}, {
+     Compile`FunctionVariable$2356625, 2, 0, 2, Module}, {
+     Compile`FunctionVariable$2356627, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 4}, {3, 6}, {6, 0, 4}, {15, 5, 
+    1, 6}, {46, 
      Function[{$CellContext`ta, $CellContext`si}, 
       Which[
-      Compile`FunctionVariable$4092 == Compile`FunctionVariable$4093, 
-       Compile`FunctionVariable$4092, Compile`FunctionVariable$4092 > 
-       Compile`FunctionVariable$4093, Compile`FunctionVariable$4092 - 
-       Compile`FunctionVariable$4094, Compile`FunctionVariable$4092 < 
-       Compile`FunctionVariable$4093, Compile`FunctionVariable$4092 + 
-       Compile`FunctionVariable$4094]], {
-     Compile`FunctionVariable$4094, 2, 0, 3, Module}, {
-     Compile`FunctionVariable$4093, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$4092, 2, 0, 4, Module}, 2, 0, 0, 2, 0, 1, 3, 0, 
-     0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 4}, {1}}, 
+      Compile`FunctionVariable$2356628 == Compile`FunctionVariable$2356629, 
+       Compile`FunctionVariable$2356628, Compile`FunctionVariable$2356628 > 
+       Compile`FunctionVariable$2356629, Compile`FunctionVariable$2356628 - 
+       Compile`FunctionVariable$2356630, Compile`FunctionVariable$2356628 < 
+       Compile`FunctionVariable$2356629, Compile`FunctionVariable$2356628 + 
+       Compile`FunctionVariable$2356630]], {
+     Compile`FunctionVariable$2356628, 2, 0, 4, Module}, {
+     Compile`FunctionVariable$2356630, 2, 0, 3, Module}, {
+     Compile`FunctionVariable$2356629, 2, 0, 6, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 4}, {1}}, 
    Function[{$CellContext`ta, $CellContext`si}, 
     If[$CellContext`ta > $CellContext`si, 
      IntegerPart[
@@ -1749,8 +1751,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
        
        LibraryFunction[
        "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction1.so", 
-        "compiledFunction1", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction8.so", 
+        "compiledFunction8", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
          Real, 0, "Constant"}}, Real]][$CellContext`ta, 1, 1]], 
      IntegerPart[
       CompiledFunction[{11, 12., 5468}, {
@@ -1771,23 +1773,23 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
        
        LibraryFunction[
        "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction1.so", 
-        "compiledFunction1", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction8.so", 
+        "compiledFunction8", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
          Real, 0, "Constant"}}, Real]][$CellContext`ta, 2 $CellContext`si, 
        1]]]], Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction2.so", 
-    "compiledFunction2", {{Integer, 0, "Constant"}, {Integer, 0, "Constant"}},
+cellularautomaton-1131/compiledFunction9.so", 
+    "compiledFunction9", {{Integer, 0, "Constant"}, {Integer, 0, "Constant"}},
      Integer]],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.771831511335498*^9, 3.771831603105977*^9, 
   3.7718317769139967`*^9, 3.771833376566305*^9, 3.771833532867157*^9, 
-  3.7718389393976717`*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"44cac1f2-8292-4037-82ec-669244869d6c"]
-}, Closed]],
+  3.7718389393976717`*^9, 3.771848151793296*^9},
+ CellLabel->"Out[78]=",ExpressionUUID->"621e53b3-cee3-40dd-892d-4dacb926fc5f"]
+}, Open  ]],
 
 Cell[TextData[StyleBox["The TsetlinAutomatonReward function definition.", \
 "CodeText"]], "Text",
@@ -1834,7 +1836,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.771709263249586*^9, 3.771709264251316*^9}, {
   3.771710998433988*^9, 3.771711010017227*^9}, {3.771831789949811*^9, 
   3.771831911582563*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"5582880d-c60e-4587-9194-62e8ab2b5edc"],
+ CellLabel->"In[79]:=",ExpressionUUID->"5582880d-c60e-4587-9194-62e8ab2b5edc"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2324,8 +2326,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -2597,8 +2599,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -2628,28 +2630,28 @@ BuildFolder/cellularautomaton-1131/compiledFunction1.so",
    0}, {{25, 1, 0, 0}, {2, 0, 7}, {6, 0, 2}, {15, 3, 1, 4}, {46, 
      Function[{$CellContext`ta, $CellContext`si}, 
       Which[
-      Compile`FunctionVariable$5390 == Compile`FunctionVariable$5391, 
-       Compile`FunctionVariable$5390, Compile`FunctionVariable$5390 > 
-       Compile`FunctionVariable$5391, Compile`FunctionVariable$5390 - 
-       Compile`FunctionVariable$5392, Compile`FunctionVariable$5390 < 
-       Compile`FunctionVariable$5391, Compile`FunctionVariable$5390 + 
-       Compile`FunctionVariable$5392]], {
-     Compile`FunctionVariable$5392, 2, 0, 5, Module}, {
-     Compile`FunctionVariable$5391, 2, 0, 4, Module}, {
-     Compile`FunctionVariable$5390, 2, 0, 2, Module}, 2, 0, 0, 2, 0, 1, 3, 0, 
-     0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 6}, {3, 5}, {6, 0, 2}, {46, 
+      Compile`FunctionVariable$2357926 == Compile`FunctionVariable$2357927, 
+       Compile`FunctionVariable$2357926, Compile`FunctionVariable$2357926 > 
+       Compile`FunctionVariable$2357927, Compile`FunctionVariable$2357926 - 
+       Compile`FunctionVariable$2357928, Compile`FunctionVariable$2357926 < 
+       Compile`FunctionVariable$2357927, Compile`FunctionVariable$2357926 + 
+       Compile`FunctionVariable$2357928]], {
+     Compile`FunctionVariable$2357928, 2, 0, 5, Module}, {
+     Compile`FunctionVariable$2357927, 2, 0, 4, Module}, {
+     Compile`FunctionVariable$2357926, 2, 0, 2, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 6}, {3, 5}, {6, 0, 2}, {46, 
      Function[{$CellContext`ta, $CellContext`si}, 
       Which[
-      Compile`FunctionVariable$5393 == Compile`FunctionVariable$5394, 
-       Compile`FunctionVariable$5393, Compile`FunctionVariable$5393 > 
-       Compile`FunctionVariable$5394, Compile`FunctionVariable$5393 - 
-       Compile`FunctionVariable$5395, Compile`FunctionVariable$5393 < 
-       Compile`FunctionVariable$5394, Compile`FunctionVariable$5393 + 
-       Compile`FunctionVariable$5395]], {
-     Compile`FunctionVariable$5393, 2, 0, 2, Module}, {
-     Compile`FunctionVariable$5394, 2, 0, 5, Module}, {
-     Compile`FunctionVariable$5395, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 3, 0, 
-     0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 6}, {1}}, 
+      Compile`FunctionVariable$2357929 == Compile`FunctionVariable$2357930, 
+       Compile`FunctionVariable$2357929, Compile`FunctionVariable$2357929 > 
+       Compile`FunctionVariable$2357930, Compile`FunctionVariable$2357929 - 
+       Compile`FunctionVariable$2357931, Compile`FunctionVariable$2357929 < 
+       Compile`FunctionVariable$2357930, Compile`FunctionVariable$2357929 + 
+       Compile`FunctionVariable$2357931]], {
+     Compile`FunctionVariable$2357929, 2, 0, 2, Module}, {
+     Compile`FunctionVariable$2357930, 2, 0, 5, Module}, {
+     Compile`FunctionVariable$2357931, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 6}, {1}}, 
    Function[{$CellContext`ta, $CellContext`si}, 
     If[$CellContext`ta > $CellContext`si, 
      IntegerPart[
@@ -2671,8 +2673,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
        
        LibraryFunction[
        "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction1.so", 
-        "compiledFunction1", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction8.so", 
+        "compiledFunction8", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
          Real, 0, "Constant"}}, Real]][$CellContext`ta, 2 $CellContext`si, 
        1]], 
      IntegerPart[
@@ -2694,21 +2696,21 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
        
        LibraryFunction[
        "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction1.so", 
-        "compiledFunction1", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction8.so", 
+        "compiledFunction8", {{Real, 0, "Constant"}, {Real, 0, "Constant"}, {
          Real, 0, "Constant"}}, Real]][$CellContext`ta, 1, 1]]]], Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction3.so", 
-    "compiledFunction3", {{Integer, 0, "Constant"}, {Integer, 0, "Constant"}},
-     Integer]],
+cellularautomaton-1131/compiledFunction10.so", 
+    "compiledFunction10", {{Integer, 0, "Constant"}, {
+     Integer, 0, "Constant"}}, Integer]],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.7718319147741003`*^9, 3.771833377117621*^9, 
-  3.771833533530588*^9, 3.771838939663684*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"89e449b0-6b3b-414f-bd4a-c7c696db542f"]
-}, Closed]],
+  3.771833533530588*^9, 3.771838939663684*^9, 3.7718481520739*^9},
+ CellLabel->"Out[79]=",ExpressionUUID->"557fd99f-0101-454c-b31b-f7f3c07d3b63"]
+}, Open  ]],
 
 Cell[TextData[StyleBox["Punish a Tsetlin Automaton in state 1, with state \
 identifier 3. Because this corresponds to action 1, it will move it towards \
@@ -2802,7 +2804,7 @@ Cell[BoxData[
   3.771709697503574*^9}, {3.7717109903993692`*^9, 3.771710996314996*^9}, {
   3.7718319592018538`*^9, 3.7718320637651033`*^9}, {3.77183212495536*^9, 
   3.771832151992034*^9}},
- CellLabel->"In[5]:=",ExpressionUUID->"ae94b64f-539f-47b7-bd5e-610b6bd25dae"],
+ CellLabel->"In[80]:=",ExpressionUUID->"ae94b64f-539f-47b7-bd5e-610b6bd25dae"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3278,8 +3280,8 @@ TVVwWKy880/7FHWIexrkIfLX1RzOMDZZVjHIOaDkh3vSDuj5AwCF11Vc
                     If[$CellContext`ta > $CellContext`si, 2, 1]], Evaluate, 
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction0.so", 
-                    "compiledFunction0", {{Integer, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction7.so", 
+                    "compiledFunction7", {{Integer, 0, "Constant"}, {
                     Integer, 0, "Constant"}}, Integer]], Selectable -> False, 
                     Editable -> False, SelectWithContents -> True], "[", 
                     RowBox[{"ta", ",", "si"}], "]"}], "\[Equal]", "n"}], ",", 
@@ -3770,8 +3772,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -4038,8 +4040,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -4070,39 +4072,39 @@ BuildFolder/cellularautomaton-1131/compiledFunction1.so",
                     46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$5390 == 
-                    Compile`FunctionVariable$5391, 
-                    Compile`FunctionVariable$5390, 
-                    Compile`FunctionVariable$5390 > 
-                    Compile`FunctionVariable$5391, 
-                    Compile`FunctionVariable$5390 - 
-                    Compile`FunctionVariable$5392, 
-                    Compile`FunctionVariable$5390 < 
-                    Compile`FunctionVariable$5391, 
-                    Compile`FunctionVariable$5390 + 
-                    Compile`FunctionVariable$5392]], {
-                    Compile`FunctionVariable$5392, 2, 0, 5, Module}, {
-                    Compile`FunctionVariable$5391, 2, 0, 4, Module}, {
-                    Compile`FunctionVariable$5390, 2, 0, 2, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 
+                    Compile`FunctionVariable$2357926 == 
+                    Compile`FunctionVariable$2357927, 
+                    Compile`FunctionVariable$2357926, 
+                    Compile`FunctionVariable$2357926 > 
+                    Compile`FunctionVariable$2357927, 
+                    Compile`FunctionVariable$2357926 - 
+                    Compile`FunctionVariable$2357928, 
+                    Compile`FunctionVariable$2357926 < 
+                    Compile`FunctionVariable$2357927, 
+                    Compile`FunctionVariable$2357926 + 
+                    Compile`FunctionVariable$2357928]], {
+                    Compile`FunctionVariable$2357928, 2, 0, 5, Module}, {
+                    Compile`FunctionVariable$2357927, 2, 0, 4, Module}, {
+                    Compile`FunctionVariable$2357926, 2, 0, 2, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 
                     6}, {3, 5}, {6, 0, 2}, {46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$5393 == 
-                    Compile`FunctionVariable$5394, 
-                    Compile`FunctionVariable$5393, 
-                    Compile`FunctionVariable$5393 > 
-                    Compile`FunctionVariable$5394, 
-                    Compile`FunctionVariable$5393 - 
-                    Compile`FunctionVariable$5395, 
-                    Compile`FunctionVariable$5393 < 
-                    Compile`FunctionVariable$5394, 
-                    Compile`FunctionVariable$5393 + 
-                    Compile`FunctionVariable$5395]], {
-                    Compile`FunctionVariable$5393, 2, 0, 2, Module}, {
-                    Compile`FunctionVariable$5394, 2, 0, 5, Module}, {
-                    Compile`FunctionVariable$5395, 2, 0, 5, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
+                    Compile`FunctionVariable$2357929 == 
+                    Compile`FunctionVariable$2357930, 
+                    Compile`FunctionVariable$2357929, 
+                    Compile`FunctionVariable$2357929 > 
+                    Compile`FunctionVariable$2357930, 
+                    Compile`FunctionVariable$2357929 - 
+                    Compile`FunctionVariable$2357931, 
+                    Compile`FunctionVariable$2357929 < 
+                    Compile`FunctionVariable$2357930, 
+                    Compile`FunctionVariable$2357929 + 
+                    Compile`FunctionVariable$2357931]], {
+                    Compile`FunctionVariable$2357929, 2, 0, 2, Module}, {
+                    Compile`FunctionVariable$2357930, 2, 0, 5, Module}, {
+                    Compile`FunctionVariable$2357931, 2, 0, 5, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
                     6}, {1}}, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     If[$CellContext`ta > $CellContext`si, 
@@ -4126,8 +4128,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 2 $CellContext`si, 1]], 
                     IntegerPart[
@@ -4150,14 +4152,14 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 1, 1]]]], Evaluate, 
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction3.so", 
-                    "compiledFunction3", {{Integer, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction10.so", 
+                    "compiledFunction10", {{Integer, 0, "Constant"}, {
                     Integer, 0, "Constant"}}, Integer]], Selectable -> False, 
                     Editable -> False, SelectWithContents -> True], "[", 
                     RowBox[{"ta", ",", "si"}], "]"}], ",", 
@@ -4412,6 +4414,7 @@ TVVwWKy880/7FHWIexrkIfLX1RzOMDZZVjHIOaDkh3vSDuj5AwCF11Vc
                     FaceForm[{
                     GrayLevel[0.93], 
                     Opacity[1.]}], 
+                    
                     FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
                     0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
                     25.499999999999996`, 2.5}, {25.499999999999996`, 
@@ -4647,8 +4650,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -4914,8 +4917,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -4947,39 +4950,39 @@ BuildFolder/cellularautomaton-1131/compiledFunction1.so",
                     0}, {{25, 1, 0, 0}, {2, 0, 6}, {6, 0, 2}, {46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$4089 == 
-                    Compile`FunctionVariable$4090, 
-                    Compile`FunctionVariable$4089, 
-                    Compile`FunctionVariable$4089 > 
-                    Compile`FunctionVariable$4090, 
-                    Compile`FunctionVariable$4089 - 
-                    Compile`FunctionVariable$4091, 
-                    Compile`FunctionVariable$4089 < 
-                    Compile`FunctionVariable$4090, 
-                    Compile`FunctionVariable$4089 + 
-                    Compile`FunctionVariable$4091]], {
-                    Compile`FunctionVariable$4090, 2, 0, 3, Module}, {
-                    Compile`FunctionVariable$4089, 2, 0, 2, Module}, {
-                    Compile`FunctionVariable$4091, 2, 0, 3, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
+                    Compile`FunctionVariable$2356625 == 
+                    Compile`FunctionVariable$2356626, 
+                    Compile`FunctionVariable$2356625, 
+                    Compile`FunctionVariable$2356625 > 
+                    Compile`FunctionVariable$2356626, 
+                    Compile`FunctionVariable$2356625 - 
+                    Compile`FunctionVariable$2356627, 
+                    Compile`FunctionVariable$2356625 < 
+                    Compile`FunctionVariable$2356626, 
+                    Compile`FunctionVariable$2356625 + 
+                    Compile`FunctionVariable$2356627]], {
+                    Compile`FunctionVariable$2356626, 2, 0, 3, Module}, {
+                    Compile`FunctionVariable$2356625, 2, 0, 2, Module}, {
+                    Compile`FunctionVariable$2356627, 2, 0, 3, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
                     4}, {3, 6}, {6, 0, 4}, {15, 5, 1, 6}, {46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$4092 == 
-                    Compile`FunctionVariable$4093, 
-                    Compile`FunctionVariable$4092, 
-                    Compile`FunctionVariable$4092 > 
-                    Compile`FunctionVariable$4093, 
-                    Compile`FunctionVariable$4092 - 
-                    Compile`FunctionVariable$4094, 
-                    Compile`FunctionVariable$4092 < 
-                    Compile`FunctionVariable$4093, 
-                    Compile`FunctionVariable$4092 + 
-                    Compile`FunctionVariable$4094]], {
-                    Compile`FunctionVariable$4094, 2, 0, 3, Module}, {
-                    Compile`FunctionVariable$4093, 2, 0, 6, Module}, {
-                    Compile`FunctionVariable$4092, 2, 0, 4, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 
+                    Compile`FunctionVariable$2356628 == 
+                    Compile`FunctionVariable$2356629, 
+                    Compile`FunctionVariable$2356628, 
+                    Compile`FunctionVariable$2356628 > 
+                    Compile`FunctionVariable$2356629, 
+                    Compile`FunctionVariable$2356628 - 
+                    Compile`FunctionVariable$2356630, 
+                    Compile`FunctionVariable$2356628 < 
+                    Compile`FunctionVariable$2356629, 
+                    Compile`FunctionVariable$2356628 + 
+                    Compile`FunctionVariable$2356630]], {
+                    Compile`FunctionVariable$2356628, 2, 0, 4, Module}, {
+                    Compile`FunctionVariable$2356630, 2, 0, 3, Module}, {
+                    Compile`FunctionVariable$2356629, 2, 0, 6, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 
                     4}, {1}}, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     If[$CellContext`ta > $CellContext`si, 
@@ -5003,8 +5006,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 1, 1]], 
                     IntegerPart[
@@ -5027,15 +5030,15 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 2 $CellContext`si, 1]]]], 
                     Evaluate, 
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction2.so", 
-                    "compiledFunction2", {{Integer, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction9.so", 
+                    "compiledFunction9", {{Integer, 0, "Constant"}, {
                     Integer, 0, "Constant"}}, Integer]], Selectable -> False, 
                     Editable -> False, SelectWithContents -> True], "[", 
                     RowBox[{"ta", ",", "si"}], "]"}]}], "]"}], 
@@ -5067,55 +5070,55 @@ BuildFolder/cellularautomaton-1131/compiledFunction2.so",
     2, 1, 7}, {6, 7, 3}, {15, 5, 4, 8}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`n}, 
       Which[
-      Compile`FunctionVariable$6707 == Compile`FunctionVariable$6708, 
-       Compile`FunctionVariable$6707, Compile`FunctionVariable$6707 > 
-       Compile`FunctionVariable$6708, Compile`FunctionVariable$6707 - 
-       Compile`FunctionVariable$6709, Compile`FunctionVariable$6707 < 
-       Compile`FunctionVariable$6708, Compile`FunctionVariable$6707 + 
-       Compile`FunctionVariable$6709]], {
-     Compile`FunctionVariable$6708, 2, 0, 8, Module}, {
-     Compile`FunctionVariable$6707, 2, 0, 3, Module}, {
-     Compile`FunctionVariable$6709, 2, 0, 6, Module}, 2, 0, 0, 2, 0, 1, 2, 0, 
-     2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 8}, {6, 8, 9}, {3, 5}, {6, 7, 3}, {
-    46, 
+      Compile`FunctionVariable$2359243 == Compile`FunctionVariable$2359244, 
+       Compile`FunctionVariable$2359243, Compile`FunctionVariable$2359243 > 
+       Compile`FunctionVariable$2359244, Compile`FunctionVariable$2359243 - 
+       Compile`FunctionVariable$2359245, Compile`FunctionVariable$2359243 < 
+       Compile`FunctionVariable$2359244, Compile`FunctionVariable$2359243 + 
+       Compile`FunctionVariable$2359245]], {
+     Compile`FunctionVariable$2359245, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2359243, 2, 0, 3, Module}, {
+     Compile`FunctionVariable$2359244, 2, 0, 8, Module}, 2, 0, 0, 2, 0, 1, 2, 
+     0, 2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 8}, {6, 8, 9}, {3, 5}, {6, 7, 
+    3}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`n}, 
       Which[
-      Compile`FunctionVariable$6710 == Compile`FunctionVariable$6711, 
-       Compile`FunctionVariable$6710, Compile`FunctionVariable$6710 > 
-       Compile`FunctionVariable$6711, Compile`FunctionVariable$6710 - 
-       Compile`FunctionVariable$6712, Compile`FunctionVariable$6710 < 
-       Compile`FunctionVariable$6711, Compile`FunctionVariable$6710 + 
-       Compile`FunctionVariable$6712]], {
-     Compile`FunctionVariable$6712, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$6711, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$6710, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 2, 0, 
-     2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 3}, {6, 3, 9}, {6, 9, 7}, {3, 16}, {
-    6, 0, 4}, {6, 1, 7}, {25, 7, 4, 1}, {2, 1, 6}, {6, 4, 8}, {46, 
+      Compile`FunctionVariable$2359246 == Compile`FunctionVariable$2359247, 
+       Compile`FunctionVariable$2359246, Compile`FunctionVariable$2359246 > 
+       Compile`FunctionVariable$2359247, Compile`FunctionVariable$2359246 - 
+       Compile`FunctionVariable$2359248, Compile`FunctionVariable$2359246 < 
+       Compile`FunctionVariable$2359247, Compile`FunctionVariable$2359246 + 
+       Compile`FunctionVariable$2359248]], {
+     Compile`FunctionVariable$2359248, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2359247, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2359246, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 2, 
+     0, 2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 3}, {6, 3, 9}, {6, 9, 7}, {3, 
+    16}, {6, 0, 4}, {6, 1, 7}, {25, 7, 4, 1}, {2, 1, 6}, {6, 4, 8}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`n}, 
       Which[
-      Compile`FunctionVariable$6715 == Compile`FunctionVariable$6716, 
-       Compile`FunctionVariable$6715, Compile`FunctionVariable$6715 > 
-       Compile`FunctionVariable$6716, Compile`FunctionVariable$6715 - 
-       Compile`FunctionVariable$6717, Compile`FunctionVariable$6715 < 
-       Compile`FunctionVariable$6716, Compile`FunctionVariable$6715 + 
-       Compile`FunctionVariable$6717]], {
-     Compile`FunctionVariable$6716, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$6715, 2, 0, 8, Module}, {
-     Compile`FunctionVariable$6717, 2, 0, 6, Module}, 2, 0, 0, 2, 0, 1, 2, 0, 
-     2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 8}, {6, 8, 3}, {3, 6}, {6, 4, 3}, {
-    15, 5, 7, 10}, {46, 
+      Compile`FunctionVariable$2359251 == Compile`FunctionVariable$2359252, 
+       Compile`FunctionVariable$2359251, Compile`FunctionVariable$2359251 > 
+       Compile`FunctionVariable$2359252, Compile`FunctionVariable$2359251 - 
+       Compile`FunctionVariable$2359253, Compile`FunctionVariable$2359251 < 
+       Compile`FunctionVariable$2359252, Compile`FunctionVariable$2359251 + 
+       Compile`FunctionVariable$2359253]], {
+     Compile`FunctionVariable$2359253, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2359252, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2359251, 2, 0, 8, Module}, 2, 0, 0, 2, 0, 1, 2, 
+     0, 2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 8}, {6, 8, 3}, {3, 6}, {6, 4, 
+    3}, {15, 5, 7, 10}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`n}, 
       Which[
-      Compile`FunctionVariable$6718 == Compile`FunctionVariable$6719, 
-       Compile`FunctionVariable$6718, Compile`FunctionVariable$6718 > 
-       Compile`FunctionVariable$6719, Compile`FunctionVariable$6718 - 
-       Compile`FunctionVariable$6720, Compile`FunctionVariable$6718 < 
-       Compile`FunctionVariable$6719, Compile`FunctionVariable$6718 + 
-       Compile`FunctionVariable$6720]], {
-     Compile`FunctionVariable$6719, 2, 0, 10, Module}, {
-     Compile`FunctionVariable$6720, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$6718, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 2, 0, 
-     2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 10}, {6, 10, 3}, {6, 3, 7}, {1}}, 
+      Compile`FunctionVariable$2359254 == Compile`FunctionVariable$2359255, 
+       Compile`FunctionVariable$2359254, Compile`FunctionVariable$2359254 > 
+       Compile`FunctionVariable$2359255, Compile`FunctionVariable$2359254 - 
+       Compile`FunctionVariable$2359256, Compile`FunctionVariable$2359254 < 
+       Compile`FunctionVariable$2359255, Compile`FunctionVariable$2359254 + 
+       Compile`FunctionVariable$2359256]], {
+     Compile`FunctionVariable$2359255, 2, 0, 10, Module}, {
+     Compile`FunctionVariable$2359256, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2359254, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 2, 
+     0, 2, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 10}, {6, 10, 3}, {6, 3, 7}, {1}}, 
    Function[{$CellContext`ta, $CellContext`si, $CellContext`n}, 
     If[CompiledFunction[{11, 12., 5468}, {
         Blank[Integer], 
@@ -5126,8 +5129,8 @@ BuildFolder/cellularautomaton-1131/compiledFunction2.so",
         If[$CellContext`ta > $CellContext`si, 2, 1]], Evaluate, 
        LibraryFunction[
        "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction0.so", 
-        "compiledFunction0", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction7.so", 
+        "compiledFunction7", {{Integer, 0, "Constant"}, {
          Integer, 0, "Constant"}}, 
         Integer]][$CellContext`ta, $CellContext`si] == $CellContext`n, 
      CompiledFunction[{11, 12., 5468}, {
@@ -5137,29 +5140,29 @@ cellularautomaton-1131/compiledFunction0.so",
       0}, {{25, 1, 0, 0}, {2, 0, 7}, {6, 0, 2}, {15, 3, 1, 4}, {46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$5390 == Compile`FunctionVariable$5391, 
-          Compile`FunctionVariable$5390, Compile`FunctionVariable$5390 > 
-          Compile`FunctionVariable$5391, Compile`FunctionVariable$5390 - 
-          Compile`FunctionVariable$5392, Compile`FunctionVariable$5390 < 
-          Compile`FunctionVariable$5391, Compile`FunctionVariable$5390 + 
-          Compile`FunctionVariable$5392]], {
-        Compile`FunctionVariable$5392, 2, 0, 5, Module}, {
-        Compile`FunctionVariable$5391, 2, 0, 4, Module}, {
-        Compile`FunctionVariable$5390, 2, 0, 2, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 6}, {3, 5}, {6, 0, 2}, {
+         Compile`FunctionVariable$2357926 == Compile`FunctionVariable$2357927,
+           Compile`FunctionVariable$2357926, Compile`FunctionVariable$2357926 > 
+          Compile`FunctionVariable$2357927, Compile`FunctionVariable$2357926 - 
+          Compile`FunctionVariable$2357928, Compile`FunctionVariable$2357926 < 
+          Compile`FunctionVariable$2357927, Compile`FunctionVariable$2357926 + 
+          Compile`FunctionVariable$2357928]], {
+        Compile`FunctionVariable$2357928, 2, 0, 5, Module}, {
+        Compile`FunctionVariable$2357927, 2, 0, 4, Module}, {
+        Compile`FunctionVariable$2357926, 2, 0, 2, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 6}, {3, 5}, {6, 0, 2}, {
        46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$5393 == Compile`FunctionVariable$5394, 
-          Compile`FunctionVariable$5393, Compile`FunctionVariable$5393 > 
-          Compile`FunctionVariable$5394, Compile`FunctionVariable$5393 - 
-          Compile`FunctionVariable$5395, Compile`FunctionVariable$5393 < 
-          Compile`FunctionVariable$5394, Compile`FunctionVariable$5393 + 
-          Compile`FunctionVariable$5395]], {
-        Compile`FunctionVariable$5393, 2, 0, 2, Module}, {
-        Compile`FunctionVariable$5394, 2, 0, 5, Module}, {
-        Compile`FunctionVariable$5395, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 6}, {1}}, 
+         Compile`FunctionVariable$2357929 == Compile`FunctionVariable$2357930,
+           Compile`FunctionVariable$2357929, Compile`FunctionVariable$2357929 > 
+          Compile`FunctionVariable$2357930, Compile`FunctionVariable$2357929 - 
+          Compile`FunctionVariable$2357931, Compile`FunctionVariable$2357929 < 
+          Compile`FunctionVariable$2357930, Compile`FunctionVariable$2357929 + 
+          Compile`FunctionVariable$2357931]], {
+        Compile`FunctionVariable$2357929, 2, 0, 2, Module}, {
+        Compile`FunctionVariable$2357930, 2, 0, 5, Module}, {
+        Compile`FunctionVariable$2357931, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 6}, {1}}, 
       Function[{$CellContext`ta, $CellContext`si}, 
        If[$CellContext`ta > $CellContext`si, 
         IntegerPart[
@@ -5182,8 +5185,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 2 $CellContext`si, 1]], 
         IntegerPart[
@@ -5206,14 +5209,14 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 1, 1]]]], Evaluate, 
       LibraryFunction[
       "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction3.so", 
-       "compiledFunction3", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction10.so", 
+       "compiledFunction10", {{Integer, 0, "Constant"}, {
         Integer, 0, "Constant"}}, Integer]][$CellContext`ta, $CellContext`si], 
      CompiledFunction[{11, 12., 5468}, {
        Blank[Integer], 
@@ -5222,29 +5225,29 @@ cellularautomaton-1131/compiledFunction3.so",
       0}, {{25, 1, 0, 0}, {2, 0, 6}, {6, 0, 2}, {46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$4089 == Compile`FunctionVariable$4090, 
-          Compile`FunctionVariable$4089, Compile`FunctionVariable$4089 > 
-          Compile`FunctionVariable$4090, Compile`FunctionVariable$4089 - 
-          Compile`FunctionVariable$4091, Compile`FunctionVariable$4089 < 
-          Compile`FunctionVariable$4090, Compile`FunctionVariable$4089 + 
-          Compile`FunctionVariable$4091]], {
-        Compile`FunctionVariable$4090, 2, 0, 3, Module}, {
-        Compile`FunctionVariable$4089, 2, 0, 2, Module}, {
-        Compile`FunctionVariable$4091, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 4}, {3, 6}, {6, 0, 4}, {15, 
-       5, 1, 6}, {46, 
+         Compile`FunctionVariable$2356625 == Compile`FunctionVariable$2356626,
+           Compile`FunctionVariable$2356625, Compile`FunctionVariable$2356625 > 
+          Compile`FunctionVariable$2356626, Compile`FunctionVariable$2356625 - 
+          Compile`FunctionVariable$2356627, Compile`FunctionVariable$2356625 < 
+          Compile`FunctionVariable$2356626, Compile`FunctionVariable$2356625 + 
+          Compile`FunctionVariable$2356627]], {
+        Compile`FunctionVariable$2356626, 2, 0, 3, Module}, {
+        Compile`FunctionVariable$2356625, 2, 0, 2, Module}, {
+        Compile`FunctionVariable$2356627, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 4}, {3, 6}, {6, 0, 4}, {
+       15, 5, 1, 6}, {46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$4092 == Compile`FunctionVariable$4093, 
-          Compile`FunctionVariable$4092, Compile`FunctionVariable$4092 > 
-          Compile`FunctionVariable$4093, Compile`FunctionVariable$4092 - 
-          Compile`FunctionVariable$4094, Compile`FunctionVariable$4092 < 
-          Compile`FunctionVariable$4093, Compile`FunctionVariable$4092 + 
-          Compile`FunctionVariable$4094]], {
-        Compile`FunctionVariable$4094, 2, 0, 3, Module}, {
-        Compile`FunctionVariable$4093, 2, 0, 6, Module}, {
-        Compile`FunctionVariable$4092, 2, 0, 4, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 4}, {1}}, 
+         Compile`FunctionVariable$2356628 == Compile`FunctionVariable$2356629,
+           Compile`FunctionVariable$2356628, Compile`FunctionVariable$2356628 > 
+          Compile`FunctionVariable$2356629, Compile`FunctionVariable$2356628 - 
+          Compile`FunctionVariable$2356630, Compile`FunctionVariable$2356628 < 
+          Compile`FunctionVariable$2356629, Compile`FunctionVariable$2356628 + 
+          Compile`FunctionVariable$2356630]], {
+        Compile`FunctionVariable$2356628, 2, 0, 4, Module}, {
+        Compile`FunctionVariable$2356630, 2, 0, 3, Module}, {
+        Compile`FunctionVariable$2356629, 2, 0, 6, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 4}, {1}}, 
       Function[{$CellContext`ta, $CellContext`si}, 
        If[$CellContext`ta > $CellContext`si, 
         IntegerPart[
@@ -5267,8 +5270,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 1, 1]], 
         IntegerPart[
@@ -5291,28 +5294,28 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 2 $CellContext`si, 1]]]], Evaluate, 
       LibraryFunction[
       "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction2.so", 
-       "compiledFunction2", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction9.so", 
+       "compiledFunction9", {{Integer, 0, "Constant"}, {
         Integer, 0, "Constant"}}, 
        Integer]][$CellContext`ta, $CellContext`si]]], Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction4.so", 
-    "compiledFunction4", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction11.so", 
+    "compiledFunction11", {{Integer, 0, "Constant"}, {
      Integer, 0, "Constant"}, {Integer, 0, "Constant"}}, Integer]],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.771832154121614*^9, 3.771833378028796*^9, 
-  3.771833534226492*^9, 3.771838940173657*^9},
- CellLabel->"Out[5]=",ExpressionUUID->"44f79193-a84c-4ee9-803b-02413710b5be"]
-}, Closed]],
+  3.771833534226492*^9, 3.771838940173657*^9, 3.771848152601543*^9},
+ CellLabel->"Out[80]=",ExpressionUUID->"eb7365de-9154-448a-ace9-63829f1fa7b6"]
+}, Open  ]],
 
 Cell["Update a Tsetlin Automaton to learn to pick action 2.", "CodeText",
  CellChangeTimes->{{3.77171092426439*^9, 
@@ -5580,7 +5583,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.771746038711165*^9, 3.771746066955467*^9}, {
   3.771746647308765*^9, 3.771746648662224*^9}, {3.771832343325017*^9, 
   3.771832449829114*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"a9aeed70-f0e0-4b73-a82c-4d34b05d891e"],
+ CellLabel->"In[81]:=",ExpressionUUID->"a9aeed70-f0e0-4b73-a82c-4d34b05d891e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6294,8 +6297,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -6561,8 +6564,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -6593,38 +6596,39 @@ BuildFolder/cellularautomaton-1131/compiledFunction1.so",
                     46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$5390 == 
-                    Compile`FunctionVariable$5391, 
-                    Compile`FunctionVariable$5390, 
-                    Compile`FunctionVariable$5390 > 
-                    Compile`FunctionVariable$5391, 
-                    Compile`FunctionVariable$5390 - 
-                    Compile`FunctionVariable$5392, 
-                    Compile`FunctionVariable$5390 < 
-                    Compile`FunctionVariable$5391, 
-                    Compile`FunctionVariable$5390 + 
-                    Compile`FunctionVariable$5392]], {
-                    Compile`FunctionVariable$5392, 2, 0, 5, Module}, {
-                    Compile`FunctionVariable$5391, 2, 0, 4, Module}, {
-                    Compile`FunctionVariable$5390, 2, 0, 2, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 
+                    Compile`FunctionVariable$2357926 == 
+                    Compile`FunctionVariable$2357927, 
+                    Compile`FunctionVariable$2357926, 
+                    Compile`FunctionVariable$2357926 > 
+                    Compile`FunctionVariable$2357927, 
+                    Compile`FunctionVariable$2357926 - 
+                    Compile`FunctionVariable$2357928, 
+                    Compile`FunctionVariable$2357926 < 
+                    Compile`FunctionVariable$2357927, 
+                    Compile`FunctionVariable$2357926 + 
+                    Compile`FunctionVariable$2357928]], {
+                    Compile`FunctionVariable$2357928, 2, 0, 5, Module}, {
+                    Compile`FunctionVariable$2357927, 2, 0, 4, Module}, {
+                    Compile`FunctionVariable$2357926, 2, 0, 2, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 
                     6}, {3, 5}, {6, 0, 2}, {46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
-                    Which[Compile`FunctionVariable$5393 == 
-                    Compile`FunctionVariable$5394, 
-                    Compile`FunctionVariable$5393, 
-                    Compile`FunctionVariable$5393 > 
-                    Compile`FunctionVariable$5394, 
-                    Compile`FunctionVariable$5393 - 
-                    Compile`FunctionVariable$5395, 
-                    Compile`FunctionVariable$5393 < 
-                    Compile`FunctionVariable$5394, 
-                    Compile`FunctionVariable$5393 + 
-                    Compile`FunctionVariable$5395]], {
-                    Compile`FunctionVariable$5393, 2, 0, 2, Module}, {
-                    Compile`FunctionVariable$5394, 2, 0, 5, Module}, {
-                    Compile`FunctionVariable$5395, 2, 0, 5, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
+                    Which[
+                    Compile`FunctionVariable$2357929 == 
+                    Compile`FunctionVariable$2357930, 
+                    Compile`FunctionVariable$2357929, 
+                    Compile`FunctionVariable$2357929 > 
+                    Compile`FunctionVariable$2357930, 
+                    Compile`FunctionVariable$2357929 - 
+                    Compile`FunctionVariable$2357931, 
+                    Compile`FunctionVariable$2357929 < 
+                    Compile`FunctionVariable$2357930, 
+                    Compile`FunctionVariable$2357929 + 
+                    Compile`FunctionVariable$2357931]], {
+                    Compile`FunctionVariable$2357929, 2, 0, 2, Module}, {
+                    Compile`FunctionVariable$2357930, 2, 0, 5, Module}, {
+                    Compile`FunctionVariable$2357931, 2, 0, 5, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
                     6}, {1}}, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     If[$CellContext`ta > $CellContext`si, 
@@ -6648,8 +6652,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 2 $CellContext`si, 1]], 
                     IntegerPart[
@@ -6672,14 +6676,14 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 1, 1]]]], Evaluate, 
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction3.so", 
-                    "compiledFunction3", {{Integer, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction10.so", 
+                    "compiledFunction10", {{Integer, 0, "Constant"}, {
                     Integer, 0, "Constant"}}, Integer]], Selectable -> False, 
                     Editable -> False, SelectWithContents -> True], "[", 
                     RowBox[{"ta", ",", "si"}], "]"}], ",", "ta"}], "]"}], 
@@ -6712,30 +6716,30 @@ BuildFolder/cellularautomaton-1131/compiledFunction3.so",
      5, 3, 6}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`pf}, 
       Which[
-      Compile`FunctionVariable$9026 == Compile`FunctionVariable$9027, 
-       Compile`FunctionVariable$9026, Compile`FunctionVariable$9026 > 
-       Compile`FunctionVariable$9027, Compile`FunctionVariable$9026 - 
-       Compile`FunctionVariable$9028, Compile`FunctionVariable$9026 < 
-       Compile`FunctionVariable$9027, Compile`FunctionVariable$9026 + 
-       Compile`FunctionVariable$9028]], {
-     Compile`FunctionVariable$9026, 2, 0, 4, Module}, {
-     Compile`FunctionVariable$9027, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$9028, 2, 0, 7, Module}, 2, 0, 0, 2, 0, 1, 3, 0, 
-     0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 6}, {6, 6, 8}, {3, 5}, {6, 2, 4}, {
-    46, 
+      Compile`FunctionVariable$2361562 == Compile`FunctionVariable$2361563, 
+       Compile`FunctionVariable$2361562, Compile`FunctionVariable$2361562 > 
+       Compile`FunctionVariable$2361563, Compile`FunctionVariable$2361562 - 
+       Compile`FunctionVariable$2361564, Compile`FunctionVariable$2361562 < 
+       Compile`FunctionVariable$2361563, Compile`FunctionVariable$2361562 + 
+       Compile`FunctionVariable$2361564]], {
+     Compile`FunctionVariable$2361562, 2, 0, 4, Module}, {
+     Compile`FunctionVariable$2361563, 2, 0, 6, Module}, {
+     Compile`FunctionVariable$2361564, 2, 0, 7, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 6}, {6, 6, 8}, {3, 5}, {6, 2, 
+    4}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`pf}, 
       Which[
-      Compile`FunctionVariable$9029 == Compile`FunctionVariable$9030, 
-       Compile`FunctionVariable$9029, Compile`FunctionVariable$9029 > 
-       Compile`FunctionVariable$9030, Compile`FunctionVariable$9029 - 
-       Compile`FunctionVariable$9031, Compile`FunctionVariable$9029 < 
-       Compile`FunctionVariable$9030, Compile`FunctionVariable$9029 + 
-       Compile`FunctionVariable$9031]], {
-     Compile`FunctionVariable$9031, 2, 0, 7, Module}, {
-     Compile`FunctionVariable$9030, 2, 0, 7, Module}, {
-     Compile`FunctionVariable$9029, 2, 0, 4, Module}, 2, 0, 0, 2, 0, 1, 3, 0, 
-     0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 4}, {6, 4, 8}, {6, 8, 3}, {3, 2}, {
-    6, 0, 3}, {1}}, 
+      Compile`FunctionVariable$2361565 == Compile`FunctionVariable$2361566, 
+       Compile`FunctionVariable$2361565, Compile`FunctionVariable$2361565 > 
+       Compile`FunctionVariable$2361566, Compile`FunctionVariable$2361565 - 
+       Compile`FunctionVariable$2361567, Compile`FunctionVariable$2361565 < 
+       Compile`FunctionVariable$2361566, Compile`FunctionVariable$2361565 + 
+       Compile`FunctionVariable$2361567]], {
+     Compile`FunctionVariable$2361565, 2, 0, 4, Module}, {
+     Compile`FunctionVariable$2361567, 2, 0, 7, Module}, {
+     Compile`FunctionVariable$2361566, 2, 0, 7, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 4}, {6, 4, 8}, {6, 8, 3}, {3, 
+    2}, {6, 0, 3}, {1}}, 
    Function[{$CellContext`ta, $CellContext`si, $CellContext`pf}, 
     If[RandomReal[] <= $CellContext`pf, 
      CompiledFunction[{11, 12., 5468}, {
@@ -6745,29 +6749,29 @@ BuildFolder/cellularautomaton-1131/compiledFunction3.so",
       0}, {{25, 1, 0, 0}, {2, 0, 7}, {6, 0, 2}, {15, 3, 1, 4}, {46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$5390 == Compile`FunctionVariable$5391, 
-          Compile`FunctionVariable$5390, Compile`FunctionVariable$5390 > 
-          Compile`FunctionVariable$5391, Compile`FunctionVariable$5390 - 
-          Compile`FunctionVariable$5392, Compile`FunctionVariable$5390 < 
-          Compile`FunctionVariable$5391, Compile`FunctionVariable$5390 + 
-          Compile`FunctionVariable$5392]], {
-        Compile`FunctionVariable$5392, 2, 0, 5, Module}, {
-        Compile`FunctionVariable$5391, 2, 0, 4, Module}, {
-        Compile`FunctionVariable$5390, 2, 0, 2, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 6}, {3, 5}, {6, 0, 2}, {
+         Compile`FunctionVariable$2357926 == Compile`FunctionVariable$2357927,
+           Compile`FunctionVariable$2357926, Compile`FunctionVariable$2357926 > 
+          Compile`FunctionVariable$2357927, Compile`FunctionVariable$2357926 - 
+          Compile`FunctionVariable$2357928, Compile`FunctionVariable$2357926 < 
+          Compile`FunctionVariable$2357927, Compile`FunctionVariable$2357926 + 
+          Compile`FunctionVariable$2357928]], {
+        Compile`FunctionVariable$2357928, 2, 0, 5, Module}, {
+        Compile`FunctionVariable$2357927, 2, 0, 4, Module}, {
+        Compile`FunctionVariable$2357926, 2, 0, 2, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 4}, {6, 4, 6}, {3, 5}, {6, 0, 2}, {
        46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$5393 == Compile`FunctionVariable$5394, 
-          Compile`FunctionVariable$5393, Compile`FunctionVariable$5393 > 
-          Compile`FunctionVariable$5394, Compile`FunctionVariable$5393 - 
-          Compile`FunctionVariable$5395, Compile`FunctionVariable$5393 < 
-          Compile`FunctionVariable$5394, Compile`FunctionVariable$5393 + 
-          Compile`FunctionVariable$5395]], {
-        Compile`FunctionVariable$5393, 2, 0, 2, Module}, {
-        Compile`FunctionVariable$5394, 2, 0, 5, Module}, {
-        Compile`FunctionVariable$5395, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 6}, {1}}, 
+         Compile`FunctionVariable$2357929 == Compile`FunctionVariable$2357930,
+           Compile`FunctionVariable$2357929, Compile`FunctionVariable$2357929 > 
+          Compile`FunctionVariable$2357930, Compile`FunctionVariable$2357929 - 
+          Compile`FunctionVariable$2357931, Compile`FunctionVariable$2357929 < 
+          Compile`FunctionVariable$2357930, Compile`FunctionVariable$2357929 + 
+          Compile`FunctionVariable$2357931]], {
+        Compile`FunctionVariable$2357929, 2, 0, 2, Module}, {
+        Compile`FunctionVariable$2357930, 2, 0, 5, Module}, {
+        Compile`FunctionVariable$2357931, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 6}, {1}}, 
       Function[{$CellContext`ta, $CellContext`si}, 
        If[$CellContext`ta > $CellContext`si, 
         IntegerPart[
@@ -6790,8 +6794,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 2 $CellContext`si, 1]], 
         IntegerPart[
@@ -6814,29 +6818,29 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 1, 1]]]], Evaluate, 
       LibraryFunction[
       "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction3.so", 
-       "compiledFunction3", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction10.so", 
+       "compiledFunction10", {{Integer, 0, "Constant"}, {
         Integer, 0, "Constant"}}, 
        Integer]][$CellContext`ta, $CellContext`si], $CellContext`ta]], 
    Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction5.so", 
-    "compiledFunction5", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction12.so", 
+    "compiledFunction12", {{Integer, 0, "Constant"}, {
      Integer, 0, "Constant"}, {Real, 0, "Constant"}}, Integer]],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.771832450995269*^9, 3.771833378543559*^9, 
-  3.771833534902179*^9, 3.7718389405572653`*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"54ccc85a-1ed4-4318-9a3b-4fccdea0fbf4"]
-}, Closed]],
+  3.771833534902179*^9, 3.7718389405572653`*^9, 3.7718481529824057`*^9},
+ CellLabel->"Out[81]=",ExpressionUUID->"cd325d25-330c-49ee-81a1-c827329b3c2e"]
+}, Open  ]],
 
 Cell[TextData[StyleBox["The TsetlinAutomatonWeightedPunish function \
 definition:", "CodeText"]], "Text",
@@ -6882,7 +6886,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7717460577761993`*^9, 3.7717460693962307`*^9}, {
   3.771746652952652*^9, 3.771746654131428*^9}, {3.771832458832307*^9, 
   3.77183250294048*^9}, {3.771832607636661*^9, 3.7718326320276537`*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"faa6a3d4-9a20-4fed-8e24-89ce594c099e"],
+ CellLabel->"In[82]:=",ExpressionUUID->"faa6a3d4-9a20-4fed-8e24-89ce594c099e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -7596,8 +7600,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -7863,8 +7867,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, Real]], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "[", 
@@ -7896,39 +7900,39 @@ BuildFolder/cellularautomaton-1131/compiledFunction1.so",
                     0}, {{25, 1, 0, 0}, {2, 0, 6}, {6, 0, 2}, {46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$4089 == 
-                    Compile`FunctionVariable$4090, 
-                    Compile`FunctionVariable$4089, 
-                    Compile`FunctionVariable$4089 > 
-                    Compile`FunctionVariable$4090, 
-                    Compile`FunctionVariable$4089 - 
-                    Compile`FunctionVariable$4091, 
-                    Compile`FunctionVariable$4089 < 
-                    Compile`FunctionVariable$4090, 
-                    Compile`FunctionVariable$4089 + 
-                    Compile`FunctionVariable$4091]], {
-                    Compile`FunctionVariable$4090, 2, 0, 3, Module}, {
-                    Compile`FunctionVariable$4089, 2, 0, 2, Module}, {
-                    Compile`FunctionVariable$4091, 2, 0, 3, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
+                    Compile`FunctionVariable$2356625 == 
+                    Compile`FunctionVariable$2356626, 
+                    Compile`FunctionVariable$2356625, 
+                    Compile`FunctionVariable$2356625 > 
+                    Compile`FunctionVariable$2356626, 
+                    Compile`FunctionVariable$2356625 - 
+                    Compile`FunctionVariable$2356627, 
+                    Compile`FunctionVariable$2356625 < 
+                    Compile`FunctionVariable$2356626, 
+                    Compile`FunctionVariable$2356625 + 
+                    Compile`FunctionVariable$2356627]], {
+                    Compile`FunctionVariable$2356626, 2, 0, 3, Module}, {
+                    Compile`FunctionVariable$2356625, 2, 0, 2, Module}, {
+                    Compile`FunctionVariable$2356627, 2, 0, 3, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 
                     4}, {3, 6}, {6, 0, 4}, {15, 5, 1, 6}, {46, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     Which[
-                    Compile`FunctionVariable$4092 == 
-                    Compile`FunctionVariable$4093, 
-                    Compile`FunctionVariable$4092, 
-                    Compile`FunctionVariable$4092 > 
-                    Compile`FunctionVariable$4093, 
-                    Compile`FunctionVariable$4092 - 
-                    Compile`FunctionVariable$4094, 
-                    Compile`FunctionVariable$4092 < 
-                    Compile`FunctionVariable$4093, 
-                    Compile`FunctionVariable$4092 + 
-                    Compile`FunctionVariable$4094]], {
-                    Compile`FunctionVariable$4094, 2, 0, 3, Module}, {
-                    Compile`FunctionVariable$4093, 2, 0, 6, Module}, {
-                    Compile`FunctionVariable$4092, 2, 0, 4, Module}, 2, 0, 0, 
-                    2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 
+                    Compile`FunctionVariable$2356628 == 
+                    Compile`FunctionVariable$2356629, 
+                    Compile`FunctionVariable$2356628, 
+                    Compile`FunctionVariable$2356628 > 
+                    Compile`FunctionVariable$2356629, 
+                    Compile`FunctionVariable$2356628 - 
+                    Compile`FunctionVariable$2356630, 
+                    Compile`FunctionVariable$2356628 < 
+                    Compile`FunctionVariable$2356629, 
+                    Compile`FunctionVariable$2356628 + 
+                    Compile`FunctionVariable$2356630]], {
+                    Compile`FunctionVariable$2356628, 2, 0, 4, Module}, {
+                    Compile`FunctionVariable$2356630, 2, 0, 3, Module}, {
+                    Compile`FunctionVariable$2356629, 2, 0, 6, Module}, 2, 0, 
+                    0, 2, 0, 1, 3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 
                     4}, {1}}, 
                     Function[{$CellContext`ta, $CellContext`si}, 
                     If[$CellContext`ta > $CellContext`si, 
@@ -7952,8 +7956,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 1, 1]], 
                     IntegerPart[
@@ -7976,15 +7980,15 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
                     
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-                    "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+                    "compiledFunction8", {{Real, 0, "Constant"}, {
                     Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
                     Real]][$CellContext`ta, 2 $CellContext`si, 1]]]], 
                     Evaluate, 
                     LibraryFunction[
                     "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction2.so", 
-                    "compiledFunction2", {{Integer, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction9.so", 
+                    "compiledFunction9", {{Integer, 0, "Constant"}, {
                     Integer, 0, "Constant"}}, Integer]], Selectable -> False, 
                     Editable -> False, SelectWithContents -> True], "[", 
                     RowBox[{"ta", ",", "si"}], "]"}], ",", "ta"}], "]"}], 
@@ -8016,30 +8020,30 @@ BuildFolder/cellularautomaton-1131/compiledFunction2.so",
     2, 0, 17}, {6, 0, 2}, {6, 1, 3}, {25, 3, 2, 1}, {2, 1, 6}, {6, 2, 4}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`pf}, 
       Which[
-      Compile`FunctionVariable$10634 == Compile`FunctionVariable$10635, 
-       Compile`FunctionVariable$10634, Compile`FunctionVariable$10634 > 
-       Compile`FunctionVariable$10635, Compile`FunctionVariable$10634 - 
-       Compile`FunctionVariable$10636, Compile`FunctionVariable$10634 < 
-       Compile`FunctionVariable$10635, Compile`FunctionVariable$10634 + 
-       Compile`FunctionVariable$10636]], {
-     Compile`FunctionVariable$10634, 2, 0, 4, Module}, {
-     Compile`FunctionVariable$10635, 2, 0, 5, Module}, {
-     Compile`FunctionVariable$10636, 2, 0, 5, Module}, 2, 0, 0, 2, 0, 1, 3, 0,
-      0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 4}, {6, 4, 6}, {3, 6}, {6, 2, 6}, {
-    15, 7, 3, 8}, {46, 
+      Compile`FunctionVariable$2363170 == Compile`FunctionVariable$2363171, 
+       Compile`FunctionVariable$2363170, Compile`FunctionVariable$2363170 > 
+       Compile`FunctionVariable$2363171, Compile`FunctionVariable$2363170 - 
+       Compile`FunctionVariable$2363172, Compile`FunctionVariable$2363170 < 
+       Compile`FunctionVariable$2363171, Compile`FunctionVariable$2363170 + 
+       Compile`FunctionVariable$2363172]], {
+     Compile`FunctionVariable$2363171, 2, 0, 5, Module}, {
+     Compile`FunctionVariable$2363172, 2, 0, 5, Module}, {
+     Compile`FunctionVariable$2363170, 2, 0, 4, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 4}, {6, 4, 6}, {3, 6}, {6, 2, 
+    6}, {15, 7, 3, 8}, {46, 
      Function[{$CellContext`ta, $CellContext`si, $CellContext`pf}, 
       Which[
-      Compile`FunctionVariable$10637 == Compile`FunctionVariable$10638, 
-       Compile`FunctionVariable$10637, Compile`FunctionVariable$10637 > 
-       Compile`FunctionVariable$10638, Compile`FunctionVariable$10637 - 
-       Compile`FunctionVariable$10639, Compile`FunctionVariable$10637 < 
-       Compile`FunctionVariable$10638, Compile`FunctionVariable$10637 + 
-       Compile`FunctionVariable$10639]], {
-     Compile`FunctionVariable$10637, 2, 0, 6, Module}, {
-     Compile`FunctionVariable$10639, 2, 0, 5, Module}, {
-     Compile`FunctionVariable$10638, 2, 0, 8, Module}, 2, 0, 0, 2, 0, 1, 3, 0,
-      0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 8}, {6, 8, 6}, {6, 6, 3}, {3, 2}, {
-    6, 0, 3}, {1}}, 
+      Compile`FunctionVariable$2363173 == Compile`FunctionVariable$2363174, 
+       Compile`FunctionVariable$2363173, Compile`FunctionVariable$2363173 > 
+       Compile`FunctionVariable$2363174, Compile`FunctionVariable$2363173 - 
+       Compile`FunctionVariable$2363175, Compile`FunctionVariable$2363173 < 
+       Compile`FunctionVariable$2363174, Compile`FunctionVariable$2363173 + 
+       Compile`FunctionVariable$2363175]], {
+     Compile`FunctionVariable$2363174, 2, 0, 8, Module}, {
+     Compile`FunctionVariable$2363175, 2, 0, 5, Module}, {
+     Compile`FunctionVariable$2363173, 2, 0, 6, Module}, 2, 0, 0, 2, 0, 1, 3, 
+     0, 0, 3, 0, 3}, {40, 53, 3, 0, 3, 2, 0, 8}, {6, 8, 6}, {6, 6, 3}, {3, 
+    2}, {6, 0, 3}, {1}}, 
    Function[{$CellContext`ta, $CellContext`si, $CellContext`pf}, 
     If[RandomReal[] <= $CellContext`pf, 
      CompiledFunction[{11, 12., 5468}, {
@@ -8049,29 +8053,29 @@ BuildFolder/cellularautomaton-1131/compiledFunction2.so",
       0}, {{25, 1, 0, 0}, {2, 0, 6}, {6, 0, 2}, {46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$4089 == Compile`FunctionVariable$4090, 
-          Compile`FunctionVariable$4089, Compile`FunctionVariable$4089 > 
-          Compile`FunctionVariable$4090, Compile`FunctionVariable$4089 - 
-          Compile`FunctionVariable$4091, Compile`FunctionVariable$4089 < 
-          Compile`FunctionVariable$4090, Compile`FunctionVariable$4089 + 
-          Compile`FunctionVariable$4091]], {
-        Compile`FunctionVariable$4090, 2, 0, 3, Module}, {
-        Compile`FunctionVariable$4089, 2, 0, 2, Module}, {
-        Compile`FunctionVariable$4091, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 4}, {3, 6}, {6, 0, 4}, {15, 
-       5, 1, 6}, {46, 
+         Compile`FunctionVariable$2356625 == Compile`FunctionVariable$2356626,
+           Compile`FunctionVariable$2356625, Compile`FunctionVariable$2356625 > 
+          Compile`FunctionVariable$2356626, Compile`FunctionVariable$2356625 - 
+          Compile`FunctionVariable$2356627, Compile`FunctionVariable$2356625 < 
+          Compile`FunctionVariable$2356626, Compile`FunctionVariable$2356625 + 
+          Compile`FunctionVariable$2356627]], {
+        Compile`FunctionVariable$2356626, 2, 0, 3, Module}, {
+        Compile`FunctionVariable$2356625, 2, 0, 2, Module}, {
+        Compile`FunctionVariable$2356627, 2, 0, 3, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 2}, {6, 2, 4}, {3, 6}, {6, 0, 4}, {
+       15, 5, 1, 6}, {46, 
         Function[{$CellContext`ta, $CellContext`si}, 
          Which[
-         Compile`FunctionVariable$4092 == Compile`FunctionVariable$4093, 
-          Compile`FunctionVariable$4092, Compile`FunctionVariable$4092 > 
-          Compile`FunctionVariable$4093, Compile`FunctionVariable$4092 - 
-          Compile`FunctionVariable$4094, Compile`FunctionVariable$4092 < 
-          Compile`FunctionVariable$4093, Compile`FunctionVariable$4092 + 
-          Compile`FunctionVariable$4094]], {
-        Compile`FunctionVariable$4094, 2, 0, 3, Module}, {
-        Compile`FunctionVariable$4093, 2, 0, 6, Module}, {
-        Compile`FunctionVariable$4092, 2, 0, 4, Module}, 2, 0, 0, 2, 0, 1, 3, 
-        0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 4}, {1}}, 
+         Compile`FunctionVariable$2356628 == Compile`FunctionVariable$2356629,
+           Compile`FunctionVariable$2356628, Compile`FunctionVariable$2356628 > 
+          Compile`FunctionVariable$2356629, Compile`FunctionVariable$2356628 - 
+          Compile`FunctionVariable$2356630, Compile`FunctionVariable$2356628 < 
+          Compile`FunctionVariable$2356629, Compile`FunctionVariable$2356628 + 
+          Compile`FunctionVariable$2356630]], {
+        Compile`FunctionVariable$2356628, 2, 0, 4, Module}, {
+        Compile`FunctionVariable$2356630, 2, 0, 3, Module}, {
+        Compile`FunctionVariable$2356629, 2, 0, 6, Module}, 2, 0, 0, 2, 0, 1, 
+        3, 0, 0}, {40, 53, 3, 0, 0, 2, 0, 6}, {6, 6, 4}, {1}}, 
       Function[{$CellContext`ta, $CellContext`si}, 
        If[$CellContext`ta > $CellContext`si, 
         IntegerPart[
@@ -8094,8 +8098,8 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 1, 1]], 
         IntegerPart[
@@ -8118,29 +8122,29 @@ $CellContext`x < $CellContext`y, $CellContext`x + $CellContext`t]], Evaluate,
           
           LibraryFunction[
           "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/\
-BuildFolder/cellularautomaton-1131/compiledFunction1.so", 
-           "compiledFunction1", {{Real, 0, "Constant"}, {
+BuildFolder/cellularautomaton-1131/compiledFunction8.so", 
+           "compiledFunction8", {{Real, 0, "Constant"}, {
             Real, 0, "Constant"}, {Real, 0, "Constant"}}, 
            Real]][$CellContext`ta, 2 $CellContext`si, 1]]]], Evaluate, 
       LibraryFunction[
       "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction2.so", 
-       "compiledFunction2", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction9.so", 
+       "compiledFunction9", {{Integer, 0, "Constant"}, {
         Integer, 0, "Constant"}}, 
        Integer]][$CellContext`ta, $CellContext`si], $CellContext`ta]], 
    Evaluate, 
    LibraryFunction[
    "/home/dv/.WolframDesktop/ApplicationData/CCompilerDriver/BuildFolder/\
-cellularautomaton-1131/compiledFunction6.so", 
-    "compiledFunction6", {{Integer, 0, "Constant"}, {
+cellularautomaton-1131/compiledFunction13.so", 
+    "compiledFunction13", {{Integer, 0, "Constant"}, {
      Integer, 0, "Constant"}, {Real, 0, "Constant"}}, Integer]],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.771832633100153*^9, 3.771833378934347*^9, 
-  3.771833535451455*^9, 3.771838940910232*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"ca7b2061-8259-4ca2-9acd-d6d6d0cb1916"]
-}, Closed]],
+  3.771833535451455*^9, 3.771838940910232*^9, 3.7718481533272247`*^9},
+ CellLabel->"Out[82]=",ExpressionUUID->"689a6d36-f5cd-4ef5-8af8-90a250d29ed2"]
+}, Open  ]],
 
 Cell[TextData[{
  StyleBox["TsetlinAutomatonListInitialize", "Code"],
@@ -8169,7 +8173,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.771753749258532*^9, 3.771753758631299*^9}, {
   3.771833323833539*^9, 3.771833325187731*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"328c6bbc-0d19-40d0-8213-8187c3ef9682"]
+ CellLabel->"In[83]:=",ExpressionUUID->"328c6bbc-0d19-40d0-8213-8187c3ef9682"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -8285,7 +8289,7 @@ Cell[BoxData[
    RowBox[{"[", "1", "]"}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.7717480606973257`*^9, 3.771748062105954*^9}},
- CellLabel->"In[9]:=",ExpressionUUID->"add84edd-232b-4675-a562-057d478ebac8"],
+ CellLabel->"In[84]:=",ExpressionUUID->"add84edd-232b-4675-a562-057d478ebac8"],
 
 Cell[BoxData[
  RowBox[{
@@ -8294,7 +8298,7 @@ Cell[BoxData[
    RowBox[{"[", "2", "]"}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771748076999978*^9, 3.771748079184149*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"26739473-1c18-4124-b4fe-0795068d348e"],
+ CellLabel->"In[85]:=",ExpressionUUID->"26739473-1c18-4124-b4fe-0795068d348e"],
 
 Cell[TextData[StyleBox["Getting the list of Tsetlin Automata that correspond \
 to negated input:", "CodeText"]], "Text",
@@ -8366,7 +8370,7 @@ Cell[BoxData[
       "]"}]}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771753591257313*^9, 3.771753614892223*^9}},
- CellLabel->"In[11]:=",ExpressionUUID->"9b74e0fd-0853-4b79-b46e-f7f34c4741e4"],
+ CellLabel->"In[86]:=",ExpressionUUID->"9b74e0fd-0853-4b79-b46e-f7f34c4741e4"],
 
 Cell[TextData[{
  "One step up the hierarchy from a Tsetlin Clause is a Tsetlin Output. A ",
@@ -8466,7 +8470,7 @@ Cell[BoxData[
    RowBox[{"[", "1", "]"}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771751572570507*^9, 3.771751598305881*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"cf9c3011-bbf7-4c9e-9f52-8505261cd7a5"],
+ CellLabel->"In[87]:=",ExpressionUUID->"cf9c3011-bbf7-4c9e-9f52-8505261cd7a5"],
 
 Cell[BoxData[
  RowBox[{
@@ -8475,7 +8479,7 @@ Cell[BoxData[
    RowBox[{"[", "2", "]"}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771751600263114*^9, 3.7717516328586073`*^9}},
- CellLabel->"In[13]:=",ExpressionUUID->"d2a08e80-08b5-4297-89da-f54c670484f9"],
+ CellLabel->"In[88]:=",ExpressionUUID->"d2a08e80-08b5-4297-89da-f54c670484f9"],
 
 Cell[TextData[StyleBox["Getting the clauses of a TsetlinOutput:", \
 "CodeText"]], "Text",
@@ -8606,7 +8610,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7717539163170853`*^9, 3.7717539207591343`*^9}, {
   3.771768469078351*^9, 3.771768471962253*^9}, {3.7718333322801*^9, 
   3.771833333162672*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"cad0c01e-7229-4a7a-8dc6-498cf0f3008c"],
+ CellLabel->"In[89]:=",ExpressionUUID->"cad0c01e-7229-4a7a-8dc6-498cf0f3008c"],
 
 Cell[TextData[{
  "One more step up the hierarchy, and we have a complete Tsetlin Machine! The \
@@ -8757,7 +8761,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.771752909901857*^9, 3.771752922619461*^9}, {
   3.771753003540781*^9, 3.771753010939063*^9}},
- CellLabel->"In[15]:=",ExpressionUUID->"549b2135-06e6-4e2d-b0d6-a06e6a90e3ab"],
+ CellLabel->"In[90]:=",ExpressionUUID->"549b2135-06e6-4e2d-b0d6-a06e6a90e3ab"],
 
 Cell[BoxData[
  RowBox[{
@@ -8767,7 +8771,7 @@ Cell[BoxData[
    RowBox[{"[", "2", "]"}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771753014744162*^9, 3.7717530350463467`*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"fea0ac9d-e456-466a-999b-807410b712d7"],
+ CellLabel->"In[91]:=",ExpressionUUID->"fea0ac9d-e456-466a-999b-807410b712d7"],
 
 Cell["Get the outputs of a TsetlinMachine:", "CodeText",
  CellChangeTimes->{{3.7717531619689283`*^9, 
@@ -8882,7 +8886,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.771754261695114*^9, 3.7717542668820744`*^9}, 
    3.771754298350573*^9, {3.7717684487089243`*^9, 3.771768450492749*^9}, {
    3.7718332334411917`*^9, 3.77183325629349*^9}},
- CellLabel->"In[17]:=",ExpressionUUID->"37f1cc1a-56b0-49da-a310-35037ccdb946"]
+ CellLabel->"In[92]:=",ExpressionUUID->"37f1cc1a-56b0-49da-a310-35037ccdb946"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -9029,7 +9033,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.771755143820265*^9, 3.7717551484356403`*^9}, {
   3.771755437267757*^9, 3.771755486244124*^9}},
- CellLabel->"In[18]:=",ExpressionUUID->"dad0ce6e-b81e-4b38-b5b1-4e008ee81a0e"],
+ CellLabel->"In[93]:=",ExpressionUUID->"dad0ce6e-b81e-4b38-b5b1-4e008ee81a0e"],
 
 Cell[TextData[StyleBox["Applying TsetlinClauseCalculateIncludedInputs to the \
 first clause in the XOR TsetlinMachine above, with input {True, False}:", \
@@ -9094,7 +9098,7 @@ Cell[BoxData[
      RowBox[{"tc", ",", "si", ",", "li"}], "]"}]}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771755635220421*^9, 3.771755642537225*^9}},
- CellLabel->"In[19]:=",ExpressionUUID->"15e2c580-2471-4aed-bce1-343bf07ae510"],
+ CellLabel->"In[94]:=",ExpressionUUID->"15e2c580-2471-4aed-bce1-343bf07ae510"],
 
 Cell["\<\
 Applying TsetlinClauseCalculateResult to the first clause in the XOR \
@@ -9166,7 +9170,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.771756111486589*^9, 3.77175614805028*^9}, 
    3.771768954647094*^9, {3.77183326782817*^9, 3.771833269347117*^9}},
- CellLabel->"In[20]:=",ExpressionUUID->"d6a1e962-f8c5-42d6-863f-1977053011f1"],
+ CellLabel->"In[95]:=",ExpressionUUID->"d6a1e962-f8c5-42d6-863f-1977053011f1"],
 
 Cell["\<\
 Applying TsetlinOutputCalculateResult to the first output in the XOR \
@@ -9229,7 +9233,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7717569355501537`*^9, 3.771756955485031*^9}, {
   3.771785377075938*^9, 3.7717853831401663`*^9}, {3.771833276144273*^9, 
   3.771833277201983*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"6efc10dd-4011-45d9-858c-f05017421fc1"],
+ CellLabel->"In[96]:=",ExpressionUUID->"6efc10dd-4011-45d9-858c-f05017421fc1"],
 
 Cell["\<\
 Applying TsetlinMachineCalculateResult to the first output in the XOR \
@@ -9378,7 +9382,7 @@ Cell[BoxData[
 
  InitializationCell->True,
  CellChangeTimes->{{3.771758998371974*^9, 3.771759012873104*^9}},
- CellLabel->"In[22]:=",ExpressionUUID->"a716d2be-3fd7-443d-8ca8-f97ce8f571b0"],
+ CellLabel->"In[97]:=",ExpressionUUID->"a716d2be-3fd7-443d-8ca8-f97ce8f571b0"],
 
 Cell["The function definition for TsetlinAutomatonType2Feedback:", "CodeText",
  CellChangeTimes->{{3.77175896436071*^9, 3.7717589782895393`*^9}, {
@@ -9432,7 +9436,7 @@ Cell[BoxData[
     "ta"}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.7717590363842373`*^9, 3.771759049853052*^9}},
- CellLabel->"In[23]:=",ExpressionUUID->"3bc02c8b-3b11-4d7e-a1a0-9a670afb3896"],
+ CellLabel->"In[98]:=",ExpressionUUID->"3bc02c8b-3b11-4d7e-a1a0-9a670afb3896"],
 
 Cell["\<\
 Apply TsetlinAutomatonType1Feedback to an arbitrary automaton:\
@@ -9541,7 +9545,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.77175936022468*^9, 3.7717593864411297`*^9}, {
   3.771759442112719*^9, 3.77175944877453*^9}},
- CellLabel->"In[24]:=",ExpressionUUID->"5c435e46-fe97-448f-952b-cef20a8d101d"],
+ CellLabel->"In[99]:=",ExpressionUUID->"5c435e46-fe97-448f-952b-cef20a8d101d"],
 
 Cell["The function definition for TsetlinClauseType2Feedback:", "CodeText",
  CellChangeTimes->{{3.771759788656448*^9, 
@@ -9589,7 +9593,8 @@ Cell[BoxData[
         RowBox[{"Not", "/@", "il"}]}], "}"}]}], "]"}]}], "]"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.7717598622771893`*^9, 3.771759888475671*^9}},
- CellLabel->"In[25]:=",ExpressionUUID->"0b4656f7-684c-41c8-bc6e-a24134fd9d3e"],
+ CellLabel->
+  "In[100]:=",ExpressionUUID->"0b4656f7-684c-41c8-bc6e-a24134fd9d3e"],
 
 Cell[TextData[{
  StyleBox["TsetlinOutputFeedback", "Code"],
@@ -9676,7 +9681,8 @@ gejdBayrQLTBqaaTIFrBPe4MiDaqZ+WVBdL+QlVg+tkSRm0QbbNQAUwLzEhO
 AtEJ/JLJILqnnqMTRPt0Xu8C0Z/MRbLkQO6cbQWm1+yxmgai8474gekzb4Ir
 jYG03s5mMA0ANZd4Sg==
   "],
- CellLabel->"In[26]:=",ExpressionUUID->"cafa3cb4-df68-4a9c-a7b7-67335ee7bcca"],
+ CellLabel->
+  "In[101]:=",ExpressionUUID->"cafa3cb4-df68-4a9c-a7b7-67335ee7bcca"],
 
 Cell[TextData[{
  StyleBox["TsetlinMachineFeedback", "Code"],
@@ -9729,7 +9735,8 @@ Cell[BoxData[
   3.771781376719553*^9}, {3.771781470802161*^9, 3.771781498175343*^9}, {
   3.771781674782856*^9, 3.771781685641992*^9}, {3.771781751099554*^9, 
   3.771781752994546*^9}, {3.771795457400272*^9, 3.771795475908942*^9}},
- CellLabel->"In[27]:=",ExpressionUUID->"a564aa72-382d-465f-9ad1-6fe072556030"],
+ CellLabel->
+  "In[102]:=",ExpressionUUID->"a564aa72-382d-465f-9ad1-6fe072556030"],
 
 Cell["\<\
 Applying TsetlinMachineFeedback to try to train a TsetlinMachine to learn XOR:\
@@ -9790,7 +9797,7 @@ Cell[BoxData[
  CellChangeTimes->{3.7717617046276197`*^9},
  CellLabel->"Out[86]=",ExpressionUUID->"10197f72-9e0f-43d3-89cd-058567c8bd89"]
 }, Closed]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -9840,7 +9847,8 @@ Cell[BoxData[
       RowBox[{"2", ";;", ";;", "2"}], "]"}], "]"}], "]"}]}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771762308576559*^9, 3.7717623116609497`*^9}},
- CellLabel->"In[28]:=",ExpressionUUID->"76a1abcb-ee9f-4caf-89d2-e09fead44630"],
+ CellLabel->
+  "In[103]:=",ExpressionUUID->"76a1abcb-ee9f-4caf-89d2-e09fead44630"],
 
 Cell["\<\
 Apply TsetlunUtilityAlternatingSum to the list {1, 2, 3, 4, 5}:\
@@ -9898,7 +9906,8 @@ Cell[BoxData[
     "\[GreaterEqual]", "0"}], ")"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771762593973916*^9, 3.771762601198937*^9}},
- CellLabel->"In[29]:=",ExpressionUUID->"0efe3301-60a1-42bb-b44f-6b6768c2cac2"],
+ CellLabel->
+  "In[104]:=",ExpressionUUID->"0efe3301-60a1-42bb-b44f-6b6768c2cac2"],
 
 Cell["\<\
 Apply TsetlunUtilityOutputFunction to the list {True, True, False, True}, \
@@ -10048,8 +10057,10 @@ Cell[BoxData[
          RowBox[{"ci", "+", "1"}], ",", "2"}], "]"}]}], ",", 
       "\[IndentingNewLine]", "0"}], "]"}]}], "]"}]}]], "Input",
  InitializationCell->True,
- CellChangeTimes->{{3.771762996776987*^9, 3.771763074249111*^9}},
- CellLabel->"In[30]:=",ExpressionUUID->"a6f0ca29-e4b1-4e60-acae-50cadea3dcee"],
+ CellChangeTimes->{{3.771762996776987*^9, 3.771763074249111*^9}, {
+  3.771848188672735*^9, 3.771848189308757*^9}},
+ CellLabel->
+  "In[105]:=",ExpressionUUID->"a6f0ca29-e4b1-4e60-acae-50cadea3dcee"],
 
 Cell[TextData[{
  StyleBox["TsetlinUtilityOr", "Code"],
@@ -10073,8 +10084,107 @@ Cell[BoxData[
   RowBox[{"Or", "@@", "l"}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.771791303086375*^9, 3.7717913205227833`*^9}},
- CellLabel->"In[32]:=",ExpressionUUID->"2c0ed26b-1b40-4acb-b8c8-115d267fce5d"]
-}, Closed]],
+ CellLabel->
+  "In[106]:=",ExpressionUUID->"2c0ed26b-1b40-4acb-b8c8-115d267fce5d"],
+
+Cell["\<\
+TsetlinUtilityOrFeedbackDecider is a feedbackDecider base to be used with a \
+machine that uses TsetlinUtilityOr as its\[CloseCurlyQuote] output function \
+Similar to TsetlinUtilityFeedbackDecider, the first 6 arguments should be \
+slots and the 7th should be a threshold.\
+\>", "Text",
+ CellChangeTimes->{{3.7718475533814917`*^9, 3.7718476325847187`*^9}, {
+  3.7718481708841143`*^9, 
+  3.77184822022727*^9}},ExpressionUUID->"24bf837c-8b27-4d8d-b4fb-\
+52bda22c3be0"],
+
+Cell["The function for TsetlinUtilityOrFeedbackDecider:", "CodeText",
+ CellChangeTimes->{{3.77184763527013*^9, 
+  3.771847646105258*^9}},ExpressionUUID->"8878cbe2-e53e-4841-8cfa-\
+9785c594ad8e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"TsetlinUtilityOrFeedbackDecider", "[", 
+    RowBox[{
+    "to_TsetlinOutput", ",", "ci_Integer", ",", "si_Integer", ",", "il_List", 
+     ",", 
+     RowBox[{"do_", "?", "BooleanQ"}], ",", 
+     RowBox[{"s_", "?", "NumericQ"}], ",", "t_Integer"}], "]"}], ":=", 
+   "\[IndentingNewLine]", 
+   RowBox[{"If", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"do", "\[Equal]", "True"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomReal", "[", "]"}], "\[LessEqual]", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"t", "-", 
+            RowBox[{"Min", "[", 
+             RowBox[{"t", ",", "\[IndentingNewLine]", 
+              RowBox[{"Total", "[", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                   "TsetlinClauseCalculateResult", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    "#", ",", "\[IndentingNewLine]", "si", ",", 
+                    "\[IndentingNewLine]", "il"}], "]"}], "&"}], "/@", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"TsetlinOutputGetClauses", "[", "to", "]"}]}], 
+                 ")"}], "/.", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"True", "\[Rule]", "1"}], ",", 
+                  RowBox[{"False", "\[Rule]", "0"}]}], "}"}]}], "]"}]}], 
+             "]"}]}], ")"}], "/", "2"}], "t"}]}], ",", "\[IndentingNewLine]", 
+       "1", ",", "\[IndentingNewLine]", "0"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"If", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomReal", "[", "]"}], "\[LessEqual]", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"t", "+", 
+            RowBox[{"Min", "[", 
+             RowBox[{"t", ",", "\[IndentingNewLine]", 
+              RowBox[{"Total", "[", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                   "TsetlinClauseCalculateResult", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    "#", ",", "\[IndentingNewLine]", "si", ",", 
+                    "\[IndentingNewLine]", "il"}], "]"}], "&"}], "/@", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"TsetlinOutputGetClauses", "[", "to", "]"}]}], 
+                 ")"}], "/.", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"True", "\[Rule]", "1"}], ",", 
+                  RowBox[{"False", "\[Rule]", "0"}]}], "}"}]}], "]"}]}], 
+             "]"}]}], ")"}], "/", "2"}], "t"}]}], ",", "\[IndentingNewLine]", 
+       "2", ",", "\[IndentingNewLine]", "0"}], "]"}]}], "]"}]}], 
+  "\[IndentingNewLine]"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.771847697348381*^9, 3.771847718214059*^9}, {
+  3.771847878001319*^9, 3.771847915581031*^9}, {3.7718479456900253`*^9, 
+  3.771848145873866*^9}},
+ CellLabel->
+  "In[110]:=",ExpressionUUID->"e1c3517a-fd56-486b-ad19-c7b8ebcbfea9"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -10200,7 +10310,8 @@ Cell[BoxData[
    3.771769018373296*^9}, 3.771780846799754*^9, 3.771780907805266*^9, {
    3.771785850405356*^9, 3.771785851333949*^9}, {3.771786576558968*^9, 
    3.771786578143426*^9}},
- CellLabel->"In[33]:=",ExpressionUUID->"1377c33c-8887-4a72-b404-7024e8579fde"],
+ CellLabel->
+  "In[108]:=",ExpressionUUID->"1377c33c-8887-4a72-b404-7024e8579fde"],
 
 Cell[TextData[StyleBox["Testing a newly-initialized Tsetlin Machine on XOR:", \
 "CodeText"]], "Text",
@@ -10376,8 +10487,9 @@ Cell[BoxData[
    3.771786047743617*^9}, {3.771786557466782*^9, 3.771786558083107*^9}, {
    3.771787112372024*^9, 3.7717871179585953`*^9}, {3.771788465061365*^9, 
    3.771788468096074*^9}, {3.771788592628887*^9, 3.771788593225092*^9}},
- CellLabel->"In[34]:=",ExpressionUUID->"28cf4741-a7ce-4572-a7ec-62e471b398d8"]
-}, Open  ]],
+ CellLabel->
+  "In[109]:=",ExpressionUUID->"28cf4741-a7ce-4572-a7ec-62e471b398d8"]
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -10409,9 +10521,9 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"TsetlinMachineInitialize", "[", "\[IndentingNewLine]", 
      RowBox[{
-     "3", ",", "\[IndentingNewLine]", "2", ",", "\[IndentingNewLine]", "4", 
+     "3", ",", "\[IndentingNewLine]", "2", ",", "\[IndentingNewLine]", "2", 
       ",", "\[IndentingNewLine]", 
-      RowBox[{"{", "TsetlinUtilityOutputFunction", "}"}]}], "]"}], ",", 
+      RowBox[{"{", "TsetlinUtilityOr", "}"}]}], "]"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"{", 
      RowBox[{
@@ -10449,7 +10561,7 @@ Cell[BoxData[
       RowBox[{"{", "False", "}"}]}], "}"}], ",", "\[IndentingNewLine]", "9", 
     ",", "\[IndentingNewLine]", 
     RowBox[{
-     RowBox[{"TsetlinUtilityFeedbackDecider", "[", 
+     RowBox[{"TsetlinUtilityOrFeedbackDecider", "[", 
       RowBox[{
       "#1", ",", "#2", ",", "#3", ",", "#4", ",", "#5", ",", "#6", ",", "2"}],
        "]"}], "&"}], ",", "\[IndentingNewLine]", "1.00", ",", 
@@ -10472,14 +10584,16 @@ Cell[BoxData[
    3.771839127422782*^9, 3.771839148035459*^9}, {3.771839204000736*^9, 
    3.771839205214567*^9}, {3.7718403178565283`*^9, 3.771840325792389*^9}, {
    3.771841484342401*^9, 3.771841484444366*^9}, {3.771841614080978*^9, 
-   3.7718416224710484`*^9}},
- CellLabel->"In[75]:=",ExpressionUUID->"46f57f5b-04f6-4df8-ae59-3a9295b8e077"],
+   3.7718416224710484`*^9}, {3.771848161510541*^9, 3.771848166554338*^9}, {
+   3.771848229730504*^9, 3.771848240053959*^9}},
+ CellLabel->
+  "In[112]:=",ExpressionUUID->"46f57f5b-04f6-4df8-ae59-3a9295b8e077"],
 
 Cell[BoxData[
  TemplateBox[{
   "ParallelCombine","nopar",
    "\"No parallel kernels available; proceeding with sequential \
-evaluation.\"",2,75,153,18297922198184990461,"Local"},
+evaluation.\"",2,112,169,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10487,16 +10601,17 @@ evaluation.\"",2,75,153,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.771846219361556*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.771848248678667*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"7d052db4-0368-4bde-a1db-f507f639c20a"],
+In[112]:=",ExpressionUUID->"80c627be-4edc-485c-ab45-a9acfadf55b3"],
 
 Cell[BoxData[
  TemplateBox[{
   "ParallelTable","nopar",
    "\"No parallel kernels available; proceeding with sequential \
-evaluation.\"",2,75,154,18297922198184990461,"Local"},
+evaluation.\"",2,112,170,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10504,16 +10619,17 @@ evaluation.\"",2,75,154,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.7718462194294357`*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.7718482487072763`*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"a4c95f30-e0b7-483a-b8f7-132f6aa3ca2c"],
+In[112]:=",ExpressionUUID->"f2515ca3-4fe6-4614-a6cb-84ea6f0acd0d"],
 
 Cell[BoxData[
  TemplateBox[{
   "ParallelTable","nopar",
    "\"No parallel kernels available; proceeding with sequential \
-evaluation.\"",2,75,155,18297922198184990461,"Local"},
+evaluation.\"",2,112,171,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10521,16 +10637,17 @@ evaluation.\"",2,75,155,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.7718462194793453`*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.771848248757225*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"41c4e8dd-4b73-4d2d-8030-cf555264e8af"],
+In[112]:=",ExpressionUUID->"f80e8d3b-f7df-4a83-94e8-d1846f2e83d9"],
 
 Cell[BoxData[
  TemplateBox[{
   "ParallelTable","nopar",
    "\"No parallel kernels available; proceeding with sequential \
-evaluation.\"",2,75,156,18297922198184990461,"Local"},
+evaluation.\"",2,112,172,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10538,17 +10655,18 @@ evaluation.\"",2,75,156,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.771846219531303*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.77184824881211*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"5f20b5f5-7056-4a81-bd51-aa01ec1c31d2"],
+In[112]:=",ExpressionUUID->"7cbfdc9a-7b9f-4fe1-ad7f-714fff06e69d"],
 
 Cell[BoxData[
  TemplateBox[{
   "General","stop",
    "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"ParallelTable\\\", \
 \\\"::\\\", \\\"nopar\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"",2,75,157,18297922198184990461,"Local"},
+during this calculation.\"",2,112,173,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10556,16 +10674,17 @@ during this calculation.\"",2,75,157,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.771846219582472*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.771848248865807*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"14e43fbc-780a-4daa-bcc5-cf4e1ff1e650"],
+In[112]:=",ExpressionUUID->"85b5fb6d-3900-4bb1-a8c9-87e7d01c6384"],
 
 Cell[BoxData[
  TemplateBox[{
   "ParallelCombine","nopar",
    "\"No parallel kernels available; proceeding with sequential \
-evaluation.\"",2,75,158,18297922198184990461,"Local"},
+evaluation.\"",2,112,174,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10573,16 +10692,17 @@ evaluation.\"",2,75,158,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.7718462196388903`*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.7718482489182673`*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"7bd731e1-61d6-487e-be33-47ed887aa5d8"],
+In[112]:=",ExpressionUUID->"ae30ff5a-55a1-4b02-8cce-5cbb84aca6ca"],
 
 Cell[BoxData[
  TemplateBox[{
   "ParallelCombine","nopar",
    "\"No parallel kernels available; proceeding with sequential \
-evaluation.\"",2,75,159,18297922198184990461,"Local"},
+evaluation.\"",2,112,175,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10590,17 +10710,18 @@ evaluation.\"",2,75,159,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.771846219689412*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.771848248968995*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"c2b37a0b-0da3-4bbe-ad46-b2eee4c34988"],
+In[112]:=",ExpressionUUID->"31f55858-1eda-4427-973a-93110b3d0987"],
 
 Cell[BoxData[
  TemplateBox[{
   "General","stop",
    "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"ParallelCombine\\\", \\\
 \"::\\\", \\\"nopar\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"",2,75,160,18297922198184990461,"Local"},
+this calculation.\"",2,112,176,18297922198184990461,"Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{{3.77183338484837*^9, 3.7718334280569363`*^9}, {
    3.7718335414343367`*^9, 3.7718335531531477`*^9}, 3.771833774307379*^9, 
@@ -10608,90 +10729,236 @@ this calculation.\"",2,75,160,18297922198184990461,"Local"},
    3.77184081912385*^9, 3.771840909132147*^9, 3.771841156156728*^9, 
    3.77184144443673*^9, 3.7718414850648193`*^9, 3.7718416235863657`*^9, 
    3.771846106366366*^9, {3.771846145538732*^9, 3.7718461488313303`*^9}, {
-   3.77184619662328*^9, 3.771846219741104*^9}},
+   3.77184619662328*^9, 3.771846219361556*^9}, {3.771848241799654*^9, 
+   3.7718482490243597`*^9}},
  CellLabel->
   "During evaluation of \
-In[75]:=",ExpressionUUID->"7da1a195-3a08-4fae-9d8d-77fb783ba8ff"],
+In[112]:=",ExpressionUUID->"b5c9ff02-19a7-4189-83e4-a222a3e668c1"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
-   "EchoLabel"], " ", "0.25`"}]], "Echo",
+   "EchoLabel"], " ", "0.5`"}]], "Echo",
  CellChangeTimes->{
-  3.771846219798806*^9},ExpressionUUID->"938555a1-5649-4e16-aaa4-\
-e1d1f830f891"],
+  3.7718482490808277`*^9},ExpressionUUID->"b042112d-b165-49b2-bd6c-\
+ba9e888579f7"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.77184824913105*^9},ExpressionUUID->"dcbbccd9-9db7-429d-8adb-cf0e427d9472"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.5`"}]], "Echo",
  CellChangeTimes->{
-  3.77184621985464*^9},ExpressionUUID->"b9d6dd12-79da-4345-874a-8e7659062437"],
+  3.7718482491427526`*^9},ExpressionUUID->"cd4e84f3-69c0-400c-980a-\
+ec9f2b1fe980"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.75`"}]], "Echo",
  CellChangeTimes->{
-  3.77184621992572*^9},ExpressionUUID->"b51407e3-bcd4-4145-a636-68fa9cd15374"],
+  3.771848249205121*^9},ExpressionUUID->"b720d5a2-5e66-4e71-847f-\
+576ae41bb7ee"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.75`"}]], "Echo",
  CellChangeTimes->{
-  3.771846219980583*^9},ExpressionUUID->"8d8b0c1e-d63e-4d65-bb79-\
-cf62b00df303"],
-
-Cell[BoxData[
- RowBox[{
-  TagBox["\<\"Percent correct:\"\>",
-   "EchoLabel"], " ", "0.5`"}]], "Echo",
- CellChangeTimes->{
-  3.771846220040608*^9},ExpressionUUID->"6e8074b5-4c2f-4190-a48e-\
-44104129d071"],
-
-Cell[BoxData[
- RowBox[{
-  TagBox["\<\"Percent correct:\"\>",
-   "EchoLabel"], " ", "0.5`"}]], "Echo",
- CellChangeTimes->{
-  3.771846220104211*^9},ExpressionUUID->"dc0ef588-b16c-4722-833f-\
-bfc8c160236d"],
+  3.771848249214321*^9},ExpressionUUID->"50377e1c-f7d9-419e-8028-\
+919e69ccf53b"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.75`"}]], "Echo",
  CellChangeTimes->{
-  3.7718462201628437`*^9},ExpressionUUID->"7f712e69-1900-471a-8d50-\
-52042e181c73"],
+  3.771848249270009*^9},ExpressionUUID->"05ed00e2-6468-4a93-a416-\
+a3e8d4a01a99"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.75`"}]], "Echo",
  CellChangeTimes->{
-  3.771846220219123*^9},ExpressionUUID->"ac6721a9-2a43-4e4d-a606-\
-816dc0327d84"],
+  3.771848249321312*^9},ExpressionUUID->"a8d31fce-d49f-4200-9b71-\
+0b60a191859b"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.75`"}]], "Echo",
  CellChangeTimes->{
-  3.771846220275127*^9},ExpressionUUID->"a9b1b843-92e7-4729-9682-\
-78ecf80ae107"],
+  3.771848249372333*^9},ExpressionUUID->"f5f65956-4441-494b-9a4f-\
+afa870cf8fa7"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Percent correct:\"\>",
    "EchoLabel"], " ", "0.75`"}]], "Echo",
  CellChangeTimes->{
-  3.771846220330351*^9},ExpressionUUID->"24f594db-3e74-48a2-ab1d-\
-70bfe8a8f7ce"]
+  3.7718482494251013`*^9},ExpressionUUID->"8a4b8604-79f9-46fe-aa4f-\
+15869631ea6b"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249475857*^9},ExpressionUUID->"2f689676-cdfd-4cd0-ab6a-\
+2d74893c4350"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249527153*^9},ExpressionUUID->"33ff4b6c-32e6-4b44-a564-\
+7de00299dfa8"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249579467*^9},ExpressionUUID->"3a8d4ae4-6579-4b99-8405-\
+e09912340261"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249636771*^9},ExpressionUUID->"6d12bf9e-42fc-44cb-86a3-\
+0a7743187d75"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249692206*^9},ExpressionUUID->"95d7ee0d-8f00-4177-985d-\
+a2585557f91d"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249751399*^9},ExpressionUUID->"aeb2aca7-c6f7-45f3-8eb5-\
+e73cf354e0ee"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.7718482498202353`*^9},ExpressionUUID->"19f18120-22d9-4a79-8d79-\
+9e3c01b96614"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249886114*^9},ExpressionUUID->"53d13376-5a00-4c04-94d7-\
+122c4d1e3257"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848249937119*^9},ExpressionUUID->"1ddebfba-92bc-4bd1-8642-\
+6f335de324db"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.7718482500012093`*^9},ExpressionUUID->"988d7c80-75aa-4da7-80b1-\
+4f5766c2b7cf"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250063415*^9},ExpressionUUID->"7eb626b1-b2e4-4786-ad90-\
+9b9973fcecd8"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250106049*^9},ExpressionUUID->"59d8af63-4365-4537-b1ad-\
+e2810f032fe5"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.7718482501477947`*^9},ExpressionUUID->"cb694942-f5a9-4132-bb88-\
+1e6689394cae"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250188888*^9},ExpressionUUID->"51fe8ce5-fef3-41ab-a174-\
+bce2f954112f"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250232724*^9},ExpressionUUID->"b1a140bb-3be1-43e4-a819-\
+1d6e105a4376"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250286352*^9},ExpressionUUID->"0ba5d92d-e163-4909-92da-\
+6a6271c0938f"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250343508*^9},ExpressionUUID->"5b3d8f56-31dc-4df0-9ff0-\
+6d051a607b55"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250395281*^9},ExpressionUUID->"b8f95d80-ad50-4220-aa08-\
+c8f8873ee455"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Percent correct:\"\>",
+   "EchoLabel"], " ", "0.75`"}]], "Echo",
+ CellChangeTimes->{
+  3.771848250449801*^9},ExpressionUUID->"08139fea-fc5c-406e-820a-\
+94fc635561a6"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -10705,29 +10972,16 @@ Cell[BoxData[
         RowBox[{"TsetlinClause", "[", 
          RowBox[{
           RowBox[{"{", 
-           RowBox[{"2", ",", "6"}], "}"}], ",", 
+           RowBox[{"3", ",", "6"}], "}"}], ",", 
           RowBox[{"{", 
-           RowBox[{"6", ",", "2"}], "}"}]}], "]"}], ",", 
+           RowBox[{"6", ",", "1"}], "}"}]}], "]"}], ",", 
         RowBox[{"TsetlinClause", "[", 
          RowBox[{
           RowBox[{"{", 
-           RowBox[{"4", ",", "4"}], "}"}], ",", 
+           RowBox[{"5", ",", "3"}], "}"}], ",", 
           RowBox[{"{", 
-           RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"TsetlinClause", "[", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"4", ",", "3"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"3", ",", "4"}], "}"}]}], "]"}], ",", 
-        RowBox[{"TsetlinClause", "[", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"1", ",", "2"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"6", ",", "6"}], "}"}]}], "]"}]}], "}"}], ",", 
-      "TsetlinUtilityOutputFunction"}], "]"}], "}"}], ",", "3"}], 
-  "]"}]], "Output",
+           RowBox[{"3", ",", "4"}], "}"}]}], "]"}]}], "}"}], ",", 
+      "TsetlinUtilityOr"}], "]"}], "}"}], ",", "3"}], "]"}]], "Output",
  CellChangeTimes->{
   3.7717867578355417`*^9, {3.7717867955743847`*^9, 3.77178682163372*^9}, {
    3.771787005393022*^9, 3.771787018559845*^9}, {3.7717870765125504`*^9, 
@@ -10748,8 +11002,10 @@ Cell[BoxData[
    3.77183925287296*^9, 3.771840203435326*^9, 3.771840819536007*^9, 
    3.7718410225647783`*^9, 3.771841180326694*^9, {3.771841475805018*^9, 
    3.771841493389402*^9}, 3.771841624224481*^9, {3.771846118398094*^9, 
-   3.771846149599248*^9}, {3.77184619783132*^9, 3.771846220382722*^9}},
- CellLabel->"Out[75]=",ExpressionUUID->"05f00abb-6713-4b3a-9398-08ca8078b1a0"]
+   3.771846149599248*^9}, {3.77184619783132*^9, 3.771846220382722*^9}, {
+   3.771848243657344*^9, 3.771848250493067*^9}},
+ CellLabel->
+  "Out[112]=",ExpressionUUID->"41990f0a-fb0e-47bc-9b25-f21ae528d1bd"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["View the output of the TsetlinAutomaton for each of \
@@ -10842,7 +11098,7 @@ Cell[BoxData[
    3.7717955954785233`*^9, 3.7718416320792217`*^9, 3.7718417804826403`*^9, 
    3.7718461920364103`*^9},
  CellLabel->"Out[72]=",ExpressionUUID->"0d176f1f-5a4e-478b-b800-10f13da7b462"]
-}, Open  ]],
+}, Closed]],
 
 Cell["\<\
 Next, I will attempt to train a TsetlinMachine to recognize written digits \
@@ -11251,7 +11507,7 @@ processing systems", "RepositoryLocation" ->
   Selectable->False]], "Output",
  CellChangeTimes->{3.771841861356776*^9},
  CellLabel->"Out[51]=",ExpressionUUID->"044a2f59-955a-4c4d-9de4-ba1c36348e5b"]
-}, Open  ]],
+}, Closed]],
 
 Cell["Extract and format the training data:", "CodeText",
  CellChangeTimes->{{3.771842233696167*^9, 3.771842241209077*^9}, {
@@ -11529,7 +11785,7 @@ Cell[BoxData[
  CellChangeTimes->{3.771842208908184*^9, 3.771842703590487*^9, 
   3.771843042015338*^9, 3.7718433495845833`*^9},
  CellLabel->"Out[66]=",ExpressionUUID->"0d535fce-25b3-4c93-b32e-3bfe8142ac28"]
-}, Open  ]],
+}, Closed]],
 
 Cell["Extract and format the testing data:", "CodeText",
  CellChangeTimes->{{3.7718423152208977`*^9, 3.771842320504122*^9}, {
@@ -11811,7 +12067,7 @@ Cell[BoxData[
  CellChangeTimes->{3.771842333891943*^9, 3.771842376416355*^9, 
   3.771842586890205*^9, 3.771842872986805*^9, 3.77184317509446*^9},
  CellLabel->"Out[64]=",ExpressionUUID->"8426b5d7-8a16-498c-801c-4738ba91cdc1"]
-}, Open  ]],
+}, Closed]],
 
 Cell["Train the TsetlinMachine:", "CodeText",
  CellChangeTimes->{{3.771842413192946*^9, 
@@ -11961,7 +12217,7 @@ In[68]:=",ExpressionUUID->"4b54d650-de7f-4cb2-ad0c-50335c4f6ebb"],
 Cell[BoxData["$Aborted"], "Output",
  CellChangeTimes->{3.771845539157319*^9, 3.771845782066395*^9},
  CellLabel->"Out[68]=",ExpressionUUID->"eb5b9606-7540-4678-93fc-e0ef0c2e5d6d"]
-}, Open  ]]
+}, Closed]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -12013,387 +12269,409 @@ Cell[5401, 123, 150, 2, 35, "Output",ExpressionUUID->"0161b042-8110-44b3-91c5-c3
 Cell[5566, 128, 699, 12, 56, "Text",ExpressionUUID->"e93687ad-fa4b-43bf-b6b6-eb97276b16a1"],
 Cell[6268, 142, 349, 5, 39, "CodeText",ExpressionUUID->"81338f64-ae03-46b1-88e7-a7d82059e940"],
 Cell[CellGroupData[{
-Cell[6642, 151, 970, 21, 209, "Input",ExpressionUUID->"96de5be5-6ee4-47a8-9eef-6d3fadc2724f",
+Cell[6642, 151, 971, 21, 209, "Input",ExpressionUUID->"96de5be5-6ee4-47a8-9eef-6d3fadc2724f",
  InitializationCell->True],
-Cell[7615, 174, 13525, 256, 67, "Output",ExpressionUUID->"c6953b35-ab97-4ef9-8b2e-0bf7aacbab1a"]
-}, Closed]],
-Cell[21155, 433, 248, 4, 39, "CodeText",ExpressionUUID->"2cac9451-c99e-4aa9-9dd6-1d0a36bee9b6"],
+Cell[7616, 174, 13552, 257, 70, "Output",ExpressionUUID->"cc046b04-a123-42aa-baa8-b76bbf084a15"]
+}, Open  ]],
+Cell[21183, 434, 248, 4, 39, "CodeText",ExpressionUUID->"2cac9451-c99e-4aa9-9dd6-1d0a36bee9b6"],
 Cell[CellGroupData[{
-Cell[21428, 441, 254, 4, 31, "Input",ExpressionUUID->"95913ef3-4d24-4d4b-b550-1a12ed6f4832"],
-Cell[21685, 447, 198, 3, 35, "Output",ExpressionUUID->"8a93129a-4d87-43de-a7f5-c4713de835be"]
+Cell[21456, 442, 254, 4, 31, "Input",ExpressionUUID->"95913ef3-4d24-4d4b-b550-1a12ed6f4832"],
+Cell[21713, 448, 198, 3, 35, "Output",ExpressionUUID->"8a93129a-4d87-43de-a7f5-c4713de835be"]
 }, Closed]],
-Cell[21898, 453, 291, 4, 28, "CodeText",ExpressionUUID->"002c9a40-91f7-4f1e-befa-d070e663bdab"],
+Cell[21926, 454, 291, 4, 28, "CodeText",ExpressionUUID->"002c9a40-91f7-4f1e-befa-d070e663bdab"],
 Cell[CellGroupData[{
-Cell[22214, 461, 252, 4, 31, "Input",ExpressionUUID->"40a672dd-7656-4f33-b4a9-4ce94251fa46"],
-Cell[22469, 467, 171, 2, 35, "Output",ExpressionUUID->"7adb1c80-cbe1-4790-ab1f-e291dd2bffe1"]
+Cell[22242, 462, 252, 4, 31, "Input",ExpressionUUID->"40a672dd-7656-4f33-b4a9-4ce94251fa46"],
+Cell[22497, 468, 171, 2, 35, "Output",ExpressionUUID->"7adb1c80-cbe1-4790-ab1f-e291dd2bffe1"]
 }, Closed]],
-Cell[22655, 472, 374, 8, 32, "Text",ExpressionUUID->"2ac9a2a2-4694-4e06-8fa5-e6a129f2444c"],
-Cell[23032, 482, 181, 3, 39, "CodeText",ExpressionUUID->"5035ae96-aea5-4edb-83c7-6efccc5a223f"],
+Cell[22683, 473, 374, 8, 32, "Text",ExpressionUUID->"2ac9a2a2-4694-4e06-8fa5-e6a129f2444c"],
+Cell[23060, 483, 181, 3, 39, "CodeText",ExpressionUUID->"5035ae96-aea5-4edb-83c7-6efccc5a223f"],
 Cell[CellGroupData[{
-Cell[23238, 489, 1582, 32, 209, "Input",ExpressionUUID->"372cdb49-a9ee-440c-b5d6-2a9369da232a",
+Cell[23266, 490, 1583, 32, 209, "Input",ExpressionUUID->"372cdb49-a9ee-440c-b5d6-2a9369da232a",
  InitializationCell->True],
-Cell[24823, 523, 14334, 270, 67, "Output",ExpressionUUID->"8fbda4f8-6927-441a-80b3-8f7106f9e554"]
-}, Closed]],
+Cell[24852, 524, 14363, 271, 70, "Output",ExpressionUUID->"d8b7f35a-cbb5-4b61-8b65-32cd08e48ff0"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[39194, 798, 342, 6, 31, "Input",ExpressionUUID->"522cd17d-9707-432e-8644-40ad0a4933f6"],
-Cell[39539, 806, 203, 3, 35, "Output",ExpressionUUID->"1251edac-5282-47cc-b422-b34f286e6ab9"]
+Cell[39252, 800, 342, 6, 31, "Input",ExpressionUUID->"522cd17d-9707-432e-8644-40ad0a4933f6"],
+Cell[39597, 808, 203, 3, 35, "Output",ExpressionUUID->"1251edac-5282-47cc-b422-b34f286e6ab9"]
 }, Closed]],
-Cell[39757, 812, 208, 3, 28, "CodeText",ExpressionUUID->"68240f81-162e-427b-b29e-a55b7fb3248f"],
+Cell[39815, 814, 208, 3, 28, "CodeText",ExpressionUUID->"68240f81-162e-427b-b29e-a55b7fb3248f"],
 Cell[CellGroupData[{
-Cell[39990, 819, 244, 4, 31, "Input",ExpressionUUID->"102bd5ab-e7e1-46f7-ba89-4b061f04a0ae"],
-Cell[40237, 825, 175, 2, 35, "Output",ExpressionUUID->"f76c0895-9f20-4e4a-b10e-1b4f900c4bea"]
+Cell[40048, 821, 244, 4, 31, "Input",ExpressionUUID->"102bd5ab-e7e1-46f7-ba89-4b061f04a0ae"],
+Cell[40295, 827, 175, 2, 35, "Output",ExpressionUUID->"f76c0895-9f20-4e4a-b10e-1b4f900c4bea"]
 }, Closed]],
-Cell[40427, 830, 180, 3, 28, "CodeText",ExpressionUUID->"ab638405-981f-46ca-9ec7-150307804a07"],
+Cell[40485, 832, 180, 3, 28, "CodeText",ExpressionUUID->"ab638405-981f-46ca-9ec7-150307804a07"],
 Cell[CellGroupData[{
-Cell[40632, 837, 239, 4, 31, "Input",ExpressionUUID->"2355c0fb-e43d-47e3-855a-701370840b19"],
-Cell[40874, 843, 149, 2, 35, "Output",ExpressionUUID->"e3fa56df-a123-4ea6-9eb7-b05323960c7e"]
+Cell[40690, 839, 239, 4, 31, "Input",ExpressionUUID->"2355c0fb-e43d-47e3-855a-701370840b19"],
+Cell[40932, 845, 149, 2, 35, "Output",ExpressionUUID->"e3fa56df-a123-4ea6-9eb7-b05323960c7e"]
 }, Closed]],
-Cell[41038, 848, 829, 15, 56, "Text",ExpressionUUID->"bca36145-22a1-4811-a42c-41de1893c903"],
-Cell[41870, 865, 244, 4, 39, "CodeText",ExpressionUUID->"56ef0c01-ba10-4266-a912-d83ae70489d9"],
+Cell[41096, 850, 829, 15, 56, "Text",ExpressionUUID->"bca36145-22a1-4811-a42c-41de1893c903"],
+Cell[41928, 867, 244, 4, 39, "CodeText",ExpressionUUID->"56ef0c01-ba10-4266-a912-d83ae70489d9"],
 Cell[CellGroupData[{
-Cell[42139, 873, 1781, 39, 278, "Input",ExpressionUUID->"9a8f99b4-d43d-40d4-9769-7f388a77b091",
+Cell[42197, 875, 1782, 39, 278, "Input",ExpressionUUID->"9a8f99b4-d43d-40d4-9769-7f388a77b091",
  InitializationCell->True],
-Cell[43923, 914, 48425, 874, 67, "Output",ExpressionUUID->"44cac1f2-8292-4037-82ec-669244869d6c"]
-}, Closed]],
-Cell[92363, 1791, 223, 4, 36, "Text",ExpressionUUID->"9638a2c4-44c3-4e0d-b78b-f6e1639bd2a3"],
+Cell[43982, 916, 48532, 874, 70, "Output",ExpressionUUID->"621e53b3-cee3-40dd-892d-4dacb926fc5f"]
+}, Open  ]],
+Cell[92529, 1793, 223, 4, 36, "Text",ExpressionUUID->"9638a2c4-44c3-4e0d-b78b-f6e1639bd2a3"],
 Cell[CellGroupData[{
-Cell[92611, 1799, 1565, 37, 255, "Input",ExpressionUUID->"5582880d-c60e-4587-9194-62e8ab2b5edc",
+Cell[92777, 1801, 1566, 37, 255, "Input",ExpressionUUID->"5582880d-c60e-4587-9194-62e8ab2b5edc",
  InitializationCell->True],
-Cell[94179, 1838, 48351, 871, 67, "Output",ExpressionUUID->"89e449b0-6b3b-414f-bd4a-c7c696db542f"]
-}, Closed]],
-Cell[142545, 2712, 538, 8, 36, "Text",ExpressionUUID->"6964a1d8-c1b2-4b85-bb0c-1003703bc2c5"],
+Cell[94346, 1840, 48459, 871, 70, "Output",ExpressionUUID->"557fd99f-0101-454c-b31b-f7f3c07d3b63"]
+}, Open  ]],
+Cell[142820, 2714, 538, 8, 36, "Text",ExpressionUUID->"6964a1d8-c1b2-4b85-bb0c-1003703bc2c5"],
 Cell[CellGroupData[{
-Cell[143108, 2724, 295, 5, 31, "Input",ExpressionUUID->"6dc45a55-12ef-429a-960f-1c76704d945a"],
-Cell[143406, 2731, 196, 3, 35, "Output",ExpressionUUID->"d3ec6fa3-97db-48bd-ae24-a9f229157604"]
+Cell[143383, 2726, 295, 5, 31, "Input",ExpressionUUID->"6dc45a55-12ef-429a-960f-1c76704d945a"],
+Cell[143681, 2733, 196, 3, 35, "Output",ExpressionUUID->"d3ec6fa3-97db-48bd-ae24-a9f229157604"]
 }, Closed]],
-Cell[143617, 2737, 595, 11, 56, "Text",ExpressionUUID->"7cc76468-d9cd-48e5-84df-79800aa9a5e7"],
-Cell[144215, 2750, 193, 3, 39, "CodeText",ExpressionUUID->"89d242da-c25c-43b2-b54e-d1bd1254e0de"],
+Cell[143892, 2739, 595, 11, 56, "Text",ExpressionUUID->"7cc76468-d9cd-48e5-84df-79800aa9a5e7"],
+Cell[144490, 2752, 193, 3, 39, "CodeText",ExpressionUUID->"89d242da-c25c-43b2-b54e-d1bd1254e0de"],
 Cell[CellGroupData[{
-Cell[144433, 2757, 2085, 47, 301, "Input",ExpressionUUID->"ae94b64f-539f-47b7-bd5e-610b6bd25dae",
+Cell[144708, 2759, 2086, 47, 301, "Input",ExpressionUUID->"ae94b64f-539f-47b7-bd5e-610b6bd25dae",
  InitializationCell->True],
-Cell[146521, 2806, 142318, 2507, 67, "Output",ExpressionUUID->"44f79193-a84c-4ee9-803b-02413710b5be"]
-}, Closed]],
-Cell[288854, 5316, 198, 3, 39, "CodeText",ExpressionUUID->"aedf7bf2-795e-4859-9718-901f3dcef060"],
+Cell[146797, 2808, 142872, 2508, 70, "Output",ExpressionUUID->"eb7365de-9154-448a-ace9-63829f1fa7b6"]
+}, Open  ]],
+Cell[289684, 5319, 198, 3, 39, "CodeText",ExpressionUUID->"aedf7bf2-795e-4859-9718-901f3dcef060"],
 Cell[CellGroupData[{
-Cell[289077, 5323, 331, 6, 31, "Input",ExpressionUUID->"8277b1fc-9192-4e56-8a66-4d9c0b62a52c"],
-Cell[289411, 5331, 203, 4, 35, "Output",ExpressionUUID->"bf68965d-a187-4a2c-8b0a-9ccd81566330"]
+Cell[289907, 5326, 331, 6, 31, "Input",ExpressionUUID->"8277b1fc-9192-4e56-8a66-4d9c0b62a52c"],
+Cell[290241, 5334, 203, 4, 35, "Output",ExpressionUUID->"bf68965d-a187-4a2c-8b0a-9ccd81566330"]
 }, Closed]],
-Cell[289629, 5338, 511, 10, 32, "Text",ExpressionUUID->"c4c398fa-2cde-4787-8c32-67ea2a7fd260"],
-Cell[290143, 5350, 266, 6, 39, "CodeText",ExpressionUUID->"d43211ee-c429-495d-8210-73c2f7acfece"],
+Cell[290459, 5341, 511, 10, 32, "Text",ExpressionUUID->"c4c398fa-2cde-4787-8c32-67ea2a7fd260"],
+Cell[290973, 5353, 266, 6, 39, "CodeText",ExpressionUUID->"d43211ee-c429-495d-8210-73c2f7acfece"],
 Cell[CellGroupData[{
-Cell[290434, 5360, 1571, 35, 193, "Input",ExpressionUUID->"d83a95fd-e6e3-4885-8cb7-8203b9c6c28e"],
-Cell[292008, 5397, 592, 11, 35, "Output",ExpressionUUID->"ac3ef739-790d-4e33-b6fc-f35fe6dd27c5"]
+Cell[291264, 5363, 1571, 35, 193, "Input",ExpressionUUID->"d83a95fd-e6e3-4885-8cb7-8203b9c6c28e"],
+Cell[292838, 5400, 592, 11, 35, "Output",ExpressionUUID->"ac3ef739-790d-4e33-b6fc-f35fe6dd27c5"]
 }, Closed]],
-Cell[292615, 5411, 359, 7, 28, "CodeText",ExpressionUUID->"4160f55e-b53b-4dc2-8192-c88a3c3341a1"],
+Cell[293445, 5414, 359, 7, 28, "CodeText",ExpressionUUID->"4160f55e-b53b-4dc2-8192-c88a3c3341a1"],
 Cell[CellGroupData[{
-Cell[292999, 5422, 364, 9, 31, "Input",ExpressionUUID->"8c0ecd65-66d4-4fdc-966e-401635d65f2f"],
-Cell[293366, 5433, 2767, 69, 251, "Output",ExpressionUUID->"c40e5dc6-ac6a-49dc-8598-f295964ed8a6"]
+Cell[293829, 5425, 364, 9, 31, "Input",ExpressionUUID->"8c0ecd65-66d4-4fdc-966e-401635d65f2f"],
+Cell[294196, 5436, 2767, 69, 251, "Output",ExpressionUUID->"c40e5dc6-ac6a-49dc-8598-f295964ed8a6"]
 }, Closed]],
-Cell[296148, 5505, 202, 3, 32, "Text",ExpressionUUID->"0c1115f7-2ed6-4c1e-9b5b-66e17e7df923"],
+Cell[296978, 5508, 202, 3, 32, "Text",ExpressionUUID->"0c1115f7-2ed6-4c1e-9b5b-66e17e7df923"],
 Cell[CellGroupData[{
-Cell[296375, 5512, 333, 8, 31, "Input",ExpressionUUID->"89bbce15-6b1d-4f7f-abb0-6da8e97ead98"],
-Cell[296711, 5522, 175, 3, 35, "Output",ExpressionUUID->"429802c0-4cc2-41fe-b921-671073351217"]
+Cell[297205, 5515, 333, 8, 31, "Input",ExpressionUUID->"89bbce15-6b1d-4f7f-abb0-6da8e97ead98"],
+Cell[297541, 5525, 175, 3, 35, "Output",ExpressionUUID->"429802c0-4cc2-41fe-b921-671073351217"]
 }, Closed]],
-Cell[296901, 5528, 511, 8, 56, "Text",ExpressionUUID->"22aa067c-9372-4d12-8774-2f422a630440"],
-Cell[297415, 5538, 230, 4, 36, "Text",ExpressionUUID->"095666e3-17bd-4354-af87-71baec934476"],
+Cell[297731, 5531, 511, 8, 56, "Text",ExpressionUUID->"22aa067c-9372-4d12-8774-2f422a630440"],
+Cell[298245, 5541, 230, 4, 36, "Text",ExpressionUUID->"095666e3-17bd-4354-af87-71baec934476"],
 Cell[CellGroupData[{
-Cell[297670, 5546, 1562, 36, 278, "Input",ExpressionUUID->"a9aeed70-f0e0-4b73-a82c-4d34b05d891e",
+Cell[298500, 5549, 1563, 36, 278, "Input",ExpressionUUID->"a9aeed70-f0e0-4b73-a82c-4d34b05d891e",
  InitializationCell->True],
-Cell[299235, 5584, 70436, 1253, 67, "Output",ExpressionUUID->"54ccc85a-1ed4-4318-9a3b-4fccdea0fbf4"]
-}, Closed]],
-Cell[369686, 6840, 233, 4, 36, "Text",ExpressionUUID->"cbeca8ab-35b9-4ee9-b2a8-66153db15dc8"],
+Cell[300066, 5587, 70740, 1254, 70, "Output",ExpressionUUID->"cd325d25-330c-49ee-81a1-c827329b3c2e"]
+}, Open  ]],
+Cell[370821, 6844, 233, 4, 36, "Text",ExpressionUUID->"cbeca8ab-35b9-4ee9-b2a8-66153db15dc8"],
 Cell[CellGroupData[{
-Cell[369944, 6848, 1590, 36, 255, "Input",ExpressionUUID->"faa6a3d4-9a20-4fed-8e24-89ce594c099e",
+Cell[371079, 6852, 1591, 36, 255, "Input",ExpressionUUID->"faa6a3d4-9a20-4fed-8e24-89ce594c099e",
  InitializationCell->True],
-Cell[371537, 6886, 70520, 1255, 67, "Output",ExpressionUUID->"ca7b2061-8259-4ca2-9acd-d6d6d0cb1916"]
-}, Closed]],
-Cell[442072, 8144, 330, 7, 36, "Text",ExpressionUUID->"8b230e5e-4c8a-4373-ad90-9ace69631e5e"],
-Cell[442405, 8153, 237, 4, 36, "Text",ExpressionUUID->"a50cee4d-e469-47ab-9691-e14b2443d3c2"],
-Cell[442645, 8159, 508, 12, 71, "Input",ExpressionUUID->"328c6bbc-0d19-40d0-8213-8187c3ef9682",
+Cell[372673, 6890, 70771, 1255, 70, "Output",ExpressionUUID->"689a6d36-f5cd-4ef5-8af8-90a250d29ed2"]
+}, Open  ]],
+Cell[443459, 8148, 330, 7, 36, "Text",ExpressionUUID->"8b230e5e-4c8a-4373-ad90-9ace69631e5e"],
+Cell[443792, 8157, 237, 4, 36, "Text",ExpressionUUID->"a50cee4d-e469-47ab-9691-e14b2443d3c2"],
+Cell[444032, 8163, 509, 12, 71, "Input",ExpressionUUID->"328c6bbc-0d19-40d0-8213-8187c3ef9682",
  InitializationCell->True]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[443190, 8176, 177, 2, 54, "Section",ExpressionUUID->"c8ac9de5-5137-42ae-9376-41699953d71b"],
-Cell[443370, 8180, 900, 15, 84, "Text",ExpressionUUID->"fc794f4a-82dd-4e0a-aa4b-3abb31f8798e"],
-Cell[444273, 8197, 291, 7, 39, "CodeText",ExpressionUUID->"76e56e50-60f0-4387-b1d4-2aac6b38bdf0"],
+Cell[444578, 8180, 177, 2, 54, "Section",ExpressionUUID->"c8ac9de5-5137-42ae-9376-41699953d71b"],
+Cell[444758, 8184, 900, 15, 84, "Text",ExpressionUUID->"fc794f4a-82dd-4e0a-aa4b-3abb31f8798e"],
+Cell[445661, 8201, 291, 7, 39, "CodeText",ExpressionUUID->"76e56e50-60f0-4387-b1d4-2aac6b38bdf0"],
 Cell[CellGroupData[{
-Cell[444589, 8208, 356, 8, 31, "Input",ExpressionUUID->"22591b6a-3c44-491a-8638-54815ff667ba"],
-Cell[444948, 8218, 333, 8, 35, "Output",ExpressionUUID->"603d92ce-076c-4103-bc06-c7eb68c7bbe5"]
+Cell[445977, 8212, 356, 8, 31, "Input",ExpressionUUID->"22591b6a-3c44-491a-8638-54815ff667ba"],
+Cell[446336, 8222, 333, 8, 35, "Output",ExpressionUUID->"603d92ce-076c-4103-bc06-c7eb68c7bbe5"]
 }, Closed]],
-Cell[445296, 8229, 304, 5, 32, "Text",ExpressionUUID->"6649143b-4e11-4c59-8857-3fb5af174563"],
+Cell[446684, 8233, 304, 5, 32, "Text",ExpressionUUID->"6649143b-4e11-4c59-8857-3fb5af174563"],
 Cell[CellGroupData[{
-Cell[445625, 8238, 352, 8, 31, "Input",ExpressionUUID->"5863fb0e-0914-4a4e-8050-c48cb1ec6fdf"],
-Cell[445980, 8248, 329, 8, 35, "Output",ExpressionUUID->"5a41b4fe-e4dd-4892-885c-2d6babc90c32"]
+Cell[447013, 8242, 352, 8, 31, "Input",ExpressionUUID->"5863fb0e-0914-4a4e-8050-c48cb1ec6fdf"],
+Cell[447368, 8252, 329, 8, 35, "Output",ExpressionUUID->"5a41b4fe-e4dd-4892-885c-2d6babc90c32"]
 }, Closed]],
-Cell[446324, 8259, 575, 13, 32, "Text",ExpressionUUID->"198fbac6-da1d-4fda-b20b-864ad7885f44"],
-Cell[446902, 8274, 259, 4, 36, "Text",ExpressionUUID->"ed7ca6d4-fc43-4547-b849-5c3c19100863"],
-Cell[447164, 8280, 342, 7, 47, "Input",ExpressionUUID->"add84edd-232b-4675-a562-057d478ebac8",
+Cell[447712, 8263, 575, 13, 32, "Text",ExpressionUUID->"198fbac6-da1d-4fda-b20b-864ad7885f44"],
+Cell[448290, 8278, 259, 4, 36, "Text",ExpressionUUID->"ed7ca6d4-fc43-4547-b849-5c3c19100863"],
+Cell[448552, 8284, 343, 7, 47, "Input",ExpressionUUID->"add84edd-232b-4675-a562-057d478ebac8",
  InitializationCell->True],
-Cell[447509, 8289, 341, 7, 47, "Input",ExpressionUUID->"26739473-1c18-4124-b4fe-0795068d348e",
+Cell[448898, 8293, 341, 7, 47, "Input",ExpressionUUID->"26739473-1c18-4124-b4fe-0795068d348e",
  InitializationCell->True],
-Cell[447853, 8298, 246, 4, 36, "Text",ExpressionUUID->"d470d5a9-b482-4441-a712-35ea65e8ef48"],
+Cell[449242, 8302, 246, 4, 36, "Text",ExpressionUUID->"d470d5a9-b482-4441-a712-35ea65e8ef48"],
 Cell[CellGroupData[{
-Cell[448124, 8306, 480, 10, 55, "Input",ExpressionUUID->"e8b191b2-881d-4450-aac3-5b8377637e90"],
-Cell[448607, 8318, 206, 4, 35, "Output",ExpressionUUID->"0696f101-dca3-43e6-b0d3-4de59d32cbb1"]
+Cell[449513, 8310, 480, 10, 55, "Input",ExpressionUUID->"e8b191b2-881d-4450-aac3-5b8377637e90"],
+Cell[449996, 8322, 206, 4, 35, "Output",ExpressionUUID->"0696f101-dca3-43e6-b0d3-4de59d32cbb1"]
 }, Closed]],
-Cell[448828, 8325, 435, 12, 32, "Text",ExpressionUUID->"28aa213b-68a8-4a36-be30-bc9dfe16d046"],
-Cell[449266, 8339, 279, 5, 36, "Text",ExpressionUUID->"1658b007-4a7c-479d-aacb-036bf6bba184"],
-Cell[449548, 8346, 819, 22, 117, "Input",ExpressionUUID->"9b74e0fd-0853-4b79-b46e-f7f34c4741e4",
+Cell[450217, 8329, 435, 12, 32, "Text",ExpressionUUID->"28aa213b-68a8-4a36-be30-bc9dfe16d046"],
+Cell[450655, 8343, 279, 5, 36, "Text",ExpressionUUID->"1658b007-4a7c-479d-aacb-036bf6bba184"],
+Cell[450937, 8350, 819, 22, 117, "Input",ExpressionUUID->"9b74e0fd-0853-4b79-b46e-f7f34c4741e4",
  InitializationCell->True],
-Cell[450370, 8370, 585, 12, 36, "Text",ExpressionUUID->"dcc0bbd0-fae3-492f-96c8-15b3f2cc4ee2"],
-Cell[450958, 8384, 206, 3, 36, "Text",ExpressionUUID->"13af37af-1fec-4451-8957-f1e531acf45d"],
+Cell[451759, 8374, 585, 12, 36, "Text",ExpressionUUID->"dcc0bbd0-fae3-492f-96c8-15b3f2cc4ee2"],
+Cell[452347, 8388, 206, 3, 36, "Text",ExpressionUUID->"13af37af-1fec-4451-8957-f1e531acf45d"],
 Cell[CellGroupData[{
-Cell[451189, 8391, 841, 22, 124, "Input",ExpressionUUID->"9d3c5fde-4699-49e0-8240-f817ce0aff46"],
-Cell[452033, 8415, 715, 20, 35, "Output",ExpressionUUID->"062da419-433f-4ec3-8f3d-d8b2df330966"]
+Cell[452578, 8395, 841, 22, 124, "Input",ExpressionUUID->"9d3c5fde-4699-49e0-8240-f817ce0aff46"],
+Cell[453422, 8419, 715, 20, 35, "Output",ExpressionUUID->"062da419-433f-4ec3-8f3d-d8b2df330966"]
 }, Closed]],
-Cell[452763, 8438, 502, 11, 32, "Text",ExpressionUUID->"8ae03e4b-d368-49a7-8cf0-dd5c0f64d659"],
-Cell[453268, 8451, 364, 8, 39, "CodeText",ExpressionUUID->"924d7479-2695-43f4-959c-2796f1279bf9",
+Cell[454152, 8442, 502, 11, 32, "Text",ExpressionUUID->"8ae03e4b-d368-49a7-8cf0-dd5c0f64d659"],
+Cell[454657, 8455, 364, 8, 39, "CodeText",ExpressionUUID->"924d7479-2695-43f4-959c-2796f1279bf9",
  InitializationCell->True],
-Cell[453635, 8461, 340, 7, 47, "Input",ExpressionUUID->"cf9c3011-bbf7-4c9e-9f52-8505261cd7a5",
+Cell[455024, 8465, 340, 7, 47, "Input",ExpressionUUID->"cf9c3011-bbf7-4c9e-9f52-8505261cd7a5",
  InitializationCell->True],
-Cell[453978, 8470, 343, 7, 47, "Input",ExpressionUUID->"d2a08e80-08b5-4297-89da-f54c670484f9",
+Cell[455367, 8474, 343, 7, 47, "Input",ExpressionUUID->"d2a08e80-08b5-4297-89da-f54c670484f9",
  InitializationCell->True],
-Cell[454324, 8479, 215, 4, 36, "Text",ExpressionUUID->"87f8afff-5df8-4e14-9aae-fb29f5fe829a"],
+Cell[455713, 8483, 215, 4, 36, "Text",ExpressionUUID->"87f8afff-5df8-4e14-9aae-fb29f5fe829a"],
 Cell[CellGroupData[{
-Cell[454564, 8487, 983, 24, 147, "Input",ExpressionUUID->"b5229755-1dc5-4f27-b084-8537c318291b"],
-Cell[455550, 8513, 606, 17, 35, "Output",ExpressionUUID->"657816b9-f205-40a0-b5d0-68e200ecc3a8"]
+Cell[455953, 8491, 983, 24, 147, "Input",ExpressionUUID->"b5229755-1dc5-4f27-b084-8537c318291b"],
+Cell[456939, 8517, 606, 17, 35, "Output",ExpressionUUID->"657816b9-f205-40a0-b5d0-68e200ecc3a8"]
 }, Closed]],
-Cell[456171, 8533, 190, 3, 28, "CodeText",ExpressionUUID->"97d03652-523f-4335-9e2c-4713dbff1401"],
+Cell[457560, 8537, 190, 3, 28, "CodeText",ExpressionUUID->"97d03652-523f-4335-9e2c-4713dbff1401"],
 Cell[CellGroupData[{
-Cell[456386, 8540, 964, 24, 147, "Input",ExpressionUUID->"dc0cc354-418d-4d74-9476-4a592cdb8b4a"],
-Cell[457353, 8566, 192, 4, 35, "Output",ExpressionUUID->"499c81ea-6bee-4f42-b098-f07696fbc37b"]
+Cell[457775, 8544, 964, 24, 147, "Input",ExpressionUUID->"dc0cc354-418d-4d74-9476-4a592cdb8b4a"],
+Cell[458742, 8570, 192, 4, 35, "Output",ExpressionUUID->"499c81ea-6bee-4f42-b098-f07696fbc37b"]
 }, Closed]],
-Cell[457560, 8573, 418, 9, 32, "Text",ExpressionUUID->"efa83d67-8772-4fb0-bbf8-7e7a89a14cac"],
-Cell[457981, 8584, 279, 5, 36, "Text",ExpressionUUID->"9f2394fa-a16c-4ddb-bdf5-5ae0634bbb56"],
-Cell[458263, 8591, 795, 17, 163, "Input",ExpressionUUID->"cad0c01e-7229-4a7a-8dc6-498cf0f3008c",
+Cell[458949, 8577, 418, 9, 32, "Text",ExpressionUUID->"efa83d67-8772-4fb0-bbf8-7e7a89a14cac"],
+Cell[459370, 8588, 279, 5, 36, "Text",ExpressionUUID->"9f2394fa-a16c-4ddb-bdf5-5ae0634bbb56"],
+Cell[459652, 8595, 795, 17, 163, "Input",ExpressionUUID->"cad0c01e-7229-4a7a-8dc6-498cf0f3008c",
  InitializationCell->True],
-Cell[459061, 8610, 477, 11, 36, "Text",ExpressionUUID->"7303d24c-0ee6-4a50-bda3-b3b7737cdc69"],
-Cell[459541, 8623, 188, 3, 39, "CodeText",ExpressionUUID->"cfccdb02-b562-4a6a-99b2-3f2ce360b548"],
+Cell[460450, 8614, 477, 11, 36, "Text",ExpressionUUID->"7303d24c-0ee6-4a50-bda3-b3b7737cdc69"],
+Cell[460930, 8627, 188, 3, 39, "CodeText",ExpressionUUID->"cfccdb02-b562-4a6a-99b2-3f2ce360b548"],
 Cell[CellGroupData[{
-Cell[459754, 8630, 1924, 51, 262, "Input",ExpressionUUID->"af351a64-2321-45d5-a80c-1733b49d8b9c"],
-Cell[461681, 8683, 1510, 44, 59, "Output",ExpressionUUID->"96f847af-f36e-4759-b3fd-e960d9323624"]
+Cell[461143, 8634, 1924, 51, 262, "Input",ExpressionUUID->"af351a64-2321-45d5-a80c-1733b49d8b9c"],
+Cell[463070, 8687, 1510, 44, 59, "Output",ExpressionUUID->"96f847af-f36e-4759-b3fd-e960d9323624"]
 }, Closed]],
-Cell[463206, 8730, 542, 13, 32, "Text",ExpressionUUID->"e464e746-e34c-43f4-a0cb-cf6d15aa5ef6"],
-Cell[463751, 8745, 266, 4, 36, "Text",ExpressionUUID->"4461b223-924d-49c4-816a-60930268a85e"],
-Cell[464020, 8751, 391, 8, 47, "Input",ExpressionUUID->"549b2135-06e6-4e2d-b0d6-a06e6a90e3ab",
+Cell[464595, 8734, 542, 13, 32, "Text",ExpressionUUID->"e464e746-e34c-43f4-a0cb-cf6d15aa5ef6"],
+Cell[465140, 8749, 266, 4, 36, "Text",ExpressionUUID->"4461b223-924d-49c4-816a-60930268a85e"],
+Cell[465409, 8755, 391, 8, 47, "Input",ExpressionUUID->"549b2135-06e6-4e2d-b0d6-a06e6a90e3ab",
  InitializationCell->True],
-Cell[464414, 8761, 355, 8, 47, "Input",ExpressionUUID->"fea0ac9d-e456-466a-999b-807410b712d7",
+Cell[465803, 8765, 355, 8, 47, "Input",ExpressionUUID->"fea0ac9d-e456-466a-999b-807410b712d7",
  InitializationCell->True],
-Cell[464772, 8771, 184, 3, 39, "CodeText",ExpressionUUID->"03ccbcdf-01be-4298-8c37-94f0a8e3f689"],
+Cell[466161, 8775, 184, 3, 39, "CodeText",ExpressionUUID->"03ccbcdf-01be-4298-8c37-94f0a8e3f689"],
 Cell[CellGroupData[{
-Cell[464981, 8778, 279, 4, 31, "Input",ExpressionUUID->"69e58480-28dc-442d-be05-8e84ef8f6747"],
-Cell[465263, 8784, 1320, 40, 35, "Output",ExpressionUUID->"40450550-5c64-4d1d-a0aa-0f018835c6bf"]
+Cell[466370, 8782, 279, 4, 31, "Input",ExpressionUUID->"69e58480-28dc-442d-be05-8e84ef8f6747"],
+Cell[466652, 8788, 1320, 40, 35, "Output",ExpressionUUID->"40450550-5c64-4d1d-a0aa-0f018835c6bf"]
 }, Closed]],
-Cell[466598, 8827, 221, 4, 32, "Text",ExpressionUUID->"6d9531d3-ca4b-45a2-a07c-aa993480c11d"],
+Cell[467987, 8831, 221, 4, 32, "Text",ExpressionUUID->"6d9531d3-ca4b-45a2-a07c-aa993480c11d"],
 Cell[CellGroupData[{
-Cell[466844, 8835, 232, 3, 31, "Input",ExpressionUUID->"85691441-2f9a-4d4e-801c-9a057cb56e75"],
-Cell[467079, 8840, 149, 2, 35, "Output",ExpressionUUID->"ac6306ba-5b17-45ac-885c-08e1dcc29bd7"]
+Cell[468233, 8839, 232, 3, 31, "Input",ExpressionUUID->"85691441-2f9a-4d4e-801c-9a057cb56e75"],
+Cell[468468, 8844, 149, 2, 35, "Output",ExpressionUUID->"ac6306ba-5b17-45ac-885c-08e1dcc29bd7"]
 }, Closed]],
-Cell[467243, 8845, 473, 9, 32, "Text",ExpressionUUID->"d671b877-7ac5-4f38-831a-21d26b6ccd64"],
-Cell[467719, 8856, 282, 5, 36, "Text",ExpressionUUID->"630efdde-8413-4698-9a5e-efee5de05e8e"],
-Cell[468004, 8863, 985, 21, 255, "Input",ExpressionUUID->"37f1cc1a-56b0-49da-a310-35037ccdb946",
+Cell[468632, 8849, 473, 9, 32, "Text",ExpressionUUID->"d671b877-7ac5-4f38-831a-21d26b6ccd64"],
+Cell[469108, 8860, 282, 5, 36, "Text",ExpressionUUID->"630efdde-8413-4698-9a5e-efee5de05e8e"],
+Cell[469393, 8867, 985, 21, 255, "Input",ExpressionUUID->"37f1cc1a-56b0-49da-a310-35037ccdb946",
  InitializationCell->True]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[469026, 8889, 168, 3, 54, "Section",ExpressionUUID->"bde74e34-f82a-4d90-a89f-36099a8bc73d"],
-Cell[469197, 8894, 534, 12, 60, "Text",ExpressionUUID->"3f385c26-598d-4cea-93de-befbdae6bc9b"],
-Cell[469734, 8908, 207, 3, 39, "CodeText",ExpressionUUID->"d261bcf5-9381-40c3-bb52-f4a450b38c92"],
+Cell[470415, 8893, 168, 3, 54, "Section",ExpressionUUID->"bde74e34-f82a-4d90-a89f-36099a8bc73d"],
+Cell[470586, 8898, 534, 12, 60, "Text",ExpressionUUID->"3f385c26-598d-4cea-93de-befbdae6bc9b"],
+Cell[471123, 8912, 207, 3, 39, "CodeText",ExpressionUUID->"d261bcf5-9381-40c3-bb52-f4a450b38c92"],
 Cell[CellGroupData[{
-Cell[469966, 8915, 1210, 28, 285, "Input",ExpressionUUID->"877b0c53-c993-4565-8700-d1236b370c1c"],
-Cell[471179, 8945, 845, 24, 35, "Output",ExpressionUUID->"e5c88a0a-1e9c-4037-8ee2-c1dea4a142ab"]
+Cell[471355, 8919, 1210, 28, 285, "Input",ExpressionUUID->"877b0c53-c993-4565-8700-d1236b370c1c"],
+Cell[472568, 8949, 845, 24, 35, "Output",ExpressionUUID->"e5c88a0a-1e9c-4037-8ee2-c1dea4a142ab"]
 }, Closed]],
-Cell[472039, 8972, 495, 10, 60, "Text",ExpressionUUID->"ed521a65-7ec1-463a-89fb-723ad67f7a00"],
-Cell[472537, 8984, 242, 4, 36, "Text",ExpressionUUID->"42be0f7a-7091-4fc6-92d0-8158b4bdc5c0"],
-Cell[472782, 8990, 1692, 41, 278, "Input",ExpressionUUID->"dad0ce6e-b81e-4b38-b5b1-4e008ee81a0e",
+Cell[473428, 8976, 495, 10, 60, "Text",ExpressionUUID->"ed521a65-7ec1-463a-89fb-723ad67f7a00"],
+Cell[473926, 8988, 242, 4, 36, "Text",ExpressionUUID->"42be0f7a-7091-4fc6-92d0-8158b4bdc5c0"],
+Cell[474171, 8994, 1692, 41, 278, "Input",ExpressionUUID->"dad0ce6e-b81e-4b38-b5b1-4e008ee81a0e",
  InitializationCell->True],
-Cell[474477, 9033, 353, 6, 36, "Text",ExpressionUUID->"2873cd71-bbc2-415d-835c-561939986746"],
+Cell[475866, 9037, 353, 6, 36, "Text",ExpressionUUID->"2873cd71-bbc2-415d-835c-561939986746"],
 Cell[CellGroupData[{
-Cell[474855, 9043, 704, 14, 124, "Input",ExpressionUUID->"8b829157-5ccc-42aa-96f5-750f9eccd261"],
-Cell[475562, 9059, 222, 4, 35, "Output",ExpressionUUID->"a9dc1484-f65c-4ac7-bc74-4075e8b5dd15"]
+Cell[476244, 9047, 704, 14, 124, "Input",ExpressionUUID->"8b829157-5ccc-42aa-96f5-750f9eccd261"],
+Cell[476951, 9063, 222, 4, 35, "Output",ExpressionUUID->"a9dc1484-f65c-4ac7-bc74-4075e8b5dd15"]
 }, Closed]],
-Cell[475799, 9066, 454, 11, 32, "Text",ExpressionUUID->"c2a1a465-6802-41a0-b1ea-b91aa60253bc"],
-Cell[476256, 9079, 203, 3, 39, "CodeText",ExpressionUUID->"0938c48e-7485-45b8-b2ab-74e3ce27a1a7"],
-Cell[476462, 9084, 614, 12, 140, "Input",ExpressionUUID->"15e2c580-2471-4aed-bce1-343bf07ae510",
+Cell[477188, 9070, 454, 11, 32, "Text",ExpressionUUID->"c2a1a465-6802-41a0-b1ea-b91aa60253bc"],
+Cell[477645, 9083, 203, 3, 39, "CodeText",ExpressionUUID->"0938c48e-7485-45b8-b2ab-74e3ce27a1a7"],
+Cell[477851, 9088, 614, 12, 140, "Input",ExpressionUUID->"15e2c580-2471-4aed-bce1-343bf07ae510",
  InitializationCell->True],
-Cell[477079, 9098, 273, 6, 39, "CodeText",ExpressionUUID->"55e455ca-a287-40ee-a95a-0372ba6d1f34"],
+Cell[478468, 9102, 273, 6, 39, "CodeText",ExpressionUUID->"55e455ca-a287-40ee-a95a-0372ba6d1f34"],
 Cell[CellGroupData[{
-Cell[477377, 9108, 698, 14, 124, "Input",ExpressionUUID->"06fd98a9-4529-4e0d-adcd-64dbe7b44885"],
-Cell[478078, 9124, 178, 2, 35, "Output",ExpressionUUID->"244f5ac3-a708-46e3-bb62-29d9837f67a1"]
+Cell[478766, 9112, 698, 14, 124, "Input",ExpressionUUID->"06fd98a9-4529-4e0d-adcd-64dbe7b44885"],
+Cell[479467, 9128, 178, 2, 35, "Output",ExpressionUUID->"244f5ac3-a708-46e3-bb62-29d9837f67a1"]
 }, Closed]],
-Cell[478271, 9129, 546, 13, 56, "Text",ExpressionUUID->"6b816366-91df-483c-8ba0-2cb0d054f178"],
-Cell[478820, 9144, 202, 3, 39, "CodeText",ExpressionUUID->"0d5db395-1f46-46de-93d9-9577c9279872"],
-Cell[479025, 9149, 839, 19, 140, "Input",ExpressionUUID->"d6a1e962-f8c5-42d6-863f-1977053011f1",
+Cell[479660, 9133, 546, 13, 56, "Text",ExpressionUUID->"6b816366-91df-483c-8ba0-2cb0d054f178"],
+Cell[480209, 9148, 202, 3, 39, "CodeText",ExpressionUUID->"0d5db395-1f46-46de-93d9-9577c9279872"],
+Cell[480414, 9153, 839, 19, 140, "Input",ExpressionUUID->"d6a1e962-f8c5-42d6-863f-1977053011f1",
  InitializationCell->True],
-Cell[479867, 9170, 273, 6, 39, "CodeText",ExpressionUUID->"63b5b756-7e9a-4bb7-be10-dc5e11263c63"],
+Cell[481256, 9174, 273, 6, 39, "CodeText",ExpressionUUID->"63b5b756-7e9a-4bb7-be10-dc5e11263c63"],
 Cell[CellGroupData[{
-Cell[480165, 9180, 561, 11, 101, "Input",ExpressionUUID->"f4b43eb6-29e8-4354-8bde-d8747089e692"],
-Cell[480729, 9193, 178, 2, 35, "Output",ExpressionUUID->"ccc8ef0e-a930-4ab8-bde9-bbf2f8ee6da7"]
+Cell[481554, 9184, 561, 11, 101, "Input",ExpressionUUID->"f4b43eb6-29e8-4354-8bde-d8747089e692"],
+Cell[482118, 9197, 178, 2, 35, "Output",ExpressionUUID->"ccc8ef0e-a930-4ab8-bde9-bbf2f8ee6da7"]
 }, Closed]],
-Cell[480922, 9198, 350, 7, 32, "Text",ExpressionUUID->"87ab3784-dca9-48d2-8700-68ab674cddf8"],
-Cell[481275, 9207, 204, 3, 39, "CodeText",ExpressionUUID->"418e48ab-19bd-4b02-ade8-0b1ab3195387"],
-Cell[481482, 9212, 879, 19, 186, "Input",ExpressionUUID->"6efc10dd-4011-45d9-858c-f05017421fc1",
+Cell[482311, 9202, 350, 7, 32, "Text",ExpressionUUID->"87ab3784-dca9-48d2-8700-68ab674cddf8"],
+Cell[482664, 9211, 204, 3, 39, "CodeText",ExpressionUUID->"418e48ab-19bd-4b02-ade8-0b1ab3195387"],
+Cell[482871, 9216, 879, 19, 186, "Input",ExpressionUUID->"6efc10dd-4011-45d9-858c-f05017421fc1",
  InitializationCell->True],
-Cell[482364, 9233, 276, 6, 39, "CodeText",ExpressionUUID->"7757885e-98a8-4c71-9c2b-ec5b557916b3"],
+Cell[483753, 9237, 276, 6, 39, "CodeText",ExpressionUUID->"7757885e-98a8-4c71-9c2b-ec5b557916b3"],
 Cell[CellGroupData[{
-Cell[482665, 9243, 354, 6, 78, "Input",ExpressionUUID->"249a0a4e-b4e9-4296-ac04-1925fc167429"],
-Cell[483022, 9251, 242, 4, 35, "Output",ExpressionUUID->"e4844770-b8a5-4d62-81d9-92c6df5b3a2e"]
+Cell[484054, 9247, 354, 6, 78, "Input",ExpressionUUID->"249a0a4e-b4e9-4296-ac04-1925fc167429"],
+Cell[484411, 9255, 242, 4, 35, "Output",ExpressionUUID->"e4844770-b8a5-4d62-81d9-92c6df5b3a2e"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[483313, 9261, 238, 4, 54, "Section",ExpressionUUID->"d51d02d7-2614-4ec8-a5b7-e433747f05a3"],
-Cell[483554, 9267, 1150, 18, 84, "Text",ExpressionUUID->"d826bc54-04f7-441a-a5b7-8fef01f7c79a"],
-Cell[484707, 9287, 846, 14, 84, "Text",ExpressionUUID->"995bfbcd-56e7-4d50-9cf2-f34623c08bcf"],
-Cell[485556, 9303, 205, 3, 39, "CodeText",ExpressionUUID->"177584c0-5928-498f-b6ec-b3a0e8978253"],
-Cell[485764, 9308, 3041, 72, 416, "Input",ExpressionUUID->"a716d2be-3fd7-443d-8ca8-f97ce8f571b0",
+Cell[484702, 9265, 238, 4, 54, "Section",ExpressionUUID->"d51d02d7-2614-4ec8-a5b7-e433747f05a3"],
+Cell[484943, 9271, 1150, 18, 84, "Text",ExpressionUUID->"d826bc54-04f7-441a-a5b7-8fef01f7c79a"],
+Cell[486096, 9291, 846, 14, 84, "Text",ExpressionUUID->"995bfbcd-56e7-4d50-9cf2-f34623c08bcf"],
+Cell[486945, 9307, 205, 3, 39, "CodeText",ExpressionUUID->"177584c0-5928-498f-b6ec-b3a0e8978253"],
+Cell[487153, 9312, 3041, 72, 416, "Input",ExpressionUUID->"a716d2be-3fd7-443d-8ca8-f97ce8f571b0",
  InitializationCell->True],
-Cell[488808, 9382, 256, 4, 39, "CodeText",ExpressionUUID->"1e1834e1-9a6a-4e4f-a57b-9d5acf6520cd"],
-Cell[489067, 9388, 2145, 46, 508, "Input",ExpressionUUID->"3bc02c8b-3b11-4d7e-a1a0-9a670afb3896",
+Cell[490197, 9386, 256, 4, 39, "CodeText",ExpressionUUID->"1e1834e1-9a6a-4e4f-a57b-9d5acf6520cd"],
+Cell[490456, 9392, 2145, 46, 508, "Input",ExpressionUUID->"3bc02c8b-3b11-4d7e-a1a0-9a670afb3896",
  InitializationCell->True],
-Cell[491215, 9436, 218, 5, 39, "CodeText",ExpressionUUID->"a95c612c-0b8e-431e-9030-6701f1f1787f"],
+Cell[492604, 9440, 218, 5, 39, "CodeText",ExpressionUUID->"a95c612c-0b8e-431e-9030-6701f1f1787f"],
 Cell[CellGroupData[{
-Cell[491458, 9445, 413, 7, 147, "Input",ExpressionUUID->"d0b2d902-08cd-42d5-b80e-e82b1ecbae2f"],
-Cell[491874, 9454, 148, 2, 35, "Output",ExpressionUUID->"d8b4a289-fb43-4d65-80e6-e79709735384"]
+Cell[492847, 9449, 413, 7, 147, "Input",ExpressionUUID->"d0b2d902-08cd-42d5-b80e-e82b1ecbae2f"],
+Cell[493263, 9458, 148, 2, 35, "Output",ExpressionUUID->"d8b4a289-fb43-4d65-80e6-e79709735384"]
 }, Closed]],
-Cell[492037, 9459, 269, 6, 28, "CodeText",ExpressionUUID->"ec90c70e-3dff-44e6-a9ec-6e8309c4aed5"],
+Cell[493426, 9463, 269, 6, 28, "CodeText",ExpressionUUID->"ec90c70e-3dff-44e6-a9ec-6e8309c4aed5"],
 Cell[CellGroupData[{
-Cell[492331, 9469, 417, 7, 147, "Input",ExpressionUUID->"f8acd7c8-c051-490f-938e-c4a6a32e717d"],
-Cell[492751, 9478, 151, 2, 35, "Output",ExpressionUUID->"8c75b400-66d4-4824-ae77-f1707e9c1096"]
+Cell[493720, 9473, 417, 7, 147, "Input",ExpressionUUID->"f8acd7c8-c051-490f-938e-c4a6a32e717d"],
+Cell[494140, 9482, 151, 2, 35, "Output",ExpressionUUID->"8c75b400-66d4-4824-ae77-f1707e9c1096"]
 }, Closed]],
-Cell[492917, 9483, 485, 10, 56, "Text",ExpressionUUID->"c6d61a3d-c15b-4988-9b1e-a548a336faaa"],
-Cell[493405, 9495, 250, 4, 39, "CodeText",ExpressionUUID->"1900943e-c48c-40cd-8358-f2152a169c2d"],
-Cell[493658, 9501, 1917, 42, 485, "Input",ExpressionUUID->"5c435e46-fe97-448f-952b-cef20a8d101d",
+Cell[494306, 9487, 485, 10, 56, "Text",ExpressionUUID->"c6d61a3d-c15b-4988-9b1e-a548a336faaa"],
+Cell[494794, 9499, 250, 4, 39, "CodeText",ExpressionUUID->"1900943e-c48c-40cd-8358-f2152a169c2d"],
+Cell[495047, 9505, 1917, 42, 485, "Input",ExpressionUUID->"5c435e46-fe97-448f-952b-cef20a8d101d",
  InitializationCell->True],
-Cell[495578, 9545, 203, 3, 39, "CodeText",ExpressionUUID->"3423c5a0-a355-440b-a7a6-c06c58bada3c"],
-Cell[495784, 9550, 1837, 41, 485, "Input",ExpressionUUID->"0b4656f7-684c-41c8-bc6e-a24134fd9d3e",
+Cell[496967, 9549, 203, 3, 39, "CodeText",ExpressionUUID->"3423c5a0-a355-440b-a7a6-c06c58bada3c"],
+Cell[497173, 9554, 1841, 42, 485, "Input",ExpressionUUID->"0b4656f7-684c-41c8-bc6e-a24134fd9d3e",
  InitializationCell->True],
-Cell[497624, 9593, 1162, 19, 108, "Text",ExpressionUUID->"f031f0c3-06d6-4234-aa32-ae199b2f60f3"],
-Cell[498789, 9614, 249, 4, 39, "CodeText",ExpressionUUID->"3d68d74a-0655-472e-8039-96ead568d308"],
-Cell[499041, 9620, 2546, 58, 393, "Input",ExpressionUUID->"cafa3cb4-df68-4a9c-a7b7-67335ee7bcca",
+Cell[499017, 9598, 1162, 19, 108, "Text",ExpressionUUID->"f031f0c3-06d6-4234-aa32-ae199b2f60f3"],
+Cell[500182, 9619, 249, 4, 39, "CodeText",ExpressionUUID->"3d68d74a-0655-472e-8039-96ead568d308"],
+Cell[500434, 9625, 2550, 59, 393, "Input",ExpressionUUID->"cafa3cb4-df68-4a9c-a7b7-67335ee7bcca",
  InitializationCell->True],
-Cell[501590, 9680, 526, 12, 60, "Text",ExpressionUUID->"e21009be-76b2-40f7-b558-d2a1fa9609fa"],
-Cell[502119, 9694, 298, 4, 39, "CodeText",ExpressionUUID->"875fe7a5-eaf7-4724-95f9-98ec30bff528"],
-Cell[502420, 9700, 1582, 31, 347, "Input",ExpressionUUID->"a564aa72-382d-465f-9ad1-6fe072556030",
+Cell[502987, 9686, 526, 12, 60, "Text",ExpressionUUID->"e21009be-76b2-40f7-b558-d2a1fa9609fa"],
+Cell[503516, 9700, 298, 4, 39, "CodeText",ExpressionUUID->"875fe7a5-eaf7-4724-95f9-98ec30bff528"],
+Cell[503817, 9706, 1586, 32, 347, "Input",ExpressionUUID->"a564aa72-382d-465f-9ad1-6fe072556030",
  InitializationCell->True],
-Cell[504005, 9733, 331, 6, 39, "CodeText",ExpressionUUID->"6d618ccf-e8f9-4f9f-a90e-1d52f101e544"],
+Cell[505406, 9740, 331, 6, 39, "CodeText",ExpressionUUID->"6d618ccf-e8f9-4f9f-a90e-1d52f101e544"],
 Cell[CellGroupData[{
-Cell[504361, 9743, 894, 21, 239, "Input",ExpressionUUID->"00f086ba-6624-43bd-bb42-ed7ddf56ea3c"],
-Cell[505258, 9766, 821, 24, 59, "Output",ExpressionUUID->"10197f72-9e0f-43d3-89cd-058567c8bd89"]
+Cell[505762, 9750, 894, 21, 239, "Input",ExpressionUUID->"00f086ba-6624-43bd-bb42-ed7ddf56ea3c"],
+Cell[506659, 9773, 821, 24, 59, "Output",ExpressionUUID->"10197f72-9e0f-43d3-89cd-058567c8bd89"]
 }, Closed]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[506128, 9796, 178, 3, 68, "Section",ExpressionUUID->"5e7ec47b-a1a9-444b-abae-62ead37b240b"],
-Cell[506309, 9801, 349, 7, 36, "Text",ExpressionUUID->"aa1ca314-220d-4e1e-b5f3-7a2c400826f0"],
-Cell[506661, 9810, 472, 10, 60, "Text",ExpressionUUID->"0f4e3c1b-508e-42c2-a86d-afe5142d4646"],
-Cell[507136, 9822, 203, 3, 39, "CodeText",ExpressionUUID->"cff31325-0f19-4251-af3a-8dbf11caae1c"],
-Cell[507342, 9827, 577, 15, 71, "Input",ExpressionUUID->"76a1abcb-ee9f-4caf-89d2-e09fead44630",
- InitializationCell->True],
-Cell[507922, 9844, 265, 6, 39, "CodeText",ExpressionUUID->"898ff0d9-2603-45f2-b151-85b68fc14719"],
-Cell[CellGroupData[{
-Cell[508212, 9854, 306, 6, 31, "Input",ExpressionUUID->"ff392c5c-0d73-4019-98ec-8fdc2baae23c"],
-Cell[508521, 9862, 151, 2, 35, "Output",ExpressionUUID->"7ff60bf8-70e3-4dc5-9aa8-b4a14f034f9f"]
-}, Closed]],
-Cell[508687, 9867, 458, 10, 56, "Text",ExpressionUUID->"d0842548-0d89-48a6-a3ff-61c31cdc4b1c"],
-Cell[509148, 9879, 252, 4, 39, "CodeText",ExpressionUUID->"ac47e342-0ea2-483d-9643-d0ccc8557776"],
-Cell[509403, 9885, 592, 15, 71, "Input",ExpressionUUID->"0efe3301-60a1-42bb-b44f-6b6768c2cac2",
- InitializationCell->True],
-Cell[509998, 9902, 352, 7, 39, "CodeText",ExpressionUUID->"395f9677-832b-4bf3-8172-abbf49608365"],
-Cell[CellGroupData[{
-Cell[510375, 9913, 313, 6, 31, "Input",ExpressionUUID->"d745f141-eabe-4318-88d5-a2a7d690fcc7"],
-Cell[510691, 9921, 155, 2, 35, "Output",ExpressionUUID->"7c09637c-194b-4814-8d74-edb38315dc7f"]
-}, Closed]],
-Cell[510861, 9926, 835, 20, 56, "Text",ExpressionUUID->"7d12d62e-d5bf-4ea7-9ab9-878ccdd30214"],
-Cell[511699, 9948, 301, 4, 39, "CodeText",ExpressionUUID->"06c6b802-bbe1-4e2c-9e00-dd0c3b04bfb1"],
-Cell[512003, 9954, 4168, 97, 830, "Input",ExpressionUUID->"a6f0ca29-e4b1-4e60-acae-50cadea3dcee",
- InitializationCell->True],
-Cell[516174, 10053, 281, 7, 36, "Text",ExpressionUUID->"b609909f-b6a2-461f-a84e-5e1ca97adc9a"],
-Cell[516458, 10062, 223, 4, 36, "Text",ExpressionUUID->"569e3527-fbb4-45e9-b6e3-2baa9c47762f"],
-Cell[516684, 10068, 323, 7, 71, "Input",ExpressionUUID->"2c0ed26b-1b40-4acb-b8c8-115d267fce5d",
- InitializationCell->True]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[517044, 10080, 359, 6, 54, "Section",ExpressionUUID->"eacbe695-ec98-4f10-8904-c05373e61eaa"],
-Cell[517406, 10088, 446, 9, 60, "Text",ExpressionUUID->"f084930e-5480-4fd7-8b59-e2e827b9668c"],
-Cell[517855, 10099, 1109, 24, 84, "Text",ExpressionUUID->"f8b6bc77-1e5a-4ffa-90d9-edf26c59889c"],
-Cell[518967, 10125, 223, 4, 36, "Text",ExpressionUUID->"97bcd7c3-fba4-42ae-bcc3-d4093426927d"],
-Cell[519193, 10131, 3061, 71, 462, "Input",ExpressionUUID->"1377c33c-8887-4a72-b404-7024e8579fde",
+Cell[507529, 9803, 178, 3, 54, "Section",ExpressionUUID->"5e7ec47b-a1a9-444b-abae-62ead37b240b"],
+Cell[507710, 9808, 349, 7, 36, "Text",ExpressionUUID->"aa1ca314-220d-4e1e-b5f3-7a2c400826f0"],
+Cell[508062, 9817, 472, 10, 60, "Text",ExpressionUUID->"0f4e3c1b-508e-42c2-a86d-afe5142d4646"],
+Cell[508537, 9829, 203, 3, 39, "CodeText",ExpressionUUID->"cff31325-0f19-4251-af3a-8dbf11caae1c"],
+Cell[508743, 9834, 581, 16, 71, "Input",ExpressionUUID->"76a1abcb-ee9f-4caf-89d2-e09fead44630",
  InitializationCell->True],
-Cell[522257, 10204, 275, 5, 36, "Text",ExpressionUUID->"bd49fcda-7503-43f7-9ff6-b45b7d0f795c"],
+Cell[509327, 9852, 265, 6, 39, "CodeText",ExpressionUUID->"898ff0d9-2603-45f2-b151-85b68fc14719"],
 Cell[CellGroupData[{
-Cell[522557, 10213, 962, 24, 216, "Input",ExpressionUUID->"438e8e2e-1006-4233-a9ee-3acf19f1c509"],
-Cell[523522, 10239, 202, 6, 26, "Echo",ExpressionUUID->"5cc601a2-ab6f-4177-bde6-2bb4d25fe14b"],
-Cell[523727, 10247, 276, 4, 35, "Output",ExpressionUUID->"049caa04-8b31-4f33-9df6-8446f695633f"]
+Cell[509617, 9862, 306, 6, 31, "Input",ExpressionUUID->"ff392c5c-0d73-4019-98ec-8fdc2baae23c"],
+Cell[509926, 9870, 151, 2, 35, "Output",ExpressionUUID->"7ff60bf8-70e3-4dc5-9aa8-b4a14f034f9f"]
 }, Closed]],
-Cell[524018, 10254, 948, 16, 80, "Text",ExpressionUUID->"b4ae8b4e-77fd-4a7e-9c4d-24ea114ca28f"],
-Cell[524969, 10272, 320, 5, 36, "Text",ExpressionUUID->"b543c5c9-7b0f-4875-b6bb-01a3f3f101b9"],
-Cell[525292, 10279, 5259, 99, 462, "Input",ExpressionUUID->"28cf4741-a7ce-4572-a7ec-62e471b398d8",
+Cell[510092, 9875, 458, 10, 56, "Text",ExpressionUUID->"d0842548-0d89-48a6-a3ff-61c31cdc4b1c"],
+Cell[510553, 9887, 252, 4, 39, "CodeText",ExpressionUUID->"ac47e342-0ea2-483d-9643-d0ccc8557776"],
+Cell[510808, 9893, 596, 16, 71, "Input",ExpressionUUID->"0efe3301-60a1-42bb-b44f-6b6768c2cac2",
+ InitializationCell->True],
+Cell[511407, 9911, 352, 7, 39, "CodeText",ExpressionUUID->"395f9677-832b-4bf3-8172-abbf49608365"],
+Cell[CellGroupData[{
+Cell[511784, 9922, 313, 6, 31, "Input",ExpressionUUID->"d745f141-eabe-4318-88d5-a2a7d690fcc7"],
+Cell[512100, 9930, 155, 2, 35, "Output",ExpressionUUID->"7c09637c-194b-4814-8d74-edb38315dc7f"]
+}, Closed]],
+Cell[512270, 9935, 835, 20, 56, "Text",ExpressionUUID->"7d12d62e-d5bf-4ea7-9ab9-878ccdd30214"],
+Cell[513108, 9957, 301, 4, 39, "CodeText",ExpressionUUID->"06c6b802-bbe1-4e2c-9e00-dd0c3b04bfb1"],
+Cell[513412, 9963, 4221, 99, 830, "Input",ExpressionUUID->"a6f0ca29-e4b1-4e60-acae-50cadea3dcee",
+ InitializationCell->True],
+Cell[517636, 10064, 281, 7, 36, "Text",ExpressionUUID->"b609909f-b6a2-461f-a84e-5e1ca97adc9a"],
+Cell[517920, 10073, 223, 4, 36, "Text",ExpressionUUID->"569e3527-fbb4-45e9-b6e3-2baa9c47762f"],
+Cell[518146, 10079, 327, 8, 71, "Input",ExpressionUUID->"2c0ed26b-1b40-4acb-b8c8-115d267fce5d",
+ InitializationCell->True],
+Cell[518476, 10089, 476, 9, 60, "Text",ExpressionUUID->"24bf837c-8b27-4d8d-b4fb-52bda22c3be0"],
+Cell[518955, 10100, 194, 3, 39, "CodeText",ExpressionUUID->"8878cbe2-e53e-4841-8cfa-9785c594ad8e"],
+Cell[519152, 10105, 3288, 80, 577, "Input",ExpressionUUID->"e1c3517a-fd56-486b-ad19-c7b8ebcbfea9",
  InitializationCell->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[530588, 10383, 182, 3, 68, "Section",ExpressionUUID->"a8b20280-d626-4010-96f6-13b355ef997c"],
-Cell[530773, 10388, 336, 8, 36, "Text",ExpressionUUID->"35002a42-bff1-4d2f-9986-bba917a62205"],
-Cell[531112, 10398, 208, 3, 36, "Text",ExpressionUUID->"28383f09-5f02-4b47-9be8-ded1200dbef8"],
+Cell[522477, 10190, 359, 6, 68, "Section",ExpressionUUID->"eacbe695-ec98-4f10-8904-c05373e61eaa"],
+Cell[522839, 10198, 446, 9, 60, "Text",ExpressionUUID->"f084930e-5480-4fd7-8b59-e2e827b9668c"],
+Cell[523288, 10209, 1109, 24, 84, "Text",ExpressionUUID->"f8b6bc77-1e5a-4ffa-90d9-edf26c59889c"],
+Cell[524400, 10235, 223, 4, 36, "Text",ExpressionUUID->"97bcd7c3-fba4-42ae-bcc3-d4093426927d"],
+Cell[524626, 10241, 3065, 72, 462, "Input",ExpressionUUID->"1377c33c-8887-4a72-b404-7024e8579fde",
+ InitializationCell->True],
+Cell[527694, 10315, 275, 5, 36, "Text",ExpressionUUID->"bd49fcda-7503-43f7-9ff6-b45b7d0f795c"],
 Cell[CellGroupData[{
-Cell[531345, 10405, 3292, 70, 331, "Input",ExpressionUUID->"46f57f5b-04f6-4df8-ae59-3a9295b8e077"],
-Cell[534640, 10477, 803, 15, 23, "Message",ExpressionUUID->"7d052db4-0368-4bde-a1db-f507f639c20a"],
-Cell[535446, 10494, 803, 15, 23, "Message",ExpressionUUID->"a4c95f30-e0b7-483a-b8f7-132f6aa3ca2c"],
-Cell[536252, 10511, 803, 15, 23, "Message",ExpressionUUID->"41c4e8dd-4b73-4d2d-8030-cf555264e8af"],
-Cell[537058, 10528, 801, 15, 23, "Message",ExpressionUUID->"5f20b5f5-7056-4a81-bd51-aa01ec1c31d2"],
-Cell[537862, 10545, 890, 16, 23, "Message",ExpressionUUID->"14e43fbc-780a-4daa-bcc5-cf4e1ff1e650"],
-Cell[538755, 10563, 805, 15, 23, "Message",ExpressionUUID->"7bd731e1-61d6-487e-be33-47ed887aa5d8"],
-Cell[539563, 10580, 803, 15, 23, "Message",ExpressionUUID->"c2b37a0b-0da3-4bbe-ad46-b2eee4c34988"],
-Cell[540369, 10597, 892, 16, 23, "Message",ExpressionUUID->"7da1a195-3a08-4fae-9d8d-77fb783ba8ff"],
+Cell[527994, 10324, 962, 24, 216, "Input",ExpressionUUID->"438e8e2e-1006-4233-a9ee-3acf19f1c509"],
+Cell[528959, 10350, 202, 6, 26, "Echo",ExpressionUUID->"5cc601a2-ab6f-4177-bde6-2bb4d25fe14b"],
+Cell[529164, 10358, 276, 4, 35, "Output",ExpressionUUID->"049caa04-8b31-4f33-9df6-8446f695633f"]
+}, Closed]],
+Cell[529455, 10365, 948, 16, 80, "Text",ExpressionUUID->"b4ae8b4e-77fd-4a7e-9c4d-24ea114ca28f"],
+Cell[530406, 10383, 320, 5, 36, "Text",ExpressionUUID->"b543c5c9-7b0f-4875-b6bb-01a3f3f101b9"],
+Cell[530729, 10390, 5263, 100, 462, "Input",ExpressionUUID->"28cf4741-a7ce-4572-a7ec-62e471b398d8",
+ InitializationCell->True]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[541286, 10617, 204, 6, 26, "Echo",ExpressionUUID->"938555a1-5649-4e16-aaa4-e1d1f830f891"],
-Cell[541493, 10625, 200, 5, 26, "Echo",ExpressionUUID->"b9d6dd12-79da-4345-874a-8e7659062437"],
-Cell[541696, 10632, 201, 5, 26, "Echo",ExpressionUUID->"b51407e3-bcd4-4145-a636-68fa9cd15374"],
-Cell[541900, 10639, 204, 6, 26, "Echo",ExpressionUUID->"8d8b0c1e-d63e-4d65-bb79-cf62b00df303"],
-Cell[542107, 10647, 203, 6, 26, "Echo",ExpressionUUID->"6e8074b5-4c2f-4190-a48e-44104129d071"],
-Cell[542313, 10655, 203, 6, 26, "Echo",ExpressionUUID->"dc0ef588-b16c-4722-833f-bfc8c160236d"],
-Cell[542519, 10663, 206, 6, 26, "Echo",ExpressionUUID->"7f712e69-1900-471a-8d50-52042e181c73"],
-Cell[542728, 10671, 204, 6, 26, "Echo",ExpressionUUID->"ac6721a9-2a43-4e4d-a606-816dc0327d84"],
-Cell[542935, 10679, 204, 6, 26, "Echo",ExpressionUUID->"a9b1b843-92e7-4729-9682-78ecf80ae107"],
-Cell[543142, 10687, 204, 6, 26, "Echo",ExpressionUUID->"24f594db-3e74-48a2-ab1d-70bfe8a8f7ce"]
+Cell[536029, 10495, 182, 3, 54, "Section",ExpressionUUID->"a8b20280-d626-4010-96f6-13b355ef997c"],
+Cell[536214, 10500, 336, 8, 36, "Text",ExpressionUUID->"35002a42-bff1-4d2f-9986-bba917a62205"],
+Cell[536553, 10510, 208, 3, 36, "Text",ExpressionUUID->"28383f09-5f02-4b47-9be8-ded1200dbef8"],
+Cell[CellGroupData[{
+Cell[536786, 10517, 3382, 72, 331, "Input",ExpressionUUID->"46f57f5b-04f6-4df8-ae59-3a9295b8e077"],
+Cell[540171, 10591, 855, 16, 23, "Message",ExpressionUUID->"80c627be-4edc-485c-ab45-a9acfadf55b3"],
+Cell[541029, 10609, 855, 16, 23, "Message",ExpressionUUID->"f2515ca3-4fe6-4614-a6cb-84ea6f0acd0d"],
+Cell[541887, 10627, 853, 16, 23, "Message",ExpressionUUID->"f80e8d3b-f7df-4a83-94e8-d1846f2e83d9"],
+Cell[542743, 10645, 852, 16, 23, "Message",ExpressionUUID->"7cbfdc9a-7b9f-4fe1-ad7f-714fff06e69d"],
+Cell[543598, 10663, 942, 17, 23, "Message",ExpressionUUID->"85b5fb6d-3900-4bb1-a8c9-87e7d01c6384"],
+Cell[544543, 10682, 857, 16, 23, "Message",ExpressionUUID->"ae30ff5a-55a1-4b02-8cce-5cbb84aca6ca"],
+Cell[545403, 10700, 855, 16, 23, "Message",ExpressionUUID->"31f55858-1eda-4427-973a-93110b3d0987"],
+Cell[546261, 10718, 946, 17, 23, "Message",ExpressionUUID->"b5c9ff02-19a7-4189-83e4-a222a3e668c1"],
+Cell[CellGroupData[{
+Cell[547232, 10739, 205, 6, 26, "Echo",ExpressionUUID->"b042112d-b165-49b2-bd6c-ba9e888579f7"],
+Cell[547440, 10747, 201, 5, 26, "Echo",ExpressionUUID->"dcbbccd9-9db7-429d-8adb-cf0e427d9472"],
+Cell[547644, 10754, 205, 6, 26, "Echo",ExpressionUUID->"cd4e84f3-69c0-400c-980a-ec9f2b1fe980"],
+Cell[547852, 10762, 204, 6, 26, "Echo",ExpressionUUID->"b720d5a2-5e66-4e71-847f-576ae41bb7ee"],
+Cell[548059, 10770, 204, 6, 26, "Echo",ExpressionUUID->"50377e1c-f7d9-419e-8028-919e69ccf53b"],
+Cell[548266, 10778, 204, 6, 26, "Echo",ExpressionUUID->"05ed00e2-6468-4a93-a416-a3e8d4a01a99"],
+Cell[548473, 10786, 204, 6, 26, "Echo",ExpressionUUID->"a8d31fce-d49f-4200-9b71-0b60a191859b"],
+Cell[548680, 10794, 204, 6, 26, "Echo",ExpressionUUID->"f5f65956-4441-494b-9a4f-afa870cf8fa7"],
+Cell[548887, 10802, 206, 6, 26, "Echo",ExpressionUUID->"8a4b8604-79f9-46fe-aa4f-15869631ea6b"],
+Cell[549096, 10810, 204, 6, 26, "Echo",ExpressionUUID->"2f689676-cdfd-4cd0-ab6a-2d74893c4350"],
+Cell[549303, 10818, 204, 6, 26, "Echo",ExpressionUUID->"33ff4b6c-32e6-4b44-a564-7de00299dfa8"],
+Cell[549510, 10826, 204, 6, 26, "Echo",ExpressionUUID->"3a8d4ae4-6579-4b99-8405-e09912340261"],
+Cell[549717, 10834, 204, 6, 26, "Echo",ExpressionUUID->"6d12bf9e-42fc-44cb-86a3-0a7743187d75"],
+Cell[549924, 10842, 204, 6, 26, "Echo",ExpressionUUID->"95d7ee0d-8f00-4177-985d-a2585557f91d"],
+Cell[550131, 10850, 204, 6, 26, "Echo",ExpressionUUID->"aeb2aca7-c6f7-45f3-8eb5-e73cf354e0ee"],
+Cell[550338, 10858, 206, 6, 26, "Echo",ExpressionUUID->"19f18120-22d9-4a79-8d79-9e3c01b96614"],
+Cell[550547, 10866, 204, 6, 26, "Echo",ExpressionUUID->"53d13376-5a00-4c04-94d7-122c4d1e3257"],
+Cell[550754, 10874, 204, 6, 26, "Echo",ExpressionUUID->"1ddebfba-92bc-4bd1-8642-6f335de324db"],
+Cell[550961, 10882, 206, 6, 26, "Echo",ExpressionUUID->"988d7c80-75aa-4da7-80b1-4f5766c2b7cf"],
+Cell[551170, 10890, 204, 6, 26, "Echo",ExpressionUUID->"7eb626b1-b2e4-4786-ad90-9b9973fcecd8"],
+Cell[551377, 10898, 204, 6, 26, "Echo",ExpressionUUID->"59d8af63-4365-4537-b1ad-e2810f032fe5"],
+Cell[551584, 10906, 206, 6, 26, "Echo",ExpressionUUID->"cb694942-f5a9-4132-bb88-1e6689394cae"],
+Cell[551793, 10914, 204, 6, 26, "Echo",ExpressionUUID->"51fe8ce5-fef3-41ab-a174-bce2f954112f"],
+Cell[552000, 10922, 204, 6, 26, "Echo",ExpressionUUID->"b1a140bb-3be1-43e4-a819-1d6e105a4376"],
+Cell[552207, 10930, 204, 6, 26, "Echo",ExpressionUUID->"0ba5d92d-e163-4909-92da-6a6271c0938f"],
+Cell[552414, 10938, 204, 6, 26, "Echo",ExpressionUUID->"5b3d8f56-31dc-4df0-9ff0-6d051a607b55"],
+Cell[552621, 10946, 204, 6, 26, "Echo",ExpressionUUID->"b8f95d80-ad50-4220-aa08-c8f8873ee455"],
+Cell[552828, 10954, 204, 6, 26, "Echo",ExpressionUUID->"08139fea-fc5c-406e-820a-94fc635561a6"]
 }, Open  ]],
-Cell[543361, 10696, 2653, 55, 35, "Output",ExpressionUUID->"05f00abb-6713-4b3a-9398-08ca8078b1a0"]
+Cell[553047, 10963, 2268, 44, 35, "Output",ExpressionUUID->"41990f0a-fb0e-47bc-9b25-f21ae528d1bd"]
 }, Open  ]],
-Cell[546029, 10754, 305, 5, 36, "Text",ExpressionUUID->"8989e3fa-0649-4844-b7ef-215cf9a9a915"],
+Cell[555330, 11010, 305, 5, 36, "Text",ExpressionUUID->"8989e3fa-0649-4844-b7ef-215cf9a9a915"],
 Cell[CellGroupData[{
-Cell[546359, 10763, 741, 18, 31, "Input",ExpressionUUID->"b2c943d5-8f58-4be1-af28-ac9d4dcb701d"],
-Cell[547103, 10783, 415, 10, 23, "Message",ExpressionUUID->"b94ff240-378f-4a63-b4b9-86ab0ed1f3b9"],
-Cell[547521, 10795, 413, 10, 23, "Message",ExpressionUUID->"b9ee73b7-c64a-4e0d-b0d8-715379765b49"],
-Cell[547937, 10807, 413, 10, 23, "Message",ExpressionUUID->"65c5760e-fa46-4cb6-bedf-4921140e73fb"],
-Cell[548353, 10819, 504, 11, 23, "Message",ExpressionUUID->"bf10e43b-815d-4b2c-b94a-fd28a1c76463"],
-Cell[548860, 10832, 528, 11, 35, "Output",ExpressionUUID->"0d176f1f-5a4e-478b-b800-10f13da7b462"]
-}, Open  ]],
-Cell[549403, 10846, 327, 7, 36, "Text",ExpressionUUID->"af95ddcc-c5bc-4c5d-bf56-6e26a7754f97"],
-Cell[549733, 10855, 161, 3, 39, "CodeText",ExpressionUUID->"488fad62-c4fd-46fa-8356-13f879415aa8"],
+Cell[555660, 11019, 741, 18, 31, "Input",ExpressionUUID->"b2c943d5-8f58-4be1-af28-ac9d4dcb701d"],
+Cell[556404, 11039, 415, 10, 23, "Message",ExpressionUUID->"b94ff240-378f-4a63-b4b9-86ab0ed1f3b9"],
+Cell[556822, 11051, 413, 10, 23, "Message",ExpressionUUID->"b9ee73b7-c64a-4e0d-b0d8-715379765b49"],
+Cell[557238, 11063, 413, 10, 23, "Message",ExpressionUUID->"65c5760e-fa46-4cb6-bedf-4921140e73fb"],
+Cell[557654, 11075, 504, 11, 23, "Message",ExpressionUUID->"bf10e43b-815d-4b2c-b94a-fd28a1c76463"],
+Cell[558161, 11088, 528, 11, 35, "Output",ExpressionUUID->"0d176f1f-5a4e-478b-b800-10f13da7b462"]
+}, Closed]],
+Cell[558704, 11102, 327, 7, 32, "Text",ExpressionUUID->"af95ddcc-c5bc-4c5d-bf56-6e26a7754f97"],
+Cell[559034, 11111, 161, 3, 39, "CodeText",ExpressionUUID->"488fad62-c4fd-46fa-8356-13f879415aa8"],
 Cell[CellGroupData[{
-Cell[549919, 10862, 253, 4, 31, "Input",ExpressionUUID->"ab9b6e75-ef86-47f5-ac72-df3ebbcdfe0e"],
-Cell[550175, 10868, 19228, 384, 83, "Output",ExpressionUUID->"044a2f59-955a-4c4d-9de4-ba1c36348e5b"]
-}, Open  ]],
-Cell[569418, 11255, 234, 4, 39, "CodeText",ExpressionUUID->"4a0cded8-cf7a-4dec-860e-8f1fef16dabb"],
+Cell[559220, 11118, 253, 4, 31, "Input",ExpressionUUID->"ab9b6e75-ef86-47f5-ac72-df3ebbcdfe0e"],
+Cell[559476, 11124, 19228, 384, 83, "Output",ExpressionUUID->"044a2f59-955a-4c4d-9de4-ba1c36348e5b"]
+}, Closed]],
+Cell[578719, 11511, 234, 4, 28, "CodeText",ExpressionUUID->"4a0cded8-cf7a-4dec-860e-8f1fef16dabb"],
 Cell[CellGroupData[{
-Cell[569677, 11263, 1420, 37, 31, "Input",ExpressionUUID->"50a6ad71-2bb0-4cae-8a50-a0cf5be0be3f"],
-Cell[571100, 11302, 8788, 228, 95, "Output",ExpressionUUID->"0d535fce-25b3-4c93-b32e-3bfe8142ac28"]
-}, Open  ]],
-Cell[579903, 11533, 235, 4, 39, "CodeText",ExpressionUUID->"dc3421ce-2826-431b-ac64-1b6a7e896baf"],
+Cell[578978, 11519, 1420, 37, 31, "Input",ExpressionUUID->"50a6ad71-2bb0-4cae-8a50-a0cf5be0be3f"],
+Cell[580401, 11558, 8788, 228, 95, "Output",ExpressionUUID->"0d535fce-25b3-4c93-b32e-3bfe8142ac28"]
+}, Closed]],
+Cell[589204, 11789, 235, 4, 28, "CodeText",ExpressionUUID->"dc3421ce-2826-431b-ac64-1b6a7e896baf"],
 Cell[CellGroupData[{
-Cell[580163, 11541, 1467, 38, 31, "Input",ExpressionUUID->"1177bae3-f4dc-44df-a3f0-dcb13944e63b"],
-Cell[581633, 11581, 8954, 231, 95, "Output",ExpressionUUID->"8426b5d7-8a16-498c-801c-4738ba91cdc1"]
-}, Open  ]],
-Cell[590602, 11815, 171, 3, 39, "CodeText",ExpressionUUID->"5cd7ed64-5535-4675-a9bc-7da8ce655783"],
+Cell[589464, 11797, 1467, 38, 31, "Input",ExpressionUUID->"1177bae3-f4dc-44df-a3f0-dcb13944e63b"],
+Cell[590934, 11837, 8954, 231, 95, "Output",ExpressionUUID->"8426b5d7-8a16-498c-801c-4738ba91cdc1"]
+}, Closed]],
+Cell[599903, 12071, 171, 3, 28, "CodeText",ExpressionUUID->"5cd7ed64-5535-4675-a9bc-7da8ce655783"],
 Cell[CellGroupData[{
-Cell[590798, 11822, 2187, 46, 331, "Input",ExpressionUUID->"f69d6a5c-d4be-49fd-aca0-11238f9de4c1"],
-Cell[592988, 11870, 392, 9, 23, "Message",ExpressionUUID->"88ae4da7-68f7-4e36-9859-6e1e83bb4737"],
-Cell[593383, 11881, 387, 9, 23, "Message",ExpressionUUID->"b4155f23-fde1-45f9-991e-cb70e3381520"],
-Cell[593773, 11892, 388, 9, 23, "Message",ExpressionUUID->"61586812-a219-4fa7-8064-6afe43481508"],
-Cell[594164, 11903, 388, 9, 23, "Message",ExpressionUUID->"a0a4810c-6b7f-4386-b10a-c4ea98971553"],
-Cell[594555, 11914, 477, 10, 23, "Message",ExpressionUUID->"1515482e-a4b5-4c02-94fc-02f372b71ebf"],
-Cell[595035, 11926, 390, 9, 23, "Message",ExpressionUUID->"7b89b52a-c9aa-4579-8cfa-d0e507f22c7f"],
-Cell[595428, 11937, 389, 9, 23, "Message",ExpressionUUID->"52ce21cd-ec4a-48eb-be57-f93ccf8bb24f"],
-Cell[595820, 11948, 479, 10, 23, "Message",ExpressionUUID->"4b54d650-de7f-4cb2-ad0c-50335c4f6ebb"],
-Cell[596302, 11960, 178, 2, 35, "Output",ExpressionUUID->"eb5b9606-7540-4678-93fc-e0ef0c2e5d6d"]
-}, Open  ]]
+Cell[600099, 12078, 2187, 46, 331, "Input",ExpressionUUID->"f69d6a5c-d4be-49fd-aca0-11238f9de4c1"],
+Cell[602289, 12126, 392, 9, 23, "Message",ExpressionUUID->"88ae4da7-68f7-4e36-9859-6e1e83bb4737"],
+Cell[602684, 12137, 387, 9, 23, "Message",ExpressionUUID->"b4155f23-fde1-45f9-991e-cb70e3381520"],
+Cell[603074, 12148, 388, 9, 23, "Message",ExpressionUUID->"61586812-a219-4fa7-8064-6afe43481508"],
+Cell[603465, 12159, 388, 9, 23, "Message",ExpressionUUID->"a0a4810c-6b7f-4386-b10a-c4ea98971553"],
+Cell[603856, 12170, 477, 10, 23, "Message",ExpressionUUID->"1515482e-a4b5-4c02-94fc-02f372b71ebf"],
+Cell[604336, 12182, 390, 9, 23, "Message",ExpressionUUID->"7b89b52a-c9aa-4579-8cfa-d0e507f22c7f"],
+Cell[604729, 12193, 389, 9, 23, "Message",ExpressionUUID->"52ce21cd-ec4a-48eb-be57-f93ccf8bb24f"],
+Cell[605121, 12204, 479, 10, 23, "Message",ExpressionUUID->"4b54d650-de7f-4cb2-ad0c-50335c4f6ebb"],
+Cell[605603, 12216, 178, 2, 35, "Output",ExpressionUUID->"eb5b9606-7540-4678-93fc-e0ef0c2e5d6d"]
+}, Closed]]
 }, Open  ]]
 }, Open  ]]
 }
